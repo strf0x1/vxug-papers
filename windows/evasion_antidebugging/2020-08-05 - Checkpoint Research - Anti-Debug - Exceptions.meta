@@ -1,0 +1,14 @@
+{
+  "title": "Anti-Debugging Techniques: Exceptions",
+  "slug": "anti-debug-exceptions",
+  "desc": "This document outlines a method to detect if an application is running under a debugger by deliberately causing exceptions and observing the behavior of the unhandled exception filter.",
+  "tags": [
+    "anti-debugging",
+    "exceptions",
+    "unhandled exception filter",
+    "debugger detection"
+  ],
+  "urls": [
+    "https://anti-debug.checkpoint.com/techniques/exceptions.html"
+  ]
+}

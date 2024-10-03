@@ -1,0 +1,13 @@
+{
+  "title": "Proof of Concept for GhostWriting Technique",
+  "slug": "ghostwriting-poc",
+  "desc": "A Windows API example demonstrating the GhostWriting technique by c0de90e7 in Spring '2007. It injects machine code into EXPLORER.EXE to launch a MessageBox and then return to the address indicated in ESI.",
+  "tags": [
+    "Windows_API",
+    "GhostWriting",
+    "Injection_Code",
+    "EXPLORER_EXE",
+    "NTDLL_DLL"
+  ],
+  "urls": []
+}

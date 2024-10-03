@@ -1,0 +1,15 @@
+{
+  "title": "NTSockets: Downloading a File via HTTP using NtCreateFile and NtDeviceIoControlFile",
+  "slug": "ntsockets-file-download-http",
+  "desc": "Demonstrates creating TCP sockets and transmitting/receiving data using only ntdll exports, bypassing Winsock for direct communication with the AFD driver. Includes a proof-of-concept tool to download a file via HTTP.",
+  "tags": [
+    "NTSockets",
+    "Windows Internals",
+    "AFD Driver",
+    "Network Programming",
+    "Proof of Concept"
+  ],
+  "urls": [
+    "https://www.x86matthew.com/view_post?id=ntsockets"
+  ]
+}

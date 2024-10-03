@@ -1,0 +1,11 @@
+{
+  "title": "Improving Stealthiness of Memory Injection Techniques",
+  "slug": "memory-injection-stealth",
+  "desc": "Explores enhancing Module Stomping and Module Overloading techniques to evade detection by Endpoint Detection and Response (EDR) systems. Focuses on avoiding dynamic memory allocation.",
+  "tags": [
+    "Memory Injection",
+    "EDR Evasion",
+    "Module Stomping",
+    "Module Overloading"
+  ]
+}

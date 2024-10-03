@@ -1,0 +1,13 @@
+{
+  "title": "ACM Format Tag Enum Shellcode Loader",
+  "slug": "acm-format-tag-enum-shellcode-loader",
+  "desc": "A C++ console application that loads shellcode from a file and uses ACMFormatTagEnum to enumerate supported formats.",
+  "tags": [
+    "shellcode",
+    "loader",
+    "ACMFormatTagEnum",
+    "C++",
+    "Windows"
+  ],
+  "urls": []
+}

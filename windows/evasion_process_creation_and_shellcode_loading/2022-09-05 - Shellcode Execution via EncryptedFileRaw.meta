@@ -1,0 +1,17 @@
+{
+  "title": "WriteEncryptedFileRaw.exe: Shellcode Execution Utility",
+  "slug": "writeencryptedfileraw-exe-shellcode-execution",
+  "desc": "A Windows command-line application that reads a shellcode file and writes it to an encrypted file for execution. Requires Visual Studio 2022.",
+  "tags": [
+    "shellcode",
+    "encrypted file",
+    "command line utility",
+    "Windows executable"
+  ],
+  "urls": [
+    {
+      "url": "https://github.com/Wra7h/FlavorTown/blob/main/WriteEncryptedFileRaw.cpp",
+      "label": "Source code on GitHub"
+    }
+  ]
+}

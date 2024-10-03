@@ -1,0 +1,13 @@
+{
+  "title": "Beyond Good Ol' Run Key - Part 125",
+  "slug": "RunKey-Part-125",
+  "desc": "Explores the unusual behavior of change.exe, which enumerates Registry entries and executes other executables.",
+  "tags": [
+    "Autostart (Persistence)",
+    "Living off the land",
+    "LOLBins"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2020/07/30/beyond-good-ol-run-key-part-125/"
+  ]
+}

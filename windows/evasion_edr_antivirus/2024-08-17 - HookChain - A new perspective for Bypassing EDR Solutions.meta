@@ -1,0 +1,13 @@
+{
+  "title": "HookChain: A New Perspective for Bypassing EDR Solutions",
+  "slug": "hookchain-edr-evasion",
+  "desc": "Explores HookChain technique combining IAT hooking and dynamic SSN resolution to evade traditional EDR systems without modifying source code.",
+  "tags": [
+    "Endpoint Detection & Response",
+    "Evasion Techniques",
+    "Cybersecurity"
+  ],
+  "urls": [
+    "https://www.sec4us.com/hookchain-a-new-perspective-for-bypassing-edr-solutions/"
+  ]
+}

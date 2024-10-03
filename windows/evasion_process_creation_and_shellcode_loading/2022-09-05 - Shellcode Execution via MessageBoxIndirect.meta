@@ -1,0 +1,12 @@
+{
+  "title": "MessageBoxIndirect.exe: Shellcode Executor",
+  "slug": "messageboxindirect-exe-shellcode",
+  "desc": "A Windows executable written in C++ using Visual Studio 2022 that reads a shellcode file and executes it via MessageBoxIndirect when the Help button is clicked.",
+  "tags": [
+    "Shellcode",
+    "MessageBoxIndirect",
+    "C++",
+    "Windows Executable",
+    "Visual Studio"
+  ]
+}

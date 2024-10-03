@@ -1,0 +1,15 @@
+{
+  "title": "Early Bird Injection: APC Abuse Technique",
+  "slug": "early-bird-injection-apc-abuse",
+  "desc": "Explanation of Asynchronous Procedure Call (APC) abuse in malware, focusing on 'Early Bird Injection' technique for evasive code execution.",
+  "tags": [
+    "Malware",
+    "APC Abuse",
+    "Early Bird Injection",
+    "Code Evasion"
+  ],
+  "urls": [
+    "https://rinseandrepeatanalysis.blogspot.com/2019/04/early-bird-injection-apc-abuse.html?m=1",
+    "https://docs.microsoft.com/en-us/windows/desktop/sync/asynchronous-procedure-calls"
+  ]
+}

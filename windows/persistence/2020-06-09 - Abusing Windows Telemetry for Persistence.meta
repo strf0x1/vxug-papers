@@ -1,0 +1,14 @@
+{
+  "title": "Abusing Windows Telemetry for Persistence",
+  "slug": "abuse-windows-telemetry-persistence",
+  "desc": "Explores a persistence method leveraging Microsoft's telemetry in Windows machines from 2008R2/Windows 7 to 2019/Windows 10, requiring local admin rights but not visible in autoruns.",
+  "tags": [
+    "Persistence",
+    "Windows Telemetry",
+    "Microsoft",
+    "Local Admin Rights"
+  ],
+  "urls": [
+    "https://www.trustedsec.com/blog/persistent-windows-telemetry/"
+  ]
+}

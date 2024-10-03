@@ -1,0 +1,14 @@
+{
+  "title": "Bypassing Microsoft Defender Advanced Threat Protection (WDAPT)",
+  "slug": "bypassing-wdapt",
+  "desc": "Exploring discovered gaps in WDAPT that allow undetected code execution on protected systems.",
+  "tags": [
+    "Endpoint Detection and Response",
+    "Advanced Threat Protection",
+    "Cybersecurity Gaps",
+    "Malicious Code Execution"
+  ],
+  "urls": [
+    "https://www.optiv.com/insights/source-zero/blog/breaking-wdapt-rules-com"
+  ]
+}

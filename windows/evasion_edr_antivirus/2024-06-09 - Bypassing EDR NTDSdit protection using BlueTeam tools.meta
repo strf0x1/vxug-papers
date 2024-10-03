@@ -1,0 +1,18 @@
+{
+  "title": "Bypassing EDR NTDS.dit Protection using BlueTeam Tools",
+  "slug": "bypassing-edr-ntds-dit-protection",
+  "desc": "Learn alternative methods to retrieve NTDS hashes when Cortex EDR blocks known attempts. Involves dumping system memory, reading raw drive data with FTK Imager, and decrypting the file using Impacket-Secretdump.",
+  "tags": [
+    "Penetration Testing",
+    "Cortex EDR",
+    "NTDS Hashes",
+    "BlueTeam Tools",
+    "Magnet DumpIt",
+    "Volatility",
+    "FTK Imager",
+    "Impacket"
+  ],
+  "urls": [
+    "https://medium.com/@0xcc00/bypassing-edr-ntds-dit-protection-using-blueteam-tools-1d161a554f9f"
+  ]
+}

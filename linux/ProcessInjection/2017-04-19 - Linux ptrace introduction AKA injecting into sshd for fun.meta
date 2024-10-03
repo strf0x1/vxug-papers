@@ -1,0 +1,15 @@
+{
+  "title": "Linux Process Injection: Injecting into sshd for Fun",
+  "slug": "linux-process-injection-sshd",
+  "desc": "Explores Linux process injection using ptrace to recover plaintext credentials from sshd process without LD_PRELOAD or stopping the process.",
+  "tags": [
+    "Linux",
+    "Process Injection",
+    "Ptrace",
+    "SSH",
+    "Security"
+  ],
+  "urls": [
+    "https://blog.xpnsec.com/linux-process-injection-aka-injecting-into-sshd-for-fun/"
+  ]
+}

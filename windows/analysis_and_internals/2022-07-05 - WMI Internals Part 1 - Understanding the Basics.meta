@@ -1,0 +1,13 @@
+{
+  "title": "WMI Internals Part 1",
+  "slug": "wmi-internals-basics",
+  "desc": "A comprehensive overview of Windows Management Instrumentation (WMI) fundamentals and tracking WMI activity to its host process.",
+  "tags": [
+    "WMI",
+    "Windows Security",
+    "System Internals"
+  ],
+  "urls": [
+    "https://jsecurity101.medium.com/wmi-internals-part-1-41bb97e7f5eb"
+  ]
+}

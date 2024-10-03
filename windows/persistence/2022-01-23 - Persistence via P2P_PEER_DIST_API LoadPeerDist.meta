@@ -1,0 +1,14 @@
+{
+  "title": "Beyond Good Ol\u2019 Run Key: Part 138",
+  "slug": "beyond-good-ol-run-key-part-138",
+  "desc": "Explores an enigmatic Registry entry HKLM\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\PeerDist\\Extension\\PeerdistDllName=peerdist.dll and its relation to wininet.dll.",
+  "tags": [
+    "Windows",
+    "Registry",
+    "Persistence",
+    "Autostart"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2022/01/23/beyond-good-ol-run-key-part-138/"
+  ]
+}

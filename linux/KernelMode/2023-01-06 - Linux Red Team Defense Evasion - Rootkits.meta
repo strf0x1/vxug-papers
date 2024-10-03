@@ -1,0 +1,15 @@
+{
+  "title": "Linux Red Team Defense Evasion - Rootkits",
+  "slug": "linux-red-team-rootkits",
+  "desc": "Learn defensive techniques against red team attacks focusing on rootkits in Linux environments. Requires familiarity with Linux and Windows systems.",
+  "tags": [
+    "Linux",
+    "Red Team",
+    "Defense",
+    "Rootkit",
+    "Evasion"
+  ],
+  "urls": [
+    "https://www.linode.com/docs/guides/linux-red-team-defense-evasion-rootkits/"
+  ]
+}

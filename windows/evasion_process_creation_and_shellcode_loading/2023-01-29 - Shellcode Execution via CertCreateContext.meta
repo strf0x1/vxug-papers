@@ -1,0 +1,15 @@
+{
+  "title": "CertCreateContext Shellcode Loader",
+  "slug": "certcreatecontext-shellcode-loader",
+  "desc": "A simple console application written in C++ using Visual Studio 2022 that loads and executes shellcode from a binary file.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "Windows Cryptography API",
+    "CertCreateContext",
+    "VirtualAlloc"
+  ],
+  "urls": [
+    "https://www.example.com/ CertCreateContext.exe"
+  ]
+}

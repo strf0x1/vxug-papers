@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "This document contains assembly code for a simple calculator using Windows API calls. It's designed to run as shellcode, hiding its presence from users.",
+  "tags": [
+    "Assembly",
+    "Shellcode",
+    "Windows API",
+    "Calculation"
+  ],
+  "urls": []
+}

@@ -1,0 +1,12 @@
+{
+  "title": "C++ Windows Shellcode Executor",
+  "slug": "Cplusplus-Windows-Shellcode-Executor",
+  "desc": "A C++ console application that reads a shellcode file and executes it using SHCreateThreadWithHandle.",
+  "tags": [
+    "C++",
+    "Windows API",
+    "Shellcode",
+    "Executable"
+  ],
+  "urls": []
+}

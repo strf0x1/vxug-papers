@@ -1,0 +1,14 @@
+{
+  "title": "Command Injection Vulnerability",
+  "slug": "command-injection-attack",
+  "desc": "Command injection enables attackers to execute arbitrary operating system commands via vulnerable applications due to insufficient input validation. Unlike code injection, command injection exploits existing application functionality.",
+  "tags": [
+    "Security",
+    "Vulnerability",
+    "Command Injection",
+    "OWASP"
+  ],
+  "urls": [
+    "https://owasp.org/www-community/attacks/Command_Injection"
+  ]
+}

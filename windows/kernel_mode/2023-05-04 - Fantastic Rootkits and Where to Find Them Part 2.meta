@@ -1,0 +1,13 @@
+{
+  "title": "Fantastic Rootkits and Where to Find Them (Part 2)",
+  "slug": "fantastic-rootkits-part-2",
+  "desc": "This document provides a detailed analysis of two kernel rootkits found in the wild: Husky Rootkit and Mingloa/CopperStealer Rootkit. It offers insights into rootkit analysis techniques and methodology.",
+  "tags": [
+    "rootkits",
+    "cybersecurity",
+    "kernel driver analysis"
+  ],
+  "urls": [
+    "https://www.cyberark.com/resources/threat-research-blog/fantastic-rootkits-and-where-to-find-them-part-2"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Weaponizing Mapping Injection for Stealthier Process Injection",
+  "slug": "StealthyProcessInjection",
+  "desc": "Explores using instrumentation callback for stealthier process injection to evade AVs and EDRs. Discusses Userland Hooking detection methods and bypass techniques.",
+  "tags": [
+    "Malware",
+    "Process Injection",
+    "Stealthiness",
+    "Userland Hooking",
+    "AV Detection Bypass"
+  ],
+  "urls": [
+    "https://twitter.com/splinter_code",
+    "https://0x00sec.org/t/defeating-userland-hooks-ft-bitdefender/12496",
+    "https://medium.com/@fsx30/bypass-edrs-memory-protection-introduction-to-hooking-2efb21acffd6"
+  ]
+}

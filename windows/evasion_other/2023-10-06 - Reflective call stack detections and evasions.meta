@@ -1,0 +1,15 @@
+{
+  "title": "Reflective Call Stack Detections and Evasions",
+  "slug": "reflective-call-stack-evasions",
+  "desc": "Explores call stack detections and evasions techniques used in BokuLoader to reflectively load capabilities into beacon, with insights from IBM X-Force Red internship.",
+  "tags": [
+    "Cybersecurity",
+    "Reflective Loading",
+    "Call Stack Spoofing",
+    "Evasion Techniques",
+    "IBM X-Force Red"
+  ],
+  "urls": [
+    "https://securityintelligence.com/x-force/reflective-call-stack-detections-evasions/"
+  ]
+}

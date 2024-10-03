@@ -1,0 +1,12 @@
+{
+  "title": "PerfStartProviderEx Shellcode Executor",
+  "slug": "perfstartproviderex-shellcode-executor",
+  "desc": "A Windows application written in C++ using Visual Studio 2022 to execute shellcode files using PerfStartProviderEx.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "PerfStartProviderEx",
+    "C++"
+  ],
+  "urls": []
+}

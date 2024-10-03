@@ -1,0 +1,14 @@
+{
+  "title": "A Deep Dive Into RUNDLL32.EXE",
+  "slug": "rundll32-exe-deep-dive",
+  "desc": "Exploring the Rundll32.exe process on Windows to distinguish normal behavior from malicious activities in threat hunting.",
+  "tags": [
+    "Malware Analysis",
+    "Threat Hunting",
+    "Rundll32.exe",
+    "Windows Processes"
+  ],
+  "urls": [
+    "https://nasbench.medium.com/a-deep-dive-into-rundll32-exe-642344b41e90"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Dynamic Processor Mode Switching in WoW64",
+  "slug": "knockin-on-heavens-gate-dynamic-processor-mode-switching",
+  "desc": "This document discusses research on dynamic processor mode switching in 32-bit processes running under a 64-bit Windows kernel, specifically focusing on the switch to and from compatibility mode through 'Heaven\u2019s Gate' segment call gate.",
+  "tags": [
+    "WoW64",
+    "Dynamic Processor Mode Switching",
+    "64-bit Kernel",
+    "32-bit Processes"
+  ],
+  "urls": [
+    "https://rce.co/knockin-on-heavens-gate-dynamic-processor-mode-switching"
+  ]
+}

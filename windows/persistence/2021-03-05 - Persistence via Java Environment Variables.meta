@@ -1,0 +1,14 @@
+{
+  "title": "Beyond Good Ol\u2019 Run Key - Part 133",
+  "slug": "hexacorn-beyond-good-ol-run-key-part-133",
+  "desc": "Explores using Java programs compiled into executable form via launch4j for persistence and LOLBIN activities. The article details how the executable checks for Java Runtime Environment in various locations.",
+  "tags": [
+    "Persistence",
+    "Antiforensics",
+    "Java",
+    "Launch4J"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2021/03/05/beyond-good-ol-run-key-part-133/"
+  ]
+}

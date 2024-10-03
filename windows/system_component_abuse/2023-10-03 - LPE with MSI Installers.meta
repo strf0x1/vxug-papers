@@ -1,0 +1,15 @@
+{
+  "title": "MSIFortune: Privilege Escalation via MSI Installers",
+  "slug": "msifortune-lpe-msi-installers",
+  "desc": "Explores exploiting MSI installer repair function for privilege escalation to SYSTEM, highlighting common vulnerabilities in CustomActions and offering PoCs.",
+  "tags": [
+    "LPE",
+    "MSI",
+    "System Privilege Escalation",
+    "Custom Actions",
+    "PoC"
+  ],
+  "urls": [
+    "https://badoption.eu/blog/2023/10/03/MSIFortune.html"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Complete Process Hollowing Technique",
+  "slug": "complete-process-hollowing-improvement",
+  "desc": "An enhancement of the classic process hollowing method focusing on handling the import table of injected PE files remotely.",
+  "tags": [
+    "Code Injection",
+    "Process Hollowing",
+    "PE Injection",
+    "IAT Handling"
+  ],
+  "urls": [
+    "https://red-team-sncf.github.io/complete-process-hollowing.html"
+  ]
+}

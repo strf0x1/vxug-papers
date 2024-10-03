@@ -1,0 +1,14 @@
+{
+  "title": "Exercising Windows Firewall using C++",
+  "slug": "firewall-cpp-exercise",
+  "desc": "This document demonstrates how to interact with the Windows Firewall COM interface using C++, showcasing operations like displaying the current profile, toggling the firewall on/off, and adding an application.",
+  "tags": [
+    "Windows Firewall",
+    "C++",
+    "COM Interfaces",
+    "Security"
+  ],
+  "urls": [
+    "https://docs.microsoft.com/en-us/previous-versions//aa364726(v=vs.85)"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Knock! Knock! The Postman is Here!",
+  "slug": "abusing-mailslots-portknocking-connectionless-shells",
+  "desc": "Explores using Mailslots and Port Knocking for connectionless shells. No direct sockets used between machines.",
+  "tags": [
+    "Connectionless Shells",
+    "Mailslots",
+    "Port Knocking",
+    "Covert Channels"
+  ],
+  "urls": [
+    "https://adepts.of0x.cc/connectionless-shells"
+  ]
+}

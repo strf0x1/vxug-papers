@@ -1,0 +1,14 @@
+{
+  "title": "An In-depth Look at Golang Windows Calls",
+  "slug": "golang-windows-calls-internals-abuse",
+  "desc": "Exploring internals of Golang's Windows calls for better understanding and potential security insights.",
+  "tags": [
+    "Golang",
+    "Windows",
+    "Internals",
+    "Security"
+  ],
+  "urls": [
+    "https://leandrofroes.github.io/posts/An-in-depth-look-at-Golang-Windows-calls/"
+  ]
+}

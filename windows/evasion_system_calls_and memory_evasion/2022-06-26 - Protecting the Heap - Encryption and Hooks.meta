@@ -1,0 +1,15 @@
+{
+  "title": "Protecting the Heap: Encryption & Hooks",
+  "slug": "heap-encryption-hooking",
+  "desc": "Explores methods to encrypt and hook heap allocations for improved malware evasion. Demonstrates techniques using Cobalt Strike's Sleep Mask feature as an example.",
+  "tags": [
+    "Malware Evasion",
+    "Heap Encryption",
+    "Hooking",
+    "Endpoint Protection",
+    "Cobalt Strike"
+  ],
+  "urls": [
+    "https://mez0.cc/posts/protecting-the-heap"
+  ]
+}

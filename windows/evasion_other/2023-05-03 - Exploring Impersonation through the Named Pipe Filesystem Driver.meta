@@ -1,0 +1,17 @@
+{
+  "title": "Exploring Impersonation through Named Pipe Filesystem Driver",
+  "slug": "named-pipe-impersonation-win32-api",
+  "desc": "An exploration into impersonation techniques using the Win32 API's ImpersonateNamedPipeClient and NtFsControlFile functions for named pipe manipulation.",
+  "tags": [
+    "Windows Exploitation",
+    "Impersonation Attacks",
+    "Win32 API",
+    "Named Pipe Manipulation",
+    "NtFsControlFile"
+  ],
+  "urls": [
+    "https://posts.specterops.io/exploring-impersonation-through-the-named-pipe-filesystem-driver-15f324dfbaf2",
+    "https://learn.microsoft.com/en-us/windows/win32/api/namedpipeapi/nf-namedpipeapi-impersonatenamedpipeclient",
+    "https://learn.microsoft.com/en-us/windows-hardware/drivers/ddi/ntifs/nf-ntifs-ntfscontrolfile"
+  ]
+}

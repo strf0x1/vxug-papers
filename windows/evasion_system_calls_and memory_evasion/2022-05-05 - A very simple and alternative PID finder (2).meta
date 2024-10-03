@@ -1,0 +1,14 @@
+{
+  "title": "Alternative PID Finder for Windows",
+  "slug": "Alternative_PID_Finder_Windows",
+  "desc": "A simple method to find PIDs locking files using Restart Manager API, inspired by a technique used in ransomware.",
+  "tags": [
+    "Windows",
+    "PID",
+    "Restart Manager API",
+    "Ransomware"
+  ],
+  "urls": [
+    "https://splintercod3.blogspot.com/p/a-very-simple-and-alternative-pid-finder.html"
+  ]
+}

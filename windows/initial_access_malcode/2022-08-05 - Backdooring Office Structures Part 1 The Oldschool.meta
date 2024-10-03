@@ -1,0 +1,17 @@
+{
+  "title": "Backdooring Office Structures: The Oldschool",
+  "slug": "backdoor-office-structures-oldschool",
+  "desc": "Explores adversary techniques for delivering malicious code via macro-enabled Office documents, focusing on concealing attacker intents in OpenXML structures and comparing staged vs stageless considerations.",
+  "tags": [
+    "Cybersecurity",
+    "Adversary Techniques",
+    "Malicious Code",
+    "Office Documents"
+  ],
+  "urls": [
+    {
+      "url": "https://mgeeky.tech/backdooring-office-structures-part-1-oldschool",
+      "title": "Backdooring Office Structures. Part 1: The Oldschool"
+    }
+  ]
+}

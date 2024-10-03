@@ -1,0 +1,15 @@
+{
+  "title": "LSASS Memory Dumps: New Stealthy Technique Without Dropping Tools",
+  "slug": "lsass-memory-dumps-new-stealthy-technique",
+  "desc": "A new method to dump LSASS memory for credentials extraction without introducing new tools on the endpoint, using WerFault.exe for undetected memory dumps.",
+  "tags": [
+    "Cybersecurity",
+    "Memory Dumping",
+    "LSASS",
+    "Credentials Extraction",
+    "Stealth Techniques"
+  ],
+  "urls": [
+    "https://www.deepinstinct.com/blog/lsass-memory-dumps-are-stealthier-than-ever-before-part-2"
+  ]
+}

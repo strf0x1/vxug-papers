@@ -1,0 +1,13 @@
+{
+  "title": "Minidump Creation for LSASS Process",
+  "slug": "LSASS_MiniDump",
+  "desc": "C++ code snippet demonstrating creation of a minidump file for the LSASS process using Windows API and DbgHelp library.",
+  "tags": [
+    "Windows_API",
+    "DbgHelp",
+    "Minidump",
+    "Process_Snapshot",
+    "LSASS"
+  ],
+  "urls": []
+}

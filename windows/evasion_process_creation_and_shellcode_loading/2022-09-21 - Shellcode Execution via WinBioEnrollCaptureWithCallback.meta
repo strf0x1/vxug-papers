@@ -1,0 +1,16 @@
+{
+  "title": "WinBioEnrollCaptureWithCallback: A Windows Bio-enrollment Tool",
+  "slug": "winbio-enroll-capture-with-callback",
+  "desc": "A C++ application using Visual Studio 2022 to enroll and capture biometric data (shellcode) with callback functionality.",
+  "tags": [
+    "Windows Biometrics",
+    "Shellcode",
+    "Capture Tool"
+  ],
+  "urls": [
+    {
+      "label": "Source Code",
+      "url": "https://github.com/Wra7h/FlavorTown/blob/master/WinBioEnrollCaptureWithCallback.cpp"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Windows DLL Hijacking Clarified",
+  "slug": "windows-dll-hijacking-clarified",
+  "desc": "A blog post aiming to clarify the concept of DLL hijacking in Windows and its variants, discussing whether it's considered a vulnerability.",
+  "tags": [
+    "DLL Hijacking",
+    "Windows Security",
+    "Cybersecurity",
+    "Vulnerability Assessment"
+  ],
+  "urls": [
+    "https://itm4n.github.io/windows-dll-hijacking-clarified/"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Phishing Document Signed by Microsoft: Part 1",
+  "slug": "phishing-microsoft-part-1",
+  "desc": "A blog post detailing vulnerabilities in Microsoft Excel's Analysis ToolPak XLAM add-ins that could be exploited for phishing attacks, signed by Microsoft. This method is no longer applicable due to a security patch.",
+  "tags": [
+    "Phishing",
+    "Microsoft Excel",
+    "Security Vulnerability",
+    "CVE-2021-28449"
+  ],
+  "urls": [
+    "https://outflank.nl/blog/2021/12/09/a-phishing-document-signed-by-microsoft/"
+  ]
+}

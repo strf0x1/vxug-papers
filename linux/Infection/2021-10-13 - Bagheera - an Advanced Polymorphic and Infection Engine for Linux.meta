@@ -1,0 +1,13 @@
+{
+  "title": "Degree in Computer Engineering: Bagheera - Advanced Polymorphic and Infection Engine for Linux",
+  "slug": "Bagheera-Polymorphic-Infection-Engine-Linux",
+  "desc": "This project explores techniques used by polymorphic engines to avoid detection from anti-viruses, focusing on infecting ELF binaries on Linux platforms. The goal is to design and build an advanced polymorphic infection engine.",
+  "tags": [
+    "Computer Engineering",
+    "Polymorphism",
+    "Virus Detection",
+    "ELF Binaries",
+    "Linux"
+  ],
+  "urls": []
+}

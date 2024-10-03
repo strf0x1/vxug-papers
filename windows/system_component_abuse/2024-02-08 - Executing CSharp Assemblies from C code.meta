@@ -1,0 +1,15 @@
+{
+  "title": "Executing CSharp Assemblies from C Code",
+  "slug": "executing-csharp-assemblies-from-c-code",
+  "desc": "Explores how to integrate native C code with managed C# assemblies, utilizing the Common Language Runtime (CLR) for cross-language communication.",
+  "tags": [
+    "Malware Development",
+    "C Sharp",
+    "C Language",
+    ".NET Framework",
+    "Common Language Runtime"
+  ],
+  "urls": [
+    "https://lsecqt.github.io/Red-Teaming-Army/malware-development/executing-csharp-assemblies-from-c-code/"
+  ]
+}

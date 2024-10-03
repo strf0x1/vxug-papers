@@ -1,0 +1,14 @@
+{
+  "title": "Finding Interactive User COM Objects using PowerShell",
+  "slug": "find-interactive-user-com-objects",
+  "desc": "Explores how to find and work with interactive user (IU) COM objects in PowerShell, highlighting potential security implications.",
+  "tags": [
+    "PowerShell",
+    "COM Objects",
+    "Security",
+    "UAC"
+  ],
+  "urls": [
+    "https://www.tiraniddo.dev/2018/09/finding-interactive-user-com-objects_9.html"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Secure Pool Internals: Dynamic Kernel Data Protection (KDP)",
+  "slug": "secure-pool-kdp-internals",
+  "desc": "Exploring the secure pool, a new type of kernel pool managed by Securekernel.exe in Windows Version 2104 and above. This pool operates at Virtual Trust Level 1 and is resistant to tampering from VTL 0.",
+  "tags": [
+    "Windows Internals",
+    "Kernel Pool",
+    "Secure Pool",
+    "KDP",
+    "Virtual Trust Level"
+  ],
+  "urls": [
+    "https://windows-internals.com/secure-pool",
+    "https://github.com/dwitzelle/Presentations/blob/master/Bluehat%20Shanghai%20-%20Advancing%20Windows%20Security.pdf"
+  ]
+}

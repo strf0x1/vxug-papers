@@ -1,0 +1,14 @@
+{
+  "title": "Bootkitting Windows Sandbox",
+  "slug": "windows-sandbox-bootkitting",
+  "desc": "Explores the use of Windows Sandbox for kernel research and driver development, focusing on bootkitting techniques.",
+  "tags": [
+    "Windows Security",
+    "Sandboxing",
+    "Kernel Research",
+    "Driver Development"
+  ],
+  "urls": [
+    "https://secret.club/2022/08/29/bootkitting-windows-sandbox.html"
+  ]
+}

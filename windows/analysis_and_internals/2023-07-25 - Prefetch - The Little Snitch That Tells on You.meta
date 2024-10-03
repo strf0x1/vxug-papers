@@ -1,0 +1,13 @@
+{
+  "title": "Prefetch: The Little Snitch That Tells on You",
+  "slug": "prefetch-window-forensics",
+  "desc": "Understand how Windows prefetch files can aid incident response and forensics by revealing details about executed executables.",
+  "tags": [
+    "Incident Response",
+    "Forensics",
+    "Windows Prefetch Files"
+  ],
+  "urls": [
+    "https://www.trustedsec.com/blog/prefetch-the-little-snitch-that-tells-on-you/"
+  ]
+}

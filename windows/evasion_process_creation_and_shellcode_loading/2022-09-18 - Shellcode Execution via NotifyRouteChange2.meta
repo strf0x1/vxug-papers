@@ -1,0 +1,12 @@
+{
+  "title": "FlavorTown Shellcode Executor",
+  "slug": "flavortown-shellcode-executor",
+  "desc": "A Windows application written in C++ using Visual Studio 2022 that reads and executes shellcode from a provided file.",
+  "tags": [
+    "Shellcode",
+    "Windows Application",
+    "C++",
+    "Visual Studio 2022"
+  ],
+  "urls": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "LogNT32 Part 2: Return-Address Hijacking for Efficiency Improvement",
+  "slug": "lognt32_p2_return_address_hijacking",
+  "desc": "A follow-up to LogNT32 implementing @mrexodia's suggestions to improve efficiency by removing the exception handler framework and using custom function stubs.",
+  "tags": [
+    "reverse-engineering",
+    "logging-library",
+    "x86-matthew",
+    "return-address-hijacking",
+    "efficiency-improvement"
+  ],
+  "urls": [
+    "https://www.x86matthew.com/view_post?id=lognt32_p2"
+  ]
+}

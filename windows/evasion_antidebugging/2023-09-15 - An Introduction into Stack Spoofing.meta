@@ -1,0 +1,17 @@
+{
+  "title": "An Introduction into Stack Spoofing",
+  "slug": "StackSpoofingIntro",
+  "desc": "A comprehensive introduction to stack spoofing technique focusing on x64 Windows with active spoofing methods. Credits and references included.",
+  "tags": [
+    "Malware",
+    "Cybersecurity",
+    "Stack Spoofing",
+    "x64 Windows"
+  ],
+  "urls": [
+    "https://dtsec.us/2023-09-15-StackSpoofin",
+    "https://twitter.com/klezvirus",
+    "https://twitter.com/0xboku",
+    "https://github.com/boku7/BokuLoader"
+  ]
+}

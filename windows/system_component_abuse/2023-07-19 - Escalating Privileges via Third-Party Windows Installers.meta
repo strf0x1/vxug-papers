@@ -1,0 +1,14 @@
+{
+  "title": "Escalating Privileges via Third-Party Windows Installers",
+  "slug": "privilege-escalation-via-third-party-windows-installers",
+  "desc": "Learn about elevating privileges beyond newly hired intern levels using crafty tricks and luck in red teaming.",
+  "tags": [
+    "Red Teaming",
+    "Privilege Escalation",
+    "Active Directory",
+    "Windows Installers"
+  ],
+  "urls": [
+    "https://www.mandiant.com/resources/blog/privileges-third-party-windows-installers"
+  ]
+}

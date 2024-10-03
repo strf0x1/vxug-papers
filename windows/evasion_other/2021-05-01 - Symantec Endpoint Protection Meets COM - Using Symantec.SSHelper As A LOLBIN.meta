@@ -1,0 +1,15 @@
+{
+  "title": "Symantec Endpoint Protection Meets COM \u2014 Using Symantec.SSHelper As A LOLBIN",
+  "slug": "symantec-endpoint-protection-com-lolbin",
+  "desc": "Investigation into frequent log events triggered by Symantec AV service host process, leading to discovery of a non-persistent process using cscript utility.",
+  "tags": [
+    "Symantec",
+    "Endpoint Protection",
+    "COM",
+    "LOLBIN",
+    "Security"
+  ],
+  "urls": [
+    "https://nasbench.medium.com/symantec-endpoint-protection-meets-com-using-symantec-sshelper-as-a-lolbin-40d515a121ce"
+  ]
+}

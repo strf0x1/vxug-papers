@@ -1,0 +1,15 @@
+{
+  "title": "Manipulating LastWriteTime without Leaving Traces on NTFS USN Journal",
+  "slug": "manipulating-lastwritetime-ntfs",
+  "desc": "Learn how to modify 'LastWriteTime' attribute of files on NTFS volumes without leaving traces in the USN Journal. Explore methods using PowerShell and SetFileInformationByHandle API.",
+  "tags": [
+    "NTFS",
+    "Forensics",
+    "Incident Response",
+    "PowerShell",
+    "File Attributes"
+  ],
+  "urls": [
+    "https://gtworek.github.io/PSBits/lastwritetime.html"
+  ]
+}

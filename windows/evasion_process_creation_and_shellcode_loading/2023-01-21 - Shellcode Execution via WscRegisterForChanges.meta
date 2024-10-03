@@ -1,0 +1,12 @@
+{
+  "title": "Wra7h/FlavorTown: Shellcode Loader and Callback Registration",
+  "slug": "wra7h-flavortown-shellcode-loader",
+  "desc": "A C++ application that reads a shellcode file, allocates memory for it, registers a callback function using WscRegisterForChanges API, and creates a temporary eicar.txt file to trigger antivirus detection.",
+  "tags": [
+    "Shellcode Loading",
+    "Callback Function Registration",
+    "WscRegisterForChanges",
+    "EICAR Test String"
+  ],
+  "urls": []
+}

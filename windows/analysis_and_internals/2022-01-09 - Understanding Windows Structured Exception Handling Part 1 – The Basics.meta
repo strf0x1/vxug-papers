@@ -1,0 +1,18 @@
+{
+  "title": "Understanding Windows Structured Exception Handling Part 1",
+  "slug": "windows-structured-exception-handling-basics",
+  "desc": "An introductory article explaining Windows structured exception handling, its basics and components like EXCEPTION_ROUTINE, RaiseException(), SEH, _EXCEPTION_REGISTRATION_RECORD.",
+  "tags": [
+    "ABI",
+    "Buffer Overflow",
+    "EXCEPTION_ROUTINE",
+    "RaiseException()",
+    "SEH",
+    "Thread Information Block",
+    "_CONTEXT",
+    "_EXCEPTION_REGISTRATION_RECORD"
+  ],
+  "urls": [
+    "https://limbioliong.wordpress.com/2022/01/09/understanding-windows-structured-exception-handling-part-1/"
+  ]
+}

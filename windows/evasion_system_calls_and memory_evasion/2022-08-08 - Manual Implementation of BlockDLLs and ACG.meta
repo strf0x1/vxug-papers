@@ -1,0 +1,13 @@
+{
+  "title": "Reverse Engineering of 'Protecting Your Malware' Paper",
+  "slug": "reverse-engineering-protecting-your-malware-paper",
+  "desc": "A summary of reverse engineering the functions used in Adam Chester's paper 'Protecting Your Malware with blockdlls and ACG', highlighting their simplicity for implementation without importing.",
+  "tags": [
+    "Reverse Engineering",
+    "Malware Analysis",
+    "Windows APIs"
+  ],
+  "urls": [
+    "https://blog.xpnsec.com/protecting-your-malware/"
+  ]
+}

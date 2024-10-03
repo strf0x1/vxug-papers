@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "This document contains a Windows assembly code for a calculator function using shellcode. It uses Dbghelp.lib and requires specific permissions.",
+  "tags": [
+    "windows",
+    "assembly",
+    "shellcode",
+    "calculation"
+  ],
+  "urls": []
+}

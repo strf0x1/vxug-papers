@@ -1,0 +1,12 @@
+{
+  "title": "PageSetupDlg.exe Shellcode Loader",
+  "slug": "pagesetupdlg-schelloader",
+  "desc": "A Windows executable written in C++ using Visual Studio 2022 that loads and executes shellcode from a binary file.",
+  "tags": [
+    "shellcode",
+    "executable",
+    "windows",
+    "visual studio"
+  ],
+  "urls": []
+}

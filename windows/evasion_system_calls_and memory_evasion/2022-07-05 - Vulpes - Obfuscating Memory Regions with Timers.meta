@@ -1,0 +1,19 @@
+{
+  "title": "Vulpes: Obfuscating Memory Regions with Timers",
+  "slug": "vulpes-memory-obfuscation-timers",
+  "desc": "Explores bugs found while working on Ekko's reflective DLL region permissions and tracking. Discusses issues related to threading in DLLMain and general cleanup, using techniques from Maelstrom: Writing a C2 Implant.",
+  "tags": [
+    "Cybersecurity",
+    "Malware Analysis",
+    "Obfuscation",
+    "Memory Regions",
+    "Timers"
+  ],
+  "urls": [
+    "https://mez0.cc/posts/vulpes-obfuscating-memory-regions",
+    "https://github.com/Cracked5pider/Ekko",
+    "https://twitter.com/C5pider",
+    "https://pre.empt.dev/posts/maelstrom-the-implant/",
+    "https://www.mdsec.co"
+  ]
+}

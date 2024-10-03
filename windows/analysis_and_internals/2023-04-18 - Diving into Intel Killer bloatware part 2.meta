@@ -1,0 +1,15 @@
+{
+  "title": "Intel Killer Bloatware Vulnerability (Part 2)",
+  "slug": "intel-killer-vulnerability-part-2",
+  "desc": "Exploring Intel Killer Performance Suite's vulnerabilities that allow users to disrupt Windows updates and control services, including a demonstration. Follows up on previous research.",
+  "tags": [
+    "Cybersecurity",
+    "Vulnerability Research",
+    "Intel Killer",
+    "Windows Updates"
+  ],
+  "urls": [
+    "https://zwclose.github.io/2023/04/18/killer2.html",
+    "https://zwclose.github.io/2022/12/18/killer1.html"
+  ]
+}

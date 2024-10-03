@@ -1,0 +1,13 @@
+{
+  "title": "EvtSubscribe_CveEventWrite.exe: Shellcode Injection and Event Subscription",
+  "slug": "shellcode-injection-event-subscription-cveeventwrite",
+  "desc": "A C++ console application that reads a shellcode file, injects it into memory, subscribes to Windows Events, triggers an event with a specific ID, and waits for the event to be written to the log.",
+  "tags": [
+    "Shellcode Injection",
+    "Event Subscription",
+    "Windows Event Log",
+    "C++",
+    "Visual Studio 2022"
+  ],
+  "urls": []
+}

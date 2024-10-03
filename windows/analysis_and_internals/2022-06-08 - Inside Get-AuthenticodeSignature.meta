@@ -1,0 +1,15 @@
+{
+  "title": "Finding Authenticode Signatures in PowerShell",
+  "slug": "authentifind",
+  "desc": "A guide to finding and extracting Authenticode signatures using PowerShell's Get-AuthenticodeSignature cmdlet. Includes a step-by-step process on how to locate the cmdlet's DLL and its functions.",
+  "tags": [
+    "PowerShell",
+    "Authenticode",
+    "Get-AuthenticodeSignature",
+    "Cmdlet",
+    ".NET"
+  ],
+  "urls": [
+    "https://mez0.cc/posts/authentifind"
+  ]
+}

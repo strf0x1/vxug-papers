@@ -1,0 +1,14 @@
+{
+  "title": "Understanding Windows Structured Exception Handling Part 3 \u2013 Under The Hood",
+  "slug": "windows-structured-exception-handling-part-3",
+  "desc": "This document discusses how the OS performs structured exception handling (SEH) when an exception is raised, focusing on Visual C++'s __except_handler3() function.",
+  "tags": [
+    "C++",
+    "Structured Exception Handling",
+    "Win32",
+    "Visual C++"
+  ],
+  "urls": [
+    "https://limbioliong.wordpress.com/2022/01/22/understanding-windows-structured-exception-handling-part-3-under-the-hood/"
+  ]
+}

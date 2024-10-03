@@ -1,0 +1,11 @@
+{
+  "title": "Windows System Information Enumeration",
+  "slug": "windows-system-info-enum",
+  "desc": "This document defines various system information classes and their corresponding numeric values for use in Windows API calls.",
+  "tags": [
+    "Windows",
+    "API",
+    "SystemInformationClass"
+  ],
+  "urls": []
+}

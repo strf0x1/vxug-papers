@@ -1,0 +1,16 @@
+{
+  "title": "Lord Of The Rings - Part 4 | Kernel Callbacks",
+  "slug": "lord-of-the-rings-p4-kernel-callbacks",
+  "desc": "Explores various kernel callbacks such as Pre/Post operations, PsSet*NotifyRoutine, and CmRegisterCallbackEx. Also covers data validation in driver development.",
+  "tags": [
+    "Windows Driver Development",
+    "Kernel Callbacks",
+    "IOCTL",
+    "Data Validation"
+  ],
+  "urls": [
+    "https://idov31.github.io/2023/02/24/lord-of-the-ring0-p4.html",
+    "https://idov31.github.io/2022/10/30/lord-of-the-ring0-p3",
+    "https://idov31.github.io/2022-08-04-lord-of-the-ring0-p2"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "DdeInitialize.exe: Shellcode Loader",
+  "slug": "shellcode_loader",
+  "desc": "A C++ console application that reads a shellcode file and loads it into memory using VirtualAlloc.",
+  "tags": [
+    "Shellcode",
+    "Memory Loading",
+    "Windows API",
+    "C++"
+  ]
+}

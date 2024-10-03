@@ -1,0 +1,13 @@
+{
+  "title": "DnsStartMulticastQuery Shellcode Execution in C++",
+  "slug": "dnsstartmulticastquery_shellcode",
+  "desc": "A C++ program that reads a shellcode file and uses DnsStartMulticastQuery for execution, written/compiled with Visual Studio 2022.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "DnsStartMulticastQuery",
+    "Windows",
+    "Hacking"
+  ],
+  "urls": []
+}

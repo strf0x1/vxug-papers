@@ -1,0 +1,17 @@
+{
+  "title": "ELF's Story Part1: How is an ELF created",
+  "slug": "elfs-story-part1",
+  "desc": "A blog post series exploring the process of creating executable Linux files (ELFs) from C/C++ code.",
+  "tags": [
+    "Linux",
+    "ELF",
+    "Binary Files",
+    "C/C++ Programming"
+  ],
+  "urls": [
+    {
+      "url": "https://aleeamini.com/elfs-story-part1/",
+      "text": "aleeamini.com/elfs-story-part1/"
+    }
+  ]
+}

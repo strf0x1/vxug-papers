@@ -1,0 +1,13 @@
+{
+  "title": "Alfarom256 Calc Shellcode in C",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A Windows shellcode for alfarom256 calc written in C. This code uses a variety of techniques such as indirect function calls, string references, and byte-level operations to execute its payload.",
+  "tags": [
+    "C",
+    "Windows",
+    "Shellcode",
+    "Alfarom256",
+    "Calc"
+  ],
+  "urls": []
+}

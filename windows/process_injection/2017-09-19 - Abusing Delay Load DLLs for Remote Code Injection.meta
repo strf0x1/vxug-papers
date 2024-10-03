@@ -1,0 +1,13 @@
+{
+  "title": "Abusing Delay Load DLLs for Remote Code Injection",
+  "slug": "delay-load-dll-injection",
+  "desc": "A novel remote code injection technique using delay loading DLLs, allowing arbitrary code injection into remote processes. Not an exploit, but another strategy for process migration.",
+  "tags": [
+    "Remote Code Injection",
+    "Delay Load DLLs",
+    "Process Migration"
+  ],
+  "urls": [
+    "https://dronesec.pw/blog/2017/09/19/abusing-delay-load-dll"
+  ]
+}

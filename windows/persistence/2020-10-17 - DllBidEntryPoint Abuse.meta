@@ -1,0 +1,16 @@
+{
+  "title": "Beyond Good Ol\u2019 Run Key Part 129",
+  "slug": "exploring-bidinterface-loader-key-persistence",
+  "desc": "Explores the use of BidInterface Loader key for persistence in Windows environments and its relation to SQL Server's Built-in Diagnostics (BID) tracing interface.",
+  "tags": [
+    "Persistence",
+    "Anti-Forensics",
+    "Windows Libraries",
+    "SQL Server",
+    "Built-in Diagnostics (BID)",
+    "Tracing DLL"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2020/10/17/beyond-good-ol-run-key-part-129/"
+  ]
+}

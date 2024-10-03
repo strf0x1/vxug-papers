@@ -1,0 +1,14 @@
+{
+  "title": "Life is Pane: Persistence via Preview Handlers",
+  "slug": "persistence-preview-handlers",
+  "desc": "Explores the potential of Windows' Preview Pane feature for persistence in red team operations.",
+  "tags": [
+    "Red Teaming",
+    "Persistence",
+    "Windows Exploitation",
+    "Preview Pane"
+  ],
+  "urls": [
+    "https://posts.specterops.io/life-is-pane-persistence-via-preview-handlers-3c0216c5ef9e-b73a9515c9a8"
+  ]
+}

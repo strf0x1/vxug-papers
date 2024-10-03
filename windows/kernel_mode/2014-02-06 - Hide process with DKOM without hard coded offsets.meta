@@ -1,0 +1,14 @@
+{
+  "title": "Efficient DKOM Process Hiding Without Hardcoded Offsets",
+  "slug": "dkom-no-hardcoded-offsets",
+  "desc": "A technique to hide processes using DKOM without hardcoding offsets for ActiveProcessLinks in the EPROCESS structure, by locating it adjacent to UniqueProcessId.",
+  "tags": [
+    "DKOM",
+    "Kernel Mode Rootkits",
+    "Windows Security",
+    "Process Hiding"
+  ],
+  "urls": [
+    "https://example.com/dkom-solution"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Windows Process Injection using QueueUserAPC Technique",
+  "slug": "windows-process-injection-queueuserapc",
+  "desc": "Learn the fundamentals of user mode asynchronous procedure calls (APC) and how to use them for injecting shellcode into a remote process thread to obtain a reverse shell.",
+  "tags": [
+    "Windows",
+    "Process Injection",
+    "QueueUserAPC",
+    "Reverse Shell"
+  ],
+  "urls": [
+    "https://tbhaxor.com/windows-process-injection-using-asynchronous-threads-queueuserapc/"
+  ]
+}

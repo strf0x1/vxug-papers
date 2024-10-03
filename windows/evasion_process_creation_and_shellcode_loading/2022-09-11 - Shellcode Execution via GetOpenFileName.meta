@@ -1,0 +1,12 @@
+{
+  "title": "Get Open File Name for Shellcode Execution",
+  "slug": "getopenfilename_shellcode",
+  "desc": "A C++ console application that reads a shellcode file and allocates memory to execute it. It also includes an option for Explorer-style Open dialog box with hook procedures.",
+  "tags": [
+    "shellcode",
+    "execution",
+    "Windows API",
+    "OPENFILENAME"
+  ],
+  "urls": []
+}

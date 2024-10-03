@@ -1,0 +1,14 @@
+{
+  "title": "HyperGuard \u2013 Secure Kernel Patch Guard: Part 1 \u2013 SKPG Initialization",
+  "slug": "hyperguard-skpg-init",
+  "desc": "An introduction to Secure Kernel Patch Guard (SKPG) and its initialization process in Windows security, with relevant context on PatchGuard.",
+  "tags": [
+    "Windows Security",
+    "PatchGuard",
+    "Secure Kernel Patch Guard",
+    "HyperGuard"
+  ],
+  "urls": [
+    "https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-1-skpg-initialization/"
+  ]
+}

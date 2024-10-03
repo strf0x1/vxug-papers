@@ -1,0 +1,18 @@
+{
+  "title": "NtdllPipe: Using cmd.exe to Retrieve a Clean Version of Ntdll.dll",
+  "slug": "ntdll_pipe_cmd_exe_method",
+  "desc": "An exploration of overcoming user-mode hooks injected by AV software into ntdll.dll using a trusted Microsoft executable, cmd.exe.",
+  "tags": [
+    "NTDLL",
+    "AV Software",
+    "Cmd.Exe",
+    "Hooks",
+    "Windows Internals"
+  ],
+  "urls": [
+    {
+      "link": "https://www.x86matthew.com/view_post?id=ntdll_pipe",
+      "text": "View Post"
+    }
+  ]
+}

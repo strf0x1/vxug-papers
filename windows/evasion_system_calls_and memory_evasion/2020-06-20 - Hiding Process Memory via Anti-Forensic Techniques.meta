@@ -1,0 +1,16 @@
+{
+  "title": "Hiding Process Memory via Anti-Forensic Techniques",
+  "slug": "hiding-process-memory-via-anti-forensic-techniques",
+  "desc": "A research paper discussing techniques to hide process memory in digital forensics, presented at the Digital Forensic Research Conference (DFRWS) USA 2020.",
+  "tags": [
+    "Digital Forensics",
+    "Anti-Forensic Techniques",
+    "Process Memory",
+    "DFRWS",
+    "Research Paper"
+  ],
+  "urls": [
+    "https://dfrws.org",
+    "https://doi.org/10.1016/j.fsidi.2020.301012"
+  ]
+}

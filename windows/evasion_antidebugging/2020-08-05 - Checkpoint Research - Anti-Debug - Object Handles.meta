@@ -1,0 +1,14 @@
+{
+  "title": "Anti-Debugging Techniques: Object Handles",
+  "slug": "anti-debug-object-handles",
+  "desc": "Explores debugging detection techniques using kernel object handles, focusing on the OpenProcess() function and Csrss.exe process.",
+  "tags": [
+    "Anti-Debug",
+    "Kernel Objects",
+    "OpenProcess",
+    "Csrss.exe"
+  ],
+  "urls": [
+    "https://anti-debug.checkpoint.com/techniques/object-handles.html"
+  ]
+}

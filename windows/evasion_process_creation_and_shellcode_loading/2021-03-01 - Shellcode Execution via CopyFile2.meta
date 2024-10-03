@@ -1,0 +1,13 @@
+{
+  "title": "Alfarom256 Calc Shellcode Example",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A C++ example demonstrating a shellcode for calculating Alfarom256 using Windows API and error handling.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "Alfarom256",
+    "Windows API",
+    "Error Handling"
+  ],
+  "urls": []
+}

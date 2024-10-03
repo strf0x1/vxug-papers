@@ -1,0 +1,15 @@
+{
+  "title": "Beyond Good Ol' Run Key: Manipulating Autoplay Handlers",
+  "slug": "autoplay-handler-manipulation",
+  "desc": "Exploring the potential security risks of pre-installed software's personalized autoplay handlers and methods to identify them.",
+  "tags": [
+    "Persistence",
+    "Autostart",
+    "Security",
+    "Malware",
+    "Windows Registry"
+  ],
+  "urls": [
+    "https://hexacorn.com/blog/2019/09/07/beyond-good-ol-run-key-part-114"
+  ]
+}

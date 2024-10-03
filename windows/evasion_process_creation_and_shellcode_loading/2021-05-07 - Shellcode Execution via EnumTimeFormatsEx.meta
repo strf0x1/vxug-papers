@@ -1,0 +1,13 @@
+{
+  "title": "Alfarom256 Calc Shellcode in C++",
+  "slug": "alfarom256-shellcode-cpp",
+  "desc": "A C++ implementation of the alfarom256 calc shellcode using Windows API and cryptographic functions.",
+  "tags": [
+    "C++",
+    "Windows API",
+    "Shellcode",
+    "alfarom256",
+    "Cryptography"
+  ],
+  "urls": []
+}

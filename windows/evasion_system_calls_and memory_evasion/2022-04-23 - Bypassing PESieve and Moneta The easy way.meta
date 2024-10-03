@@ -1,0 +1,16 @@
+{
+  "title": "Bypassing PESieve and Moneta: The Easiest Way Found",
+  "slug": "bypassing-pesieve-moneta-easiest-way",
+  "desc": "A detailed explanation of bypassing two popular detection tools, PESieve and Moneta, with a focus on Moneta's memory scanning capabilities. Includes references to relevant GitHub repositories.",
+  "tags": [
+    "Malware Analysis",
+    "Bypass Techniques",
+    "Moneta",
+    "PESieve"
+  ],
+  "urls": [
+    "https://www.arashparsa.com/bypassing-pesieve-and-moneta-the-easiest-way-i-could-find/",
+    "https://github.com/waldo-irc/YouMayPasser/",
+    "https://github.com/forrest-orr/moneta"
+  ]
+}

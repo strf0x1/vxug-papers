@@ -1,0 +1,13 @@
+{
+  "title": "Beyond Good Ol' Run Key: Office-Based Persistence",
+  "slug": "office-persistence-wwlibt-dll-wwlib-exe",
+  "desc": "Explores how to use Word and PowerPoint as persistence mechanisms by manipulating DLL loading order via registry.",
+  "tags": [
+    "Persistence",
+    "Living off the land (LoL)",
+    "Office-based attacks",
+    "Winword.exe",
+    "Wwlib.dll",
+    "Wwlibt.dll"
+  ]
+}

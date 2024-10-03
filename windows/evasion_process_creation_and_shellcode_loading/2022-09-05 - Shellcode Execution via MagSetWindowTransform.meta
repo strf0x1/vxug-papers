@@ -1,0 +1,20 @@
+{
+  "title": "MagSetWindowTransform - Shellcode Execution via Magnification Windows API",
+  "os": "Windows",
+  "language": "C",
+  "document_source": "source code example",
+  "overview": "This document outlines a technique for executing shellcode using the Windows Magnification API to bypass security measures like code integrity checks. It takes a shellcode file as input, loads it into memory with execute permissions, and uses the MagSetWindowTransform function to trigger execution.",
+  "tags": [
+    "Shellcode Execution",
+    "Windows Evasion",
+    "Magnification API",
+    "Code Integrity Bypass"
+  ],
+  "bullet_points": [
+    "Reads shellcode from a provided file using the ReadContents function",
+    "Allows for shellcode loading with execute permissions via VirtualAlloc",
+    "Utilizes MagSetWindowTransform to trigger shellcode execution",
+    "Initiates and uninitializes Magnification API using MagInitialize and MagUninitialize",
+    "Creates a hidden window for Magnifier callback"
+  ]
+}

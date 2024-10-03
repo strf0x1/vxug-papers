@@ -1,0 +1,12 @@
+{
+  "title": "Shellcode Executor using CopyFileTransacted",
+  "slug": "shellcode-executor-copyfiletransacted",
+  "desc": "A Windows application that loads and executes shellcode via CopyFileTransacted function for code injection purposes.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "Code Injection",
+    "CopyFileTransacted"
+  ],
+  "urls": []
+}

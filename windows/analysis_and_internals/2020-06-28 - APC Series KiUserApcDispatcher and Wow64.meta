@@ -1,0 +1,14 @@
+{
+  "title": "APC Series: KiUserApcDispatcher and Wow64",
+  "slug": "apc-kiuserapcdispatcher-wow64",
+  "desc": "Explores APC dispatching in user mode and APC techniques in Wow64 processes, including evolution of KiUserApcDispatcher.",
+  "tags": [
+    "APC",
+    "Wow64",
+    "KiUserApcDispatcher",
+    "Windows Internals"
+  ],
+  "urls": [
+    "https://repnz.github.io/posts/apc/wow64-user-apc"
+  ]
+}

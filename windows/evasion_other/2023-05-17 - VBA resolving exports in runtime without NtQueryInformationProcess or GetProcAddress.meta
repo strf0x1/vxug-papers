@@ -1,0 +1,14 @@
+{
+  "title": "VBA: Resolving Exports in Runtime without NtQueryInformationProcess or GetProcAddress",
+  "slug": "vba-exports-runtime",
+  "desc": "A detailed guide on using VBA to dynamically resolve System Service Numbers (syscalls) without hardcoding values, focusing on obfuscation and minimizing traces.",
+  "tags": [
+    "VBA",
+    "Syscalling",
+    "Malware",
+    "Obfuscation"
+  ],
+  "urls": [
+    "https://adepts.of0x.cc/vba-exports-runtime"
+  ]
+}

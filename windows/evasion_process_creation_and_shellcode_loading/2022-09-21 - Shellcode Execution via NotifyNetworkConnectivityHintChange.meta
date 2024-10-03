@@ -1,0 +1,21 @@
+{
+  "title": "Shellcode Execution via NotifyNetworkConnectivityHintChange",
+  "os": "Windows",
+  "language": "C",
+  "document_source": "Source code example",
+  "overview": "This C program, compiled with Visual Studio 2022 for Windows, reads and executes shellcode from a provided binary file using the NotifyNetworkConnectivityHintChange function to trigger its execution.",
+  "tags": [
+    "Shellcode Execution",
+    "Evasion Techniques",
+    "NotifyNetworkConnectivityHintChange",
+    "VirtualAlloc",
+    "Memcpy"
+  ],
+  "bullet_points": [
+    "The program takes a single argument: the path to a binary shellcode file.",
+    "It reads the contents of this file using the ReadContents function and allocates memory for it with VirtualAlloc.",
+    "The shellcode is then memcpy'd into the allocated memory, which has been set as executable with PAGE_EXECUTE_READWRITE.",
+    "NotifyNetworkConnectivityHintChange is called with a callback pointing to the allocated memory, triggering the execution of the shellcode.",
+    "The program waits for 2 minutes before exiting."
+  ]
+}

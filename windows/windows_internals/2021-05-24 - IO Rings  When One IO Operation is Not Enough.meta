@@ -1,0 +1,14 @@
+{
+  "title": "I/O Rings \u2013 When One I/O Operation is Not Enough",
+  "slug": "i-o-rings-windows",
+  "desc": "Explores Windows' implementation of a circular buffer for queuing multiple I/O operations simultaneously, enabling user-mode applications to perform numerous I/O operations in one action.",
+  "tags": [
+    "Windows Internals",
+    "I/O Rings",
+    "Circular Buffer",
+    "User-Mode Applications"
+  ],
+  "urls": [
+    "https://windows-internals.com/i-o-rings-when-one-i-o-operation-is-not-enough/"
+  ]
+}

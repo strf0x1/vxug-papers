@@ -1,0 +1,12 @@
+{
+  "title": "MFAddPeriodicCallback Shellcode Executor",
+  "slug": "mfaddperiodiccallback_shellcode_executor",
+  "desc": "A Windows executable written in C++ using Visual Studio 2022 that reads a shellcode file and executes it using MFAddPeriodicCallback.",
+  "tags": [
+    "Shellcode",
+    "MFAddPeriodicCallback",
+    "Windows Executable",
+    "Visual Studio 2022"
+  ],
+  "urls": []
+}

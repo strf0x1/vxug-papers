@@ -1,0 +1,13 @@
+{
+  "title": "Windows Shellcode Loader",
+  "slug": "win-shellcode-loader",
+  "desc": "A Windows executable written in C++ that loads and executes shellcode from a provided binary file.",
+  "tags": [
+    "shellcode",
+    "windows-exploitation",
+    "reverse-engineering"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/src/RegisterWaitForSingleObject.cpp"
+  ]
+}

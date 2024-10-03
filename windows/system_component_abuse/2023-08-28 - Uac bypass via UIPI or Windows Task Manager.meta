@@ -1,0 +1,15 @@
+{
+  "title": "Bypassing User Interface Privilege Isolation",
+  "slug": "bypass-ui-pi-with-taskmanager",
+  "desc": "A C++ code snippet that utilizes Task Manager to bypass UIPI and gain higher IL process access using the SendInput method.",
+  "tags": [
+    "C++",
+    "Windows API",
+    "User Interface Privilege Isolation (UIPI)",
+    "Task Manager",
+    "SendInput"
+  ],
+  "urls": [
+    "https://docs.microsoft.com/en-us/windows/win32/shell/shellExecute"
+  ]
+}

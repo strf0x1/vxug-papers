@@ -1,0 +1,14 @@
+{
+  "title": "Bypassing Kernel Function Pointer Integrity Checks",
+  "slug": "bypass-kernel-function-pointer-integrity-checks",
+  "desc": "Explores a method used by cheaters to bypass integrity checks in DeviceIoControl hooks for drivers like disk.sys and ndis.sys.",
+  "tags": [
+    "kernel_security",
+    "anticheat",
+    "deviceiocontrol_hook",
+    "driver_object_modification"
+  ],
+  "urls": [
+    "https://secret.club/2019/11/06/kernel-code-alignment.html"
+  ]
+}

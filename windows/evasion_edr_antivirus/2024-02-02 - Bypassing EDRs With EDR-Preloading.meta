@@ -1,0 +1,15 @@
+{
+  "title": "Bypassing EDRs With EDR-Preloading",
+  "slug": "bypassing-edrs-with-edr-preload",
+  "desc": "An alternative technique to bypass user mode EDR hooks by running malicious code before the EDR's DLL is loaded, neutralizing the EDR module and allowing unrestricted function calls.",
+  "tags": [
+    "Cybersecurity",
+    "Malware",
+    "EDR Bypass",
+    "EDR-Preloading"
+  ],
+  "urls": [
+    "https://malwaretech.com/2024/02/bypassing-edrs-with-edr-preload.html",
+    "https://malwaretech.com/2023/12/an-introduction-to-bypassing-user-mode-edr-hooks.html"
+  ]
+}

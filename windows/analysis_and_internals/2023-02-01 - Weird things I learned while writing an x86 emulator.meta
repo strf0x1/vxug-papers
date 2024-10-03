@@ -1,0 +1,16 @@
+{
+  "title": "Weird things learned while writing an x86 emulator",
+  "slug": "x86-emulator-trivia",
+  "desc": "A post discussing unusual findings and trivia discovered while developing an x86 and amd64 emulator for Time Travel Debugging.",
+  "tags": [
+    "Emulation",
+    "x86",
+    "amd64",
+    "Time Travel Debugging",
+    "Assembly language",
+    "C++"
+  ],
+  "urls": [
+    "https://timdbg.com/posts/useless-x86-trivia"
+  ]
+}

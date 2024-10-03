@@ -1,0 +1,12 @@
+{
+  "title": "Windows Error Function and Shellcode for Alfarom256 Calc",
+  "slug": "windows-error-function-alfarom256-calc-shellcode",
+  "desc": "This document defines an error handling function for Windows using the GetLastError() API and provides a shellcode for Alfarom256 calc.",
+  "tags": [
+    "Windows Programming",
+    "Error Handling",
+    "Shellcode",
+    "Alfarom256 Calc"
+  ],
+  "urls": []
+}

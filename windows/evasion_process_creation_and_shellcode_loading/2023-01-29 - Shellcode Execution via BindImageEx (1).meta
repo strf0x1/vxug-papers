@@ -1,0 +1,12 @@
+{
+  "title": "BindImageEx Shellcode Executor",
+  "slug": "bindimagex_shellcode_executor",
+  "desc": "A console application written in C++ using Visual Studio 2022 to read and execute shellcode from a file.",
+  "tags": [
+    "shellcode",
+    "executable",
+    "windows",
+    "BindImageEx"
+  ],
+  "urls": []
+}

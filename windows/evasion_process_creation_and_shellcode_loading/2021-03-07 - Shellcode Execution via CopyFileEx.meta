@@ -1,0 +1,11 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256_calc_shellcode",
+  "desc": "A C++ program containing a Windows shellcode for calculating alphanumeric strings.",
+  "tags": [
+    "windows_shellcode",
+    "calculator",
+    "alphanumeric_strings"
+  ],
+  "urls": []
+}

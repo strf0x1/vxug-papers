@@ -1,0 +1,19 @@
+{
+  "title": "WinHttpSetStatus Shellcode Execution Example",
+  "os": "Windows",
+  "language": "C++",
+  "document_source": "source code example",
+  "overview": "This C++ source code demonstrates shellcode execution using WinHttpSetStatusCallback, a technique for process evasion and persistence. It reads the shellcode from a provided file, allocates memory, copies the shellcode into it, sets up a WinHTTP session with callback to execute the shellcode upon connection.",
+  "tags": [
+    "Process Evasion",
+    "Shellcode Loading",
+    "WinHttpSetStatusCallback",
+    "Memory Allocation"
+  ],
+  "bullet_points": [
+    "Reads and loads shellcode from a specified file",
+    "Allocs memory for the shellcode using VirtualAlloc",
+    "Copies shellcode into allocated memory",
+    "Sets up WinHTTP session with callback to execute shellcode upon connection"
+  ]
+}

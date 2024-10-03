@@ -1,0 +1,11 @@
+{
+  "title": "Efficient Inline-Hook: Overloading Executable Modules",
+  "slug": "efficient-inline-hook-overloading",
+  "desc": "Explores an optimized inline-hook method by dedicating more memory space for universal and efficient hooking. Discusses traditional inline-hook principles and limitations.",
+  "tags": [
+    "Inline Hook",
+    "Efficiency Optimization",
+    "Executable Modules"
+  ],
+  "urls": []
+}

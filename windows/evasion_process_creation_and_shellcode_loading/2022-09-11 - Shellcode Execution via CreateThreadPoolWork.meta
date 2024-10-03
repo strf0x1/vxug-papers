@@ -1,0 +1,14 @@
+{
+  "title": "C++ Shellcode Loader with ThreadPool",
+  "slug": "cpp-shellcode-loader-threadpool",
+  "desc": "A C++ application that reads a shellcode file and executes it using Windows' thread pool APIs.",
+  "tags": [
+    "shellcode",
+    "threadpool",
+    "windows-api",
+    "c++"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/src/CreateThreadpoolWork.cpp"
+  ]
+}

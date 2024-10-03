@@ -1,0 +1,14 @@
+{
+  "title": "Windows 10 Parallel Library Loading Breakdown",
+  "slug": "Win10ParallelLoading",
+  "desc": "Explores how Windows 10 improves process startup times using parallel library loading support in ntdll.dll. It details the implementation, including thread pool creation and registry key configuration.",
+  "tags": [
+    "Windows 10",
+    "Process Startup",
+    "Parallel Loading",
+    "ntdll.dll"
+  ],
+  "urls": [
+    "https://blogs.blackberry.com/en/2017/10/windows-10-parallel-loading-breakdown"
+  ]
+}

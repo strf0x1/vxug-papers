@@ -1,0 +1,14 @@
+{
+  "title": "HyperGuard Part 3 \u2013 More SKPG Extents",
+  "slug": "hyperguard-part-3-more-skpg-extents",
+  "desc": "This blog post explores various extent types used by HyperGuard to protect system areas including MSR and Control Register extents.",
+  "tags": [
+    "HyperGuard",
+    "SKPG Extents",
+    "Memory Monitoring",
+    "System Security"
+  ],
+  "urls": [
+    "https://windows-internals.com/hyperguard-part-3-more-skpg-extents/"
+  ]
+}

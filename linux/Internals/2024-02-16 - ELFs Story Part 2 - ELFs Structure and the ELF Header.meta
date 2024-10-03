@@ -1,0 +1,15 @@
+{
+  "title": "ELF's Story Part2: ELF's Structure - ELF Header",
+  "slug": "elfs-story-part2-elf-header",
+  "desc": "Explores the structure of Executable and Linkable Format (ELF) files, focusing on the ELF header. Discusses its purpose and how operating systems use it to load and run executable files.",
+  "tags": [
+    "ELF",
+    "Executable",
+    "Linkable",
+    "File Structure",
+    "Operating System"
+  ],
+  "urls": [
+    "https://aleeamini.com/elfs-story-part2-elfs-structure-elf-header/"
+  ]
+}

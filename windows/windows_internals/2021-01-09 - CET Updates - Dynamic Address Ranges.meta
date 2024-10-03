@@ -1,0 +1,14 @@
+{
+  "title": "CET Updates - Dynamic Address Ranges",
+  "slug": "cet-dynamic-address-ranges",
+  "desc": "Discusses the CET flag CetDynamicApisOutOfProcOnly and its mitigation of dynamic enforced address ranges in hardware CET.",
+  "tags": [
+    "hardware-cet",
+    "dynamic-address-ranges",
+    "CetDynamicApisOutOfProcOnly",
+    "software-mitigations"
+  ],
+  "urls": [
+    "https://windows-internals.com/cet-updates-dynamic-address-ranges"
+  ]
+}

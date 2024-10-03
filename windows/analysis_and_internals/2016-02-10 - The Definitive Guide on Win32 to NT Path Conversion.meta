@@ -1,0 +1,14 @@
+{
+  "title": "The Definitive Guide on Win32 to NT Path Conversion",
+  "slug": "Win32-to-NT-Path-Conversion",
+  "desc": "A comprehensive guide explaining how Win32 APIs process file paths on Windows NT, highlighting potential security vulnerabilities due to incorrect handling of paths.",
+  "tags": [
+    "Windows",
+    "Win32",
+    "NT Path Conversion",
+    "Security"
+  ],
+  "urls": [
+    "https://googleprojectzero.blogspot.com/2016/02/the-definitive-guide-on-win32-to-nt.html"
+  ]
+}

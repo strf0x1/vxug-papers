@@ -1,0 +1,14 @@
+{
+  "title": "Faxing Your Way to SYSTEM \u2014 Part Two",
+  "slug": "DLL_Hijack_Part_Two",
+  "desc": "Explores a theoretical 'What if?' scenario of DLL hijacking for privilege escalation and persistence in Windows internals.",
+  "tags": [
+    "Windows Internals",
+    "Privilege Escalation",
+    "DLL Hijacking",
+    "Binary Planting"
+  ],
+  "urls": [
+    "https://windows-internals.com/faxing-your-way-to-system"
+  ]
+}

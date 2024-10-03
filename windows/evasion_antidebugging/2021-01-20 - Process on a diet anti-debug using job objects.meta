@@ -1,0 +1,13 @@
+{
+  "title": "Anti-Debugging Techniques: Using Job Objects",
+  "slug": "anti-debug-job-objects",
+  "desc": "Explores using job objects as an anti-debug technique by limiting process memory usage to prevent thread creation and executable memory modification.",
+  "tags": [
+    "Anti-Debug",
+    "Job Objects",
+    "Memory Limitation"
+  ],
+  "urls": [
+    "https://secret.club/2021/01/20/diet-process.html"
+  ]
+}

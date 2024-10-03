@@ -1,0 +1,14 @@
+{
+  "title": "Understanding DISM / Servicing Stack Interaction",
+  "slug": "understand-dism-servicing-stack",
+  "desc": "A detailed explanation of DISM switches (/CheckHealth, /ScanHealth, and /RestoreHealth) for servicing Windows operating system components.",
+  "tags": [
+    "DISM",
+    "Windows Update",
+    "BSOD",
+    "Servicing Stack"
+  ],
+  "urls": [
+    "https://bsodtutorials.wordpress.com/2022/07/26/understanding-dism-servicing-stack-interaction/"
+  ]
+}

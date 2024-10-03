@@ -1,0 +1,12 @@
+{
+  "title": "Windows Shellcode for Calc.exe",
+  "slug": "windows-shellcode-calc-exe",
+  "desc": "A Windows shellcode written in C++ that spawns a calculator process (calc.exe). Includes an error handling function.",
+  "tags": [
+    "C++",
+    "Windows",
+    "Shellcode",
+    "Calculator"
+  ],
+  "urls": []
+}

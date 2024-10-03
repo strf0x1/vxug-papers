@@ -1,0 +1,14 @@
+{
+  "title": "Offensive Windows IPC Internals: Named Pipes",
+  "slug": "windows-ipc-named-pipes",
+  "desc": "An in-depth exploration of Named Pipes, a basic and simple technology for inter-process communication (IPC) on Windows.",
+  "tags": [
+    "Windows",
+    "IPC",
+    "Named Pipes",
+    "Interprocess Communication"
+  ],
+  "urls": [
+    "https://csandker.io/2021/01/10/Offensive-Windows-IPC-1-NamedPipes.html"
+  ]
+}

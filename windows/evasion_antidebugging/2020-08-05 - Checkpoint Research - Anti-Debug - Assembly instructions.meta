@@ -1,0 +1,15 @@
+{
+  "title": "Assembly Instructions for Anti-Debugging Techniques",
+  "slug": "Anti-Debug-Assembly-Instructions",
+  "desc": "This document provides techniques to detect debugger presence using INT3 instruction behavior and includes C/C++ code examples.",
+  "tags": [
+    "anti-debug",
+    "debugger detection",
+    "assembly instructions",
+    "INT3",
+    "C/C++"
+  ],
+  "urls": [
+    "https://anti-debug.checkpoint.com/techniques/assembly.html"
+  ]
+}

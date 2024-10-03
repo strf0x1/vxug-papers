@@ -1,0 +1,15 @@
+{
+  "title": "Understanding Windows Structured Exception Handling Part 4 - Custom __try/__except",
+  "slug": "windows-seh-custom-try-except",
+  "desc": "This article demonstrates creating a custom SEH Frame and pseudo __try/__except block for deeper research into Win32 Structured Exception Handling.",
+  "tags": [
+    "C++",
+    "SEHException",
+    "Win32",
+    "Structured Exception Handling",
+    "Custom SEH"
+  ],
+  "urls": [
+    "https://limbioliong.wordpress.com/2022/01/23/understanding-windows-structured-exception-handling-part-4-custom-__try/__except/"
+  ]
+}

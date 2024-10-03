@@ -1,0 +1,17 @@
+{
+  "title": "Demystifying DLL Hijacking",
+  "slug": "dll-hijacking-attacks",
+  "desc": "Exploring Dynamic Link Library attacks and understanding their detection.",
+  "tags": [
+    "DLL",
+    "Hijacking",
+    "Attacks",
+    "Detection"
+  ],
+  "urls": [
+    {
+      "url": "https://binarydefense.com/resources/blog/demystifying-dll-hijacking-understanding-the-intricate-world-of-dynamic-link-library-attacks/",
+      "title": "Demystifying DLL Hijacking"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Linux Red Team Persistence Techniques",
+  "slug": "linux-red-team-persistence-techniques",
+  "desc": "A guide outlining tools and techniques for red team persistence on Linux systems using Kali or Parrot OS, targeting a vulnerable Linux VM.",
+  "tags": [
+    "Linux",
+    "Red Team",
+    "Persistence",
+    "Penetration Testing",
+    "MITRE ATT&CK"
+  ],
+  "urls": [
+    "https://www.linode.com/docs/guides/linux-red-team-persistence-techniques/",
+    "https://www.vulnhub.com/entry/raven-1,256/"
+  ]
+}

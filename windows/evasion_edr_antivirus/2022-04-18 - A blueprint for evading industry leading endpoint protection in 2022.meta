@@ -1,0 +1,14 @@
+{
+  "title": "Blueprint for Evading Industry Leading Endpoint Protection in 2022",
+  "slug": "evade-industry-endpoint-protection-2022",
+  "desc": "A comprehensive guide on bypassing industry-leading enterprise endpoint protection solutions, intended for ethical red teamers and security professionals. The post provides an overview of techniques without delving into deep technical details.",
+  "tags": [
+    "Endpoint Protection",
+    "Red Teaming",
+    "Ethical Hacking",
+    "Security Techniques"
+  ],
+  "urls": [
+    "https://vanmieghem.io/blueprint-for-evading-edr-in-2022"
+  ]
+}

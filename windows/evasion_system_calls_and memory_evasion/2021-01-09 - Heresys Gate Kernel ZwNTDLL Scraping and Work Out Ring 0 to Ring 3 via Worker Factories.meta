@@ -1,0 +1,16 @@
+{
+  "title": "Heresy's Gate: Kernel Zw*/NTDLL Scraping",
+  "slug": "heresy-gate-kernel-zwntdll-scraping",
+  "desc": "A detailed guide on scraping kernel Zw* and NTDLL functions using worker factories for ring 0 to ring 3 transitions, also covering Meltdown KVA Shadow Page Fault Loop and dynamically cloning Zw calls.",
+  "tags": [
+    "kernel exploitation",
+    "NTDLL",
+    "Zw*",
+    "ring transition",
+    "Meltdown",
+    "worker factory"
+  ],
+  "urls": [
+    "https://zerosum0x0.blogspot.com/2020/06/heresys-gate-kernel-zwntdll-scraping.html"
+  ]
+}

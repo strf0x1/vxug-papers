@@ -1,0 +1,14 @@
+{
+  "title": "Process Injection Techniques and Detection using Volatility Framework",
+  "slug": "process-injection-detection-volatility",
+  "desc": "Master's thesis exploring process injection techniques and detection methods utilizing the Volatility Framework by Sotiria Balaoura.",
+  "tags": [
+    "Cybersecurity",
+    "Malware Analysis",
+    "Volatility Framework",
+    "Process Injection"
+  ],
+  "urls": [
+    "https://scholarworks.uni.edu/itp/197/"
+  ]
+}

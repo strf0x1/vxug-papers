@@ -1,0 +1,18 @@
+{
+  "title": "Masking Malicious Memory Artifacts \u2013 Part I: Phantom DLL Hollowing",
+  "slug": "Phantom-DLL-Hollowing",
+  "desc": "An in-depth guide detailing a technique called DLL hollowing and its variation, phantom DLL hollowing, to improve memory stealth in malware design. Intended for those familiar with Windows internals and malware design.",
+  "tags": [
+    "Malware",
+    "Memory Stealth",
+    "DLL Hollowing",
+    "Phantom DLL Hollowing",
+    "Windows Internals",
+    "Malware Design"
+  ],
+  "urls": [
+    "https://twitter.com/_ForrestOrr",
+    "https://github.com/forrest-orr/phantom-dll-hollower-poc",
+    "https://gist.githubusercontent.com/jaredcatkinson/23905d34537ce4b5b1818c3e6405c1d"
+  ]
+}

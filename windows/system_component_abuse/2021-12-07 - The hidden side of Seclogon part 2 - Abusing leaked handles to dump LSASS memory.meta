@@ -1,0 +1,15 @@
+{
+  "title": "Credential Dumping on Windows: Leveraging Seclogon Part 2",
+  "slug": "Seclogon-Part-2-Credential-Dumping-Windows",
+  "desc": "Explores the technique of credential dumping on Windows systems by abusing leaked handles to dump LSASS memory. Discusses the SSO mechanism and its security implications.",
+  "tags": [
+    "Credential Dumping",
+    "Windows Security",
+    "LSASS",
+    "Single Sign-On",
+    "Attack Techniques"
+  ],
+  "urls": [
+    "https://splintercod3.blogspot.com/p/the-hidden-side-of-seclogon-part-2.html"
+  ]
+}

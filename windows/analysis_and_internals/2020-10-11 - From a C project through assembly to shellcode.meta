@@ -1,0 +1,16 @@
+{
+  "title": "From C Project to Shellcode: Techniques and Implementation",
+  "slug": "c-to-shellcode-techniques",
+  "desc": "A comprehensive guide by hasherezade on converting a C project into shellcode, exploring position-independent code, calling APIs without import tables, and practical examples.",
+  "tags": [
+    "Shellcode",
+    "Assembly",
+    "C programming",
+    "Malware development",
+    "Exploit development"
+  ],
+  "urls": [
+    "https://twitter.com/hasherezade",
+    "https://github.com/vxunderground"
+  ]
+}

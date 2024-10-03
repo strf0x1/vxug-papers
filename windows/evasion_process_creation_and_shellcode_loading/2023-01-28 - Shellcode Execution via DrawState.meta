@@ -1,0 +1,12 @@
+{
+  "title": "Shellcode Execution via DrawState",
+  "slug": "shellcode-execution-drawstate",
+  "desc": "A C++ program that reads and executes shellcode using Windows API's DrawState function.",
+  "tags": [
+    "reverse engineering",
+    "shellcode",
+    "windows api",
+    "C++"
+  ],
+  "urls": []
+}

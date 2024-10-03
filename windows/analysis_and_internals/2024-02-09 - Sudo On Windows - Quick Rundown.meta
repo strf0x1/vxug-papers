@@ -1,0 +1,15 @@
+{
+  "title": "Sudo on Windows: A Quick Rundown",
+  "slug": "sudo-on-windows-quick-rundown",
+  "desc": "A brief exploration of the new sudo command in the Windows Insider Preview build 26052, its functionality and limitations.",
+  "tags": [
+    "Windows",
+    "Sudo Command",
+    "Security",
+    "PowerShell"
+  ],
+  "urls": [
+    "https://tiraniddo.dev/2024/02/sudo-on-windows-quick-rundown.html",
+    "https://devblogs.microsoft.com/commandline/introducing-sudo-for-windows/"
+  ]
+}

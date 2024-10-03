@@ -1,0 +1,14 @@
+{
+  "title": "C++ Application for Reading and Executing Shellcode",
+  "slug": "GetSaveFileName.exe",
+  "desc": "A console application written in C++ using Visual Studio 2022 that reads a shellcode file and allocates executable memory to store the shellcode.",
+  "tags": [
+    "Shellcode",
+    "C++",
+    "Windows",
+    "Hacking"
+  ],
+  "urls": [
+    "https://docs.microsoft.com/en-us/windows/win32/dlgbox/open-and-save-as-dialog-boxes#explorer-style-hook-procedures"
+  ]
+}

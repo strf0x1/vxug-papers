@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom-calc-shellcode",
+  "desc": "A C++ program demonstrating shellcode for calc.exe using Windows API calls. Includes an error handling function.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "Windows API",
+    "Calc.exe"
+  ],
+  "urls": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Running PEs Inline Without a Console",
+  "slug": "running-pes-inline-without-console",
+  "desc": "Explores how to execute Portable Executables (PEs) inline without creating a console process, inspired by Octoberfest7's Inline-Execute-PE. Includes a brief introduction to how consoles work in Windows.",
+  "tags": [
+    "Malware",
+    "Reverse Engineering",
+    "Windows Internals",
+    "Portable Executable"
+  ],
+  "urls": [
+    "https://www.coresecurity.com/core-labs/articles/running-pes-inline-without-console",
+    "https://github.com/Octoberfest7/Inline-Execute-PE"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "AMSI Bypass Techniques and Exploits",
+  "slug": "amsi-bypass-techniques-exploits",
+  "desc": "Explores AMSI (Antimalware Scan Interface) in depth, its workings, and various bypass methods. Ideal for red team engagements.",
+  "tags": [
+    "AMSI",
+    "Bypass Techniques",
+    "Red Team Engagements",
+    "PowerShell",
+    "Assembly",
+    "Frida"
+  ],
+  "urls": [
+    "https://payatu.com/blog/arun.nair/amsi-bypass"
+  ]
+}

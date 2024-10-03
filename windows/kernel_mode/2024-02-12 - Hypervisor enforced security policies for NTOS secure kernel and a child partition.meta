@@ -1,0 +1,18 @@
+{
+  "title": "Hypervisor Enforced Security Policies for NTOS, Secure Kernel and Child Partition",
+  "slug": "hyper-v-security-policies",
+  "desc": "A detailed comparison of security policies implemented by Windows hypervisor for root partition VTL0 (NTOS), VTL1 (secure kernel), and child partitions on an Intel platform.",
+  "tags": [
+    "Hyper-V",
+    "Windows Hypervisor",
+    "Security Policies",
+    "VTL",
+    "NTOS",
+    "Secure Kernel",
+    "Child Partition",
+    "Intel Platform"
+  ],
+  "urls": [
+    "https://tandasat.github.io/blog/2024/02/12/hyper-v-configs.html"
+  ]
+}

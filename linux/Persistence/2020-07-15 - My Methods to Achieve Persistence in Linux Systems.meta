@@ -1,0 +1,15 @@
+{
+  "title": "Advanced Persistent Threat Methods for Linux Systems",
+  "slug": "apt-persistence-linux-methods",
+  "desc": "Explore advanced persistent threat techniques to achieve persistence on Linux systems. Includes methods and video demonstrations.",
+  "tags": [
+    "Advanced Persistent Threats",
+    "Linux Security",
+    "Offensive Security",
+    "Persistence Techniques"
+  ],
+  "urls": [
+    "https://flaviu.io/advanced-persistent-threat",
+    "https://www.youtube.com/channel/UCvILbl6MnRv8FdTBiFPXaRw"
+  ]
+}

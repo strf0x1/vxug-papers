@@ -1,0 +1,14 @@
+{
+  "title": "Improved Kernel Data Discovery via Lookaside Lists",
+  "slug": "kernel-data-discovery-lookaside-lists",
+  "desc": "Explores alternative methods to access internal data structures in drivers without relying on exported functions or fixed RVAs.",
+  "tags": [
+    "Windows Internals",
+    "Kernel Forensics",
+    "Lookaside Lists",
+    "Driver Analysis"
+  ],
+  "urls": [
+    "https://windows-internals.com/lookaside-list-forensics"
+  ]
+}

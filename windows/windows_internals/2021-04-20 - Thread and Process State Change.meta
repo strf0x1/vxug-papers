@@ -1,0 +1,14 @@
+{
+  "title": "Thread and Process State Change",
+  "slug": "windows-thread-process-state-change",
+  "desc": "Explores a newly introduced feature in Windows Insider builds that changes thread and process state management, which could be used by attackers to evade EDR hooks.",
+  "tags": [
+    "Windows Internals",
+    "EDR Hooks",
+    "Thread Suspension",
+    "Process Termination"
+  ],
+  "urls": [
+    "https://windows-internals.com/thread-and-process-state-change/"
+  ]
+}

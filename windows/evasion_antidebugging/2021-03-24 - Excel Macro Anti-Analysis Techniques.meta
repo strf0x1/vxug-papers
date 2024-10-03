@@ -1,0 +1,15 @@
+{
+  "title": "Anti-Analysis Techniques in Excel 4.0 Macros",
+  "slug": "Excel4_Macro_AntiAnalysis_Techniques",
+  "desc": "A deep dive into anti-analysis techniques used in an Excel document with version 4.0 macros, including a new obfuscation style using integers and tricks to evade virtual machine/analysis checks.",
+  "tags": [
+    "Excel Macros",
+    "Anti-Analysis Techniques",
+    "Obfuscation",
+    "Reverse Engineering"
+  ],
+  "urls": [
+    "https://goggleheadedhacker.com/blog/post/23",
+    "https://www.goggleheadedhacker.com/blog/post/21"
+  ]
+}

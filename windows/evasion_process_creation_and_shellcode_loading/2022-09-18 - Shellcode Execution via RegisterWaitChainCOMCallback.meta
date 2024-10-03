@@ -1,0 +1,12 @@
+{
+  "title": "FlavorTown Shellcode Loader",
+  "slug": "flavortown-shellcode-loader",
+  "desc": "A Windows executable written in C++ using Visual Studio 2022 that loads and executes shellcode from a binary file.",
+  "tags": [
+    "Shellcode",
+    "Windows Exploit",
+    "C++",
+    "Visual Studio"
+  ],
+  "urls": []
+}

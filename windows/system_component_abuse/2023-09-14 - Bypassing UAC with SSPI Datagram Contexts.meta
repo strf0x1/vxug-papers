@@ -1,0 +1,14 @@
+{
+  "title": "Bypassing UAC with SSPI Datagram Contexts",
+  "slug": "uac-bypass-sspi-datagram-contexts",
+  "desc": "Discovering a new User Account Control (UAC) bypass technique using SSPI datagram contexts, inspired by revisiting an old project.",
+  "tags": [
+    "UAC Bypass",
+    "SSPI",
+    "Security Research",
+    "Exploitation"
+  ],
+  "urls": [
+    "https://splintercod3.blogspot.com/p/bypassing-uac-with-sspi-datagram.html"
+  ]
+}

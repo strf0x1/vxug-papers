@@ -1,0 +1,14 @@
+{
+  "title": "DisallowUserTerminate Flag in Windows 10 Processes",
+  "slug": "disallowuserterminate-flag-win10",
+  "desc": "Explores Microsoft's latest protection for processes: DisallowUserTerminate flag introduced in Windows 10 build 20161, preventing user-mode termination of marked processes.",
+  "tags": [
+    "Windows Internals",
+    "Windows 10",
+    "Process Management",
+    "Security"
+  ],
+  "urls": [
+    "https://windows-internals.com/dut-processes-in-windows-10"
+  ]
+}

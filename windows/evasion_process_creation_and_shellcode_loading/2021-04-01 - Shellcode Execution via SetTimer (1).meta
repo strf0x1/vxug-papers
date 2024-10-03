@@ -1,0 +1,13 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "This document contains assembly code for a calculator shellcode that exploits Windows systems. It uses a return-oriented programming (ROP) chain to execute calculator functionality.",
+  "tags": [
+    "Assembly",
+    "Shellcode",
+    "Exploit",
+    "Windows",
+    "ROP"
+  ],
+  "urls": []
+}

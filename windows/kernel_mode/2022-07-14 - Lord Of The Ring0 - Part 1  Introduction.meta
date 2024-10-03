@@ -1,0 +1,16 @@
+{
+  "title": "Lord Of The Ring0 - Part 1: Introduction",
+  "slug": "lord-of-the-ring0-p1-intro",
+  "desc": "An introduction to a blog series documenting the development of Nidhogg project, focusing on WDM kernel drivers in VS2019 with tips for stability and testing in virtual machines.",
+  "tags": [
+    "kernel mode driver",
+    "WDM",
+    "VS2019",
+    "stable kernel driver",
+    "Nidhogg project"
+  ],
+  "urls": [
+    "https://idov31.github.io/2022/07/14/lord-of-the-ring0-p1.html",
+    "https://docs.microsoft.com/en-us/windows-hardware/drivers/download-the-wdk"
+  ]
+}

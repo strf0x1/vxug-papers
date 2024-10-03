@@ -1,0 +1,13 @@
+{
+  "title": "SymRegisterCallback.exe: Shellcode Loader and Symbol Callback Register",
+  "slug": "symregistercallback-exe-shellcode-loader",
+  "desc": "A C++ console application that reads a shellcode file, allocates memory for it, and registers symbol callback using the Windows SDK's dbghelp library.",
+  "tags": [
+    "C++",
+    "Windows SDK",
+    "Shellcode",
+    "DbgHelp",
+    "SymRegisterCallback"
+  ],
+  "urls": []
+}

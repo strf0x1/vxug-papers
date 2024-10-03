@@ -1,0 +1,14 @@
+{
+  "title": "Pure In-Memory Code Injection in Linux Userland",
+  "slug": "linux-in-memory-code-injection",
+  "desc": "Explores techniques for pure in-memory code injection in Linux userland without touching disk, with references to related works.",
+  "tags": [
+    "Linux",
+    "In-Memory Code Injection",
+    "Post-Exploitation",
+    "Security Research"
+  ],
+  "urls": [
+    "https://blog.sektor7.net/res/2018/"
+  ]
+}

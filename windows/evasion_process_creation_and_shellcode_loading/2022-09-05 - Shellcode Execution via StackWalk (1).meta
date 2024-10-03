@@ -1,0 +1,14 @@
+{
+  "title": "StackWalk: A Shellcode Loading and Execution Tool",
+  "slug": "stackwalk-simple-shellcode-execution",
+  "desc": "This C++ application reads a shellcode file and allocates executable memory to load and execute its contents using the Windows API's StackWalk function.",
+  "tags": [
+    "Shellcoding",
+    "Windows API",
+    "C++",
+    "Reverse Engineering"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/StackWalk.cpp"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Beyond Good Ol' Run Key: Windows Error Reporting",
+  "slug": "windows-error-reporting-debugger-persistence",
+  "desc": "This post explores an exotic method of persistence using the Windows Error Reporting framework's debugger feature.",
+  "tags": [
+    "Anti-Forensics",
+    "Autostart (Persistence)",
+    "Windows Error Reporting"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2019/09/20/beyond-good-ol-run-key-part-116/"
+  ]
+}

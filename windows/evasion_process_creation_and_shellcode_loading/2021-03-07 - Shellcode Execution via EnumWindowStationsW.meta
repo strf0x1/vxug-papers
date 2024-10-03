@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode for Windows",
+  "slug": "alfarom256_calc_shellcode",
+  "desc": "This document contains a C++ code snippet that defines an array of bytes (`op`) representing the alfarom256 calc shellcode for Windows.",
+  "tags": [
+    "windows",
+    "shellcode",
+    "assembly",
+    "c++"
+  ],
+  "urls": []
+}

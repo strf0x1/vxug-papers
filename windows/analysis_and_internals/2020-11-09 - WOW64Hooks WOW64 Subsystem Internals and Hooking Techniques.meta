@@ -1,0 +1,14 @@
+{
+  "title": "WOW64 Internals & Hooking Techniques",
+  "slug": "wow64-hooks-internals-hooking-techniques",
+  "desc": "Exploration of Microsoft's WOW64 subsystem internals and assessment of two hooking techniques for Windows API calls.",
+  "tags": [
+    "Windows",
+    "WOW64",
+    "Hooking Techniques",
+    "Malware Analysis"
+  ],
+  "urls": [
+    "https://www.mandiant.com/resources/wow64-subsystem-internals-and-hooking-techniques"
+  ]
+}

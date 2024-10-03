@@ -1,0 +1,15 @@
+{
+  "title": "Running ELF Executables from Memory",
+  "slug": "running-elf-from-memory",
+  "desc": "Exploring techniques to execute ELF binary files directly from memory using memfd_create syscall. Includes an overview and code example using FASM assembly.",
+  "tags": [
+    "ELF executables",
+    "Memory execution",
+    "memfd_create",
+    "Assembly (FASM)",
+    "Code injection"
+  ],
+  "urls": [
+    "https://guitmz.com/running-elf-from-memory"
+  ]
+}

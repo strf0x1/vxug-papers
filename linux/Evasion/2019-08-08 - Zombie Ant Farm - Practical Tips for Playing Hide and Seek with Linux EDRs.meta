@@ -1,0 +1,13 @@
+{
+  "title": "Zombie Ant Farm: Practical Tips for Playing Hide and Seek with Linux EDRs",
+  "slug": "Linux EDRs Hide-and-Seek Tactics",
+  "desc": "Explores various Linux Endpoint Detection and Response (EDR) solutions, their functionalities, and practical tips on evading or manipulating them.",
+  "tags": [
+    "Linux Offense",
+    "Endpoint Detection & Response",
+    "Hacking Techniques"
+  ],
+  "urls": [
+    "https://github.com/dsnezhkov"
+  ]
+}

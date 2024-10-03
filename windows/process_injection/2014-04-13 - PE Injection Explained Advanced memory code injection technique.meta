@@ -1,0 +1,14 @@
+{
+  "title": "PE Injection Explained",
+  "slug": "pe-injection-explained",
+  "desc": "An advanced memory code injection technique for injecting an entire process module into another process's memory.",
+  "tags": [
+    "Memory Code Injection",
+    "PE Injection",
+    "Windows System Programming",
+    "Portable Executable"
+  ],
+  "urls": [
+    "http://creativecommons.org/licenses/by-nc-nd/3.0/"
+  ]
+}

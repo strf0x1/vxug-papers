@@ -1,0 +1,14 @@
+{
+  "title": "FCICreate Shellcode Executor",
+  "slug": "fci-create-shellcode-executor",
+  "desc": "A Windows console application that reads a shellcode file and executes it using FCI (File Cabinet Interface) library.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "FCI",
+    "C++"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/FCICreate.cpp"
+  ]
+}

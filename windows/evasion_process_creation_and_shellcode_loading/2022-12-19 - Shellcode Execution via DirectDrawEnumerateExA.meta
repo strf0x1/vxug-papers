@@ -1,0 +1,12 @@
+{
+  "title": "DirectDraw Shellcode Loader",
+  "slug": "directdraw-shellcode-loader",
+  "desc": "A C++ console application that loads and executes shellcode using DirectDrawEnumerateExA. Accepts a shellcode file as an argument.",
+  "tags": [
+    "Shellcoding",
+    "DirectDraw",
+    "C++",
+    "Windows Exploitation"
+  ],
+  "urls": []
+}

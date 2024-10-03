@@ -1,0 +1,14 @@
+{
+  "title": "Bypass EDR Memory Protection: An Introduction to Hooking",
+  "slug": "bypass-edr-memory-protection-hooking-intro",
+  "desc": "A penetration tester's experience bypassing an unnamed Endpoint Detection and Response (EDR) product to access lsass memory and dump clear-text credentials using Mimikatz. Explores the wrong path of ObRegisterCallbacks and introduces hooking as an alternative.",
+  "tags": [
+    "Penetration Testing",
+    "Endpoint Detection and Response",
+    "Hooking",
+    "Mimikatz"
+  ],
+  "urls": [
+    "https://medium.com/@fsx30/bypass-edrs-memory-protection-introduction-to-hooking-2efb21acffd6"
+  ]
+}

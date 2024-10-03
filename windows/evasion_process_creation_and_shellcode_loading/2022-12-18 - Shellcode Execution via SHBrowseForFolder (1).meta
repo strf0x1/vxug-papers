@@ -1,0 +1,12 @@
+{
+  "title": "SHBrowseForFolder Shellcode Injector",
+  "slug": "shbrowse_shellcode_injector",
+  "desc": "A console application that loads a shellcode file and uses it to inject code into SHBrowseForFolder.",
+  "tags": [
+    "shellcoding",
+    "file_loading",
+    "memory_allocation",
+    "windows_api"
+  ],
+  "urls": []
+}

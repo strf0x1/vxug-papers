@@ -1,0 +1,14 @@
+{
+  "title": "Vulnerabilities in MSI Files",
+  "slug": "evil-msi-files-vulnerabilities",
+  "desc": "A detailed exploration of security flaws in MSI files by Michael Zhmailo from CICADA8 team.",
+  "tags": [
+    "MSI Files",
+    "Security Vulnerabilities",
+    "Privilege Escalation",
+    "Penetration Testing"
+  ],
+  "urls": [
+    "https://cicada-8.medium.com/evil-msi-a-long-story-about-vulnerabilities-in-msi-files-1a2a1acaf01c"
+  ]
+}

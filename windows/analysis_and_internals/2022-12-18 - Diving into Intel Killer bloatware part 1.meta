@@ -1,0 +1,14 @@
+{
+  "title": "Vulnerability in Intel Killer bloatware",
+  "slug": "intel-killer-vulnerability",
+  "desc": "Killer Control Center versions before 2.4.3337.0 are susceptible to person-in-the-middle attacks, allowing remote attackers to manipulate service states and network access for processes regardless of their privileges.",
+  "tags": [
+    "Cybersecurity",
+    "Vulnerability",
+    "Intel Killer",
+    "Bloatware"
+  ],
+  "urls": [
+    "zwclose.github.io/2022/12/18/killer1.html"
+  ]
+}

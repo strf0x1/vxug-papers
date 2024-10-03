@@ -1,0 +1,15 @@
+{
+  "title": "Part 1: FS Minifilter Hooking",
+  "slug": "fs-minifilter-hooking-part-1",
+  "desc": "Explains how Filter Manager works and hooks minifilter/miniport objects without triggering PatchGuard.",
+  "tags": [
+    "Minifilter",
+    "Filter Manager",
+    "Kernel Driver",
+    "Hooking",
+    "PatchGuard"
+  ],
+  "urls": [
+    "https://aviadshamriz.medium.com/part-1-fs-minifilter-hooking-7e743b042a9d"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Process Injection Techniques",
+  "slug": "DLL_Injection_Techniques",
+  "desc": "An overview of DLL injection techniques including Process Hollowing and Process Doppelg\u00e4nging.",
+  "tags": [
+    "Cybersecurity",
+    "Malware Analysis",
+    "DLL Injection",
+    "Process Injection"
+  ],
+  "urls": [
+    "https://medium.com/@ozan.unal/process-injection-techniques-bc6396929740"
+  ]
+}

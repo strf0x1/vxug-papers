@@ -1,0 +1,14 @@
+{
+  "title": "LSASS Memory Dumps: Stealthier than Ever Before",
+  "slug": "lsass-memory-dump-stealthier-than-ever-before",
+  "desc": "Learn about LSASS memory dump files, their use by attackers for lateral movement and privilege escalation, and the stealthy method of sending them over networks compared to running Mimikatz.",
+  "tags": [
+    "Cybersecurity",
+    "LSASS",
+    "Memory Dump Files",
+    "Attack Techniques"
+  ],
+  "urls": [
+    "https://www.deepinstinct.com/blog/lsass-memory-dumps-are-stealthier-than-ever-before"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "title": "Write Better Linux Rootkits",
+  "slug": "linux-rootkit-guide",
+  "desc": "A guide on improving Linux rootkit creation by exploiting SysVinit services and exploring user space abuses.",
+  "tags": [
+    "Linux Security",
+    "Rootkits",
+    "SysVinit",
+    "User Space Abuses",
+    "Debian",
+    "Ubuntu"
+  ],
+  "urls": [
+    "https://jm33.me/write-better-linux-rootkits.html",
+    "https://www.freebuf.com/column/188100.html"
+  ]
+}

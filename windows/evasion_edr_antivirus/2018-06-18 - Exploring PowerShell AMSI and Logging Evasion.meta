@@ -1,0 +1,14 @@
+{
+  "title": "Exploring PowerShell AMSI and Logging Evasion",
+  "slug": "powershell-amsi-logging-evasion",
+  "desc": "Detailed exploration of Antimalware Scripting Interface (AMSI) bypass techniques in PowerShell, including how the magic command works and alternative methods. Also covers script block logging evasion.",
+  "tags": [
+    "PowerShell",
+    "AMSI",
+    "Logging Evasion",
+    "Security"
+  ],
+  "urls": [
+    "https://mdsec.co.uk/2018/06/exploring-powershell-amsi-and-logging-evasion"
+  ]
+}

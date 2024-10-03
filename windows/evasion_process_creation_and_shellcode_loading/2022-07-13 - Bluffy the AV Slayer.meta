@@ -1,0 +1,18 @@
+{
+  "title": "Bluffy: A Tool for Hiding Shellcode in Realistic Datatypes",
+  "slug": "bluffy-avoiding-detection",
+  "desc": "Explores Michael Ranaldo's idea of hiding shellcode within realistic datatypes like SVG, CSS, UUID, and CSV using the tool Bluffy to evade detection by Windows Defender.",
+  "tags": [
+    "Reverse Engineering",
+    "Malware Analysis",
+    "Shellcode",
+    "Windows APIs",
+    "Security Tools"
+  ],
+  "urls": [
+    "https://twitter.com/michaeljranaldo",
+    "https://docs.microsoft.com/en-us/windows/win32/apiindex/windows-api-list",
+    "https://github.com/boku7/Ninja_UUID_Runner",
+    "https://github.com/ad-995/bluffy"
+  ]
+}

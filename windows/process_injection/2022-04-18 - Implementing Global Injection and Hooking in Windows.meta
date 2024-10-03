@@ -1,0 +1,18 @@
+{
+  "title": "Implementing Global Injection and Hooking in Windows",
+  "slug": "windhawk-mod-manager-injection-hooking",
+  "desc": "Discusses the technical aspects of implementing Windhawk's mod manager, focusing on global injection and hooking techniques for loading mods into third-party processes.",
+  "tags": [
+    "Windhawk",
+    "Global Injection",
+    "Hooking",
+    "Windows Modding",
+    "C++"
+  ],
+  "urls": [
+    "https://m417z.com/Implementing-Global-Injection-and-Hooking-in-Windows/",
+    "https://windhawk.net/",
+    "https://ramensoftware.com/windhawk",
+    "https://github.com/m417z/global-inject-demo"
+  ]
+}

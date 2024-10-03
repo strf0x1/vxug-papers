@@ -1,0 +1,14 @@
+{
+  "title": "Beyond Good Ol' Run Key: A Convoluted Persistence Mechanism",
+  "slug": "beyond-good-ol-run-key-part-121",
+  "desc": "Discovering an intricate method for persistence mechanism using SPReview.exe's /WuExecuted or /WusaExecuted argument, creating a one-time run for a chosen file on user login.",
+  "tags": [
+    "Anti-Forensics",
+    "Autostart (Persistence)",
+    "SPReview.exe",
+    "Persistence Mechanism"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2019/10/24/beyond-good-ol-run-key-part-121/"
+  ]
+}

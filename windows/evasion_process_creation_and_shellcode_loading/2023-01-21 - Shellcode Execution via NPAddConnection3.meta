@@ -1,0 +1,14 @@
+{
+  "title": "NPAddConnection3 Shellcode Executor",
+  "slug": "npaddconnection3_shellcode_executor",
+  "desc": "A Windows executable that reads a shellcode file and attempts to execute it using NPAddConnection3 function.",
+  "tags": [
+    "shellcode",
+    "executable",
+    "windows",
+    "NPAddConnection3",
+    "Davclnt",
+    "Netapi32"
+  ],
+  "urls": []
+}

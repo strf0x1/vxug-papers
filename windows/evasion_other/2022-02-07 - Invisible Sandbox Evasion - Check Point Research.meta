@@ -1,0 +1,14 @@
+{
+  "title": "Invisible Sandbox Evasion Techniques",
+  "slug": "invisible-sandbox-evasion",
+  "desc": "Explores undetectable sandbox evasion techniques used by malware to bypass Cuckoo and CAPE sandboxes.",
+  "tags": [
+    "Malware",
+    "Sandbox Evasion",
+    "Cuckoo Sandbox",
+    "CAPE Sandbox"
+  ],
+  "urls": [
+    "https://research.checkpoint.com/2022/invisible-cuckoo-cape-sandbox-evasion/"
+  ]
+}

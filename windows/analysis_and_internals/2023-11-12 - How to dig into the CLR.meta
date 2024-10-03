@@ -1,0 +1,15 @@
+{
+  "title": "How to Dig Into the CLR",
+  "slug": "clr-development-tips",
+  "desc": "A guide on navigating and debugging the Common Language Runtime (CLR) code for .NET developers, focusing on .NET 8.",
+  "tags": [
+    "CLR",
+    "C#",
+    ".NET",
+    "Debugging",
+    "Development Tips"
+  ],
+  "urls": [
+    "https://chnasarre.medium.com/how-to-dig-into-the-clr-bd67d884f8da"
+  ]
+}

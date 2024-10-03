@@ -1,0 +1,15 @@
+{
+  "title": "Maintaining Access to Windows Systems via CLR Hook",
+  "slug": "clr-persistence-techniques",
+  "desc": "Explains how to execute arbitrary code and maintain reliable access to Microsoft Windows systems using Common Language Runtime application domain manager during security assessments.",
+  "tags": [
+    "Security Assessment",
+    "Persistence Techniques",
+    "CLR Hook",
+    "Windows Exploitation"
+  ],
+  "urls": [
+    "https://www.contextis.com/blog/category/tools",
+    "https://www.contextis.com/blog/category/security-assessment"
+  ]
+}

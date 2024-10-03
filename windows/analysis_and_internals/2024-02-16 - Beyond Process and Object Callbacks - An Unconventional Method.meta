@@ -1,0 +1,15 @@
+{
+  "title": "Beyond Process And Object Callbacks: An Unconventional Method",
+  "slug": "beyond-callbacks-method",
+  "desc": "A creative approach to performing functions similar to Windows Object Callbacks through an alternative method.",
+  "tags": [
+    "Windows",
+    "Object Callbacks",
+    "Anti-Malware",
+    "Anti-Cheat"
+  ],
+  "urls": [
+    "https://revers.engineering/",
+    "https://learn.microsoft.com/en-us/windows-hardware/drivers/kernel/callback-objects"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Shellcoding in Linux",
+  "slug": "shellcoding-in-linux",
+  "desc": "An introduction to shellcode: machine code that spawns a shell when executed, injected into vulnerable applications via security holes like buffer overflows.",
+  "tags": [
+    "Linux",
+    "Security",
+    "Shellcode",
+    "Exploitation",
+    "Buffer Overflow"
+  ],
+  "urls": [
+    "http://www.keralacyberforce.in"
+  ]
+}

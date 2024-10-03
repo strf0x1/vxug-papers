@@ -1,0 +1,14 @@
+{
+  "title": "An End to KASLR Bypasses?",
+  "slug": "kaslr-bypass-mitigation",
+  "desc": "Microsoft introduces new ETW event targeting specific system calls used by exploits; part of their strategy to make bug exploitation more challenging.",
+  "tags": [
+    "Windows Internals",
+    "KASLR",
+    "Exploit Mitigation",
+    "ETW"
+  ],
+  "urls": [
+    "https://windows-internals.com/an-end-to-kaslr-bypasses"
+  ]
+}

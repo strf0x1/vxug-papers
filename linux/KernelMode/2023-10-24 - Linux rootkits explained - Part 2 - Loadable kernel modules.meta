@@ -1,0 +1,17 @@
+{
+  "title": "Linux Rootkits Explained \u2013 Part 2: Loadable Kernel Modules",
+  "slug": "linux-rootkits-explained-part-2-lkm",
+  "desc": "This article explores Linux kernel-space rootkit using Loadable Kernel Modules (LKM), which has been used by threat actors like TeamTNT to hide cryptomining processes.",
+  "tags": [
+    "Linux",
+    "Rootkits",
+    "Loadable Kernel Modules",
+    "Cybersecurity",
+    "Threat Actors"
+  ],
+  "urls": [
+    "https://www.wiz.io/blog/linux-rootkits-explained-part-2-loadable-kernel-modules",
+    "https://attack.mitre.org/techniques/T1547/006/",
+    "https://github.com/Vector35/Diamorphine"
+  ]
+}

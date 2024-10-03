@@ -1,0 +1,15 @@
+{
+  "title": "Offline SAM Editing Techniques",
+  "slug": "offline-sam-editing",
+  "desc": "Explores the manipulation of the Security Account Manager (SAM) database offline and how it evolved from reverse engineering approaches to utilizing dedicated DLL methods introduced in Windows 10.",
+  "tags": [
+    "SAM Database",
+    "Offline Editing",
+    "Windows 10",
+    "Security",
+    "DLL Methods"
+  ],
+  "urls": [
+    "https://x.com/0gtweet/article/1824019000528891927"
+  ]
+}

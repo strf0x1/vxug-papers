@@ -1,0 +1,16 @@
+{
+  "title": "A Fresh Outlook on Mail Based Persistence",
+  "slug": "mail-based-persistence-outlook-vbscript",
+  "desc": "Explores a lesser-known persistence technique for Outlook using VBScript, not widely documented and may evade blue team detection.",
+  "tags": [
+    "Persistence",
+    "Outlook",
+    "VBScript",
+    "Mail-based",
+    "Red Team",
+    "Blue Team"
+  ],
+  "urls": [
+    "https://www.mdsec.co.uk/2020/11/a-fresh-outlook-on-mail-based-persistence/"
+  ]
+}

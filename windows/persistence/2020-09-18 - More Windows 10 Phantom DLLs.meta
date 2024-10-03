@@ -1,0 +1,14 @@
+{
+  "title": "Beyond Good Ol' Run Key: Phantom DLLs on Win10",
+  "slug": "beyond-good-ol-run-key-part-128-phantom-dlls-win10",
+  "desc": "An analysis of phantom DLLs on Windows 10, their loading processes, and potential security implications.",
+  "tags": [
+    "Anti-Forensics",
+    "Autostart (Persistence)",
+    "Windows 10",
+    "Phantom DLLs"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2020/09/18/beyond-good-ol-run-key-part-128/"
+  ]
+}

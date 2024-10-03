@@ -1,0 +1,13 @@
+{
+  "title": "Abusing Windows\u2019 Implementation of Fork() for Stealthy Memory Operations",
+  "slug": "abuse-fork-for-memory-operations",
+  "desc": "Explores a technique to access memory information without proper permissions using Windows' implementation of fork(). The author also addresses recent tweets about the method.",
+  "tags": [
+    "Windows Security",
+    "Memory Access",
+    "Fork() Exploit"
+  ],
+  "urls": [
+    "https://billdemirkapi.me/abusing-windows-implementation-of-fork-for-stealthy-memory-operations/"
+  ]
+}

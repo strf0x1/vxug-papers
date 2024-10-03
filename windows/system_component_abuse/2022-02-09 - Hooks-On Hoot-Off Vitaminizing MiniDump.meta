@@ -1,0 +1,14 @@
+{
+  "title": "Bypassing AV/EDR Hooks: Vitaminizing MiniDumpWriteDump",
+  "slug": "Hooks-On-Hoot-Off-Vitaminizing-MiniDump",
+  "desc": "Learn how Adepts of 0xCC bypassed an AV/EDR by modifying MiniDumpWriteDump behavior to evade detection, despite the tool not being able to detect memory dump process but flagging the dump-file as malicious.",
+  "tags": [
+    "Red Team Assessment",
+    "AV/EDR Evasion",
+    "MiniDumpWriteDump",
+    "Evasion Techniques"
+  ],
+  "urls": [
+    "https://adepts.of0x.cc/hookson-hootoff"
+  ]
+}

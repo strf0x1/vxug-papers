@@ -1,0 +1,15 @@
+{
+  "title": "Code Injection on Linux and macOS",
+  "slug": "code-injection-linux-macos",
+  "desc": "Exploring LD_PRELOAD and DYLD_INSERT_LIBRARIES mechanisms for overriding system/library calls on Linux and macOS. Includes use cases, how-to, limitations.",
+  "tags": [
+    "Linux",
+    "macOS",
+    "Code Injection",
+    "LD_PRELOAD",
+    "DYLD_INSERT_LIBRARIES"
+  ],
+  "urls": [
+    "https://www.getambassador.io/resources/code-injection-on-linux-and-macos/"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Minidump of LSASS Process",
+  "slug": "lsass-minidump",
+  "desc": "A C++ program that finds the PID of lsass.exe and creates a minidump of its memory.",
+  "tags": [
+    "windows",
+    "debugging",
+    "memory-dump",
+    "lsass"
+  ],
+  "urls": []
+}

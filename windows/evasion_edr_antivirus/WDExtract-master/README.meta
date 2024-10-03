@@ -1,0 +1,14 @@
+{
+  "title": "Extract Windows Defender Database from VDM Files",
+  "slug": "wdefenderextract-vdm",
+  "desc": "A tool to unpack and decrypt VDM containers from Windows Defender/Microsoft Security Essentials databases for analysis.",
+  "tags": [
+    "Windows Defender",
+    "VDM files",
+    "Security Tools"
+  ],
+  "urls": [
+    "https://gist.githubusercontent.com/hfiref0x/e4b97fb7135c9a6f9f0787c07da0a99d/raw/d91e77f71aa96bdb98d121b1d915dc697ce85e2a/gistfile1.txt",
+    "https://gist.githubusercontent.com/hfiref0x/38e7845304d10c284220461c86491bdf/raw/39c999e59ff2a924932fe6db811555161596b4a7/gistfile1.txt"
+  ]
+}

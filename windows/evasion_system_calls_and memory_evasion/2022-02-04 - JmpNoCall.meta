@@ -1,0 +1,14 @@
+{
+  "title": "Advanced Call Stack Tracing Evasion Technique",
+  "slug": "JmpNoCall-StackEvasion",
+  "desc": "Explores an assembly-based method to avoid detection by executing functions without using the 'call' instruction, inspired by research on call stack tracing evasion.",
+  "tags": [
+    "Assembly",
+    "Evasion Techniques",
+    "Call Stack Tracing",
+    "Custom Payloads"
+  ],
+  "urls": [
+    "https://0xdarkvortex.dev/proxying-dll-loads-for-hiding-etwti-stack-tracing/"
+  ]
+}

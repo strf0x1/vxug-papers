@@ -1,0 +1,13 @@
+{
+  "title": "Windows Shellcode for alfarom256 Calc",
+  "slug": "windows-shellcode-alfarom256-calc",
+  "desc": "A C++ document containing Windows shellcode for alfarom256 calc, including necessary headers and library comments.",
+  "tags": [
+    "shellcoding",
+    "windows",
+    "alfarom256",
+    "calc",
+    "imm32"
+  ],
+  "urls": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Process Hollowing with Manalyze's PE Library",
+  "slug": "process-hollowing-manalyze-pe",
+  "desc": "Learn how to perform process hollowing using Manalyze's Portable Executable (PE) library. This article is intended for those familiar with C++ and includes instructions on how to compile the code.",
+  "tags": [
+    "Process Injection",
+    "Manalyze",
+    "PE Library",
+    "C++"
+  ],
+  "urls": [
+    "https://blog.kwiatkowski.fr/node/7",
+    "https://manalyzer.org/",
+    "https://docs.manalyzer.org/"
+  ]
+}

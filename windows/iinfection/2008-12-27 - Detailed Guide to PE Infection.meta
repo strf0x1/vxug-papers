@@ -1,0 +1,15 @@
+{
+  "title": "Understanding Portable Executable File Infection",
+  "slug": "PE_File_Infection_Basics",
+  "desc": "This article aims to clarify how portable executable (PE) files can be infected with malicious code while maintaining normal functionality. It assumes basic knowledge of C and Assembly languages.",
+  "tags": [
+    "Portable Executable",
+    "File Infection",
+    "Malicious Code",
+    "C Programming",
+    "Assembly Language"
+  ],
+  "urls": [
+    "https://en.wikipedia.org/wiki/Portable_Executable"
+  ]
+}

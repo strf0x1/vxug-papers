@@ -1,0 +1,16 @@
+{
+  "title": "Linux Rootkits Explained - Part 1: Dynamic Linker Hijacking",
+  "slug": "linux-rootkits-explained-part-1-dynamic-linker-hijacking",
+  "desc": "An explanation of Linux rootkits, their techniques, and a focus on dynamic linker hijacking using LD_PRELOAD, including its usage in the wild and detection methods.",
+  "tags": [
+    "Linux",
+    "Rootkits",
+    "LD_PRELOAD",
+    "Malware",
+    "Cybersecurity"
+  ],
+  "urls": [
+    "https://wiz.io/blog/linux-rootkits-explained-part-1-dynamic-linker-hijacking",
+    "https://attack.mitre.org/techniques/T1014/"
+  ]
+}

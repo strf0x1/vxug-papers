@@ -1,0 +1,12 @@
+{
+  "title": "LineDDA Shellcode Loader",
+  "slug": "linedda-shellcode-loader",
+  "desc": "A Windows executable that reads and executes shellcode from a binary file using the LineDDA function.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "Exploit",
+    "Reverse Engineering"
+  ],
+  "urls": []
+}

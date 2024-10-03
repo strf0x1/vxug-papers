@@ -1,0 +1,15 @@
+{
+  "title": "Injecting Code into Windows Protected Processes using COM - Part 2",
+  "slug": "inject-code-windows-protected-part-2",
+  "desc": "James Forshaw from Project Zero discusses an academic exercise to inject arbitrary code into a full PP-WindowsTCB process without admin privileges, building upon his previous research on PPL processes.",
+  "tags": [
+    "Windows Security",
+    "Project Zero",
+    "Protected Processes",
+    "Code Injection",
+    "COM"
+  ],
+  "urls": [
+    "https://googleprojectzero.blogspot.com/2018/11/injecting-code-into-windows-protected.html"
+  ]
+}

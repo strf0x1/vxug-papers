@@ -1,0 +1,14 @@
+{
+  "title": "NINA: x64 Process Injection",
+  "slug": "NINA_x64_Injection",
+  "desc": "Details an experimental process injection technique that restricts common functions like WriteProcessMemory and CreateRemoteThread. Aim is stealthy injection without complex ROP chains.",
+  "tags": [
+    "Process Injection",
+    "x64",
+    "Windows 10",
+    "Stealthy Injection"
+  ],
+  "urls": [
+    "https://github.com/NtRaiseHardError/NINA"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Backdooring Office Structures: Payload Crumbs In Custom Parts",
+  "slug": "payload-crumbs-in-custom-parts",
+  "desc": "A technique for hiding malware payloads in custom XML parts of Office documents, a novel and stealthy method for storing larger chunks of data.",
+  "tags": [
+    "malware",
+    "Office documents",
+    "Custom XML parts",
+    "hiding techniques"
+  ],
+  "urls": [
+    "https://mgeeky.tech/payload-crumbs-in-custom-parts"
+  ]
+}

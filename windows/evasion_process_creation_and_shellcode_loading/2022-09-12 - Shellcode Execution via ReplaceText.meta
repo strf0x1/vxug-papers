@@ -1,0 +1,12 @@
+{
+  "title": "Windows Shellcode Manipulator",
+  "slug": "win_shellcode_manipulator",
+  "desc": "A Windows executable that manipulates shellcode files by replacing specific characters. It uses Visual Studio 2022 and requires the input path of a shellcode file.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "Manipulation",
+    "Visual Studio"
+  ],
+  "urls": []
+}

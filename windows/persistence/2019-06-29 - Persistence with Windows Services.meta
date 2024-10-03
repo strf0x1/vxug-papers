@@ -1,0 +1,13 @@
+{
+  "title": "Exploiting Windows Services for Persistent Attacks",
+  "slug": "windows-services-persistence",
+  "desc": "Exploring the potential of Windows Services as a vector for persistent attacks due to their network-capable design, automatic startup, high privileges, and relative obscurity.",
+  "tags": [
+    "Windows Security",
+    "Persistent Attacks",
+    "Windows Services"
+  ],
+  "urls": [
+    "https://gtworek.github.io/PSBits/services.html"
+  ]
+}

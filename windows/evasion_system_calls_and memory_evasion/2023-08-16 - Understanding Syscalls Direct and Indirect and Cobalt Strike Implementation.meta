@@ -1,0 +1,16 @@
+{
+  "title": "Understanding Syscalls: Direct, Indirect, and Cobalt Strike Implementation",
+  "slug": "syscalls-direct-indirect-cobalt-strike",
+  "desc": "An in-depth analysis of syscalls, their purpose, types (direct and indirect), and practical implementation using Cobalt Strike.",
+  "tags": [
+    "Syscalls",
+    "Direct Syscalls",
+    "Indirect Syscalls",
+    "Cobalt Strike",
+    "Process Injection",
+    "EDR Bypass"
+  ],
+  "urls": [
+    "https://d01a.github.io/syscalls"
+  ]
+}

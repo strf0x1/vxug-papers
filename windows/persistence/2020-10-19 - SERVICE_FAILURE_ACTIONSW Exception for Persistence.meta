@@ -1,0 +1,13 @@
+{
+  "title": "Beyond Good Ol' Run Key: Abusing SERVICE_FAILURE_ACTIONS Structure",
+  "slug": "abuse-service-failure-actions-run-key",
+  "desc": "Explores how malware abuses the SERVICE_FAILURE_ACTIONSW structure to create persistence and delay execution of backup commands.",
+  "tags": [
+    "Anti-Forensics",
+    "Autostart (Persistence)",
+    "Malware Techniques"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2020/10/19/beyond-good-ol-run-key-part-130/"
+  ]
+}

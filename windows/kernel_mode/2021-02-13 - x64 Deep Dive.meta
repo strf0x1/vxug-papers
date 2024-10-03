@@ -1,0 +1,14 @@
+{
+  "title": "X64 Deep Dive",
+  "slug": "x64-deep-dive-tutorial",
+  "desc": "Exploring key aspects of X64 CPU code execution, including compiler optimizations, exception handling, parameter passing, debugger commands, and differences from X86.",
+  "tags": [
+    "X64",
+    "CPU",
+    "Compiler Optimization",
+    "Debugging"
+  ],
+  "urls": [
+    "https://codemachine.com/articles/x64_deep_dive.html"
+  ]
+}

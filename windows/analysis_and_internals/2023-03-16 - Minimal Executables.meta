@@ -1,0 +1,14 @@
+{
+  "title": "Minimal Executables: Optimizing C++ Console Applications",
+  "slug": "minimal-executables-cpp",
+  "desc": "Exploring how to minimize executable size in C++ console applications by removing unnecessary dependencies and linking statically to the CRT.",
+  "tags": [
+    "C++",
+    "Optimization",
+    "Executable Size",
+    "Dependency Removal"
+  ],
+  "urls": [
+    "https://s Scorpiosoftware.net/2023/03/16/minimal-executables"
+  ]
+}

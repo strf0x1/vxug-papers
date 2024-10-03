@@ -1,0 +1,14 @@
+{
+  "title": "Binary Data Hiding in VB6 Executables",
+  "slug": "vb6-malware-data-hiding",
+  "desc": "A comprehensive overview of techniques used by malware authors to embed binary data within Visual Basic 6.0 executables, covering string-based encodings, opcode manipulation, file format exploitation, and PE structure modification.",
+  "tags": [
+    "Malware Analysis",
+    "VB6",
+    "Data Hiding",
+    "Binary Data"
+  ],
+  "urls": [
+    "https://decoded.avast.io/davidzimmer/binary-data-hiding-in-vb6-executables/"
+  ]
+}

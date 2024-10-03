@@ -1,0 +1,25 @@
+{
+  "title": "Symbolic Hooks Part 3: The Remainder Theorem",
+  "slug": "symbolic-hooks-part-three",
+  "desc": "Exploring how to avoid returning STATUS_REPARSE for volume opens in Windows internals. Discusses understanding volume open behavior and ReactOS's IopParseDevice.",
+  "tags": [
+    "Windows Internals",
+    "Symbolic Hooks",
+    "Volume Open Behavior",
+    "ReactOS"
+  ],
+  "urls": [
+    {
+      "title": "windows-internals.com/symhooks-part-three",
+      "url": "https://windows-internals.com/symhooks-part-three"
+    },
+    {
+      "title": "Symbolic Hooks Part 2",
+      "url": "https://windows-internals.com/symhooks-part-two/"
+    },
+    {
+      "title": "ReactOS",
+      "url": "http://www.reactos.org/"
+    }
+  ]
+}

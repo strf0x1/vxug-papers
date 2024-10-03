@@ -1,0 +1,12 @@
+{
+  "title": "CertEnumPhysicalStore Shellcode Reader",
+  "slug": "certenumphysicalstore_shellcode_reader",
+  "desc": "A Windows executable that reads shellcode from a binary file and passes it to CertEnumPhysicalStore function for physical store enumeration.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "CertEnumPhysicalStore",
+    "C++"
+  ],
+  "urls": []
+}

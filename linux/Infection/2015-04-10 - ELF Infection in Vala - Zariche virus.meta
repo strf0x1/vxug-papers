@@ -1,0 +1,13 @@
+{
+  "title": "Linux.Zariche: A Vala Virus",
+  "slug": "linux-zariche-vala-virus",
+  "desc": "Explores Linux.Zariche, the first binary virus written in Vala programming language. Includes two variants and explanation of parts of its code.",
+  "tags": [
+    "Linux.Zariche",
+    "Vala programming language",
+    "Virus creation"
+  ],
+  "urls": [
+    "https://guitmz.com/vala-virus"
+  ]
+}

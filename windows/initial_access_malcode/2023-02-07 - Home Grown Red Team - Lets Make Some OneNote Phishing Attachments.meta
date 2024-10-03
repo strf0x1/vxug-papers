@@ -1,0 +1,11 @@
+{
+  "title": "Home Grown Red Team: Let's Make Some OneNote Phishing Attachments",
+  "slug": "OneNote_Phishing_Attachments",
+  "desc": "Explores using OneNote attachments for phishing attacks as an alternative to LNK files, focusing on user interaction and pretexts.",
+  "tags": [
+    "Phishing",
+    "OneNote",
+    "Malware Delivery",
+    "Red Teaming"
+  ]
+}

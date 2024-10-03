@@ -1,0 +1,18 @@
+{
+  "title": "Recycling Compression Algorithms for Vintage Architectures",
+  "slug": "recycle-compress-algos-vintage-archs",
+  "desc": "Explores variations of Lempel-Ziv compression schemes suitable for resource-constrained environments like the Z80, 8088, 6502, 8086, and 68K architectures in Demoscene productions.",
+  "tags": [
+    "Shellcode",
+    "Compression Algorithms",
+    "Demoscene",
+    "LZ77",
+    "LZSS",
+    "LZB",
+    "LZH",
+    "LZARI"
+  ],
+  "urls": [
+    "https://modexp.wordpress.com/2020/05/27/komposite-shellcode"
+  ]
+}

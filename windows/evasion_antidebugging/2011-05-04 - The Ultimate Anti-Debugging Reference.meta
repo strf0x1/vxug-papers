@@ -1,0 +1,14 @@
+{
+  "title": "Ultimate Anti-Debugging Techniques",
+  "slug": "ultimate-anti-debugging-techniques",
+  "desc": "A comprehensive guide to anti-debugging techniques by Peter Ferrie, covering various methods and strategies used in evading debuggers.",
+  "tags": [
+    "Anti-Debugging",
+    "Reverse Engineering",
+    "Windows Internals",
+    "Debugging"
+  ],
+  "urls": [
+    "https://www.phoen1x.net/papers/anti-debug.pdf"
+  ]
+}

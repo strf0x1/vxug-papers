@@ -1,0 +1,16 @@
+{
+  "title": "DevTunnels for C2",
+  "slug": "devtunnels-c2",
+  "desc": "An overview of Microsoft's Dev Tunnels, its advantages over other tunneling solutions like Cloudflared and Ngrok, and its benefits in secure communication.",
+  "tags": [
+    "Cybersecurity",
+    "C2 Infrastructure",
+    "DevTunnels",
+    "Azure",
+    "Microsoft"
+  ],
+  "urls": [
+    "https://syonsecurity.com/post/devtunnels-for-c2",
+    "https://learn.microsoft.com/en-us/azure/developer/dev-tunnels/overview"
+  ]
+}

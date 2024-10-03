@@ -1,0 +1,12 @@
+{
+  "title": "StackWalk.exe - Shellcode Loader",
+  "slug": "stackwalk-exe-shellcode-loader",
+  "desc": "A simple C++ console application that reads and executes shellcode from a file using Windows API functions.",
+  "tags": [
+    "Shellcode",
+    "Windows API",
+    "Stack Walk",
+    "C++"
+  ],
+  "urls": []
+}

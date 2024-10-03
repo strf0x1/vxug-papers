@@ -1,0 +1,13 @@
+{
+  "title": "EkkoEx: Sleep Obfuscation using Ekko Technique",
+  "slug": "ekko_ex_sleep_obfuscation",
+  "desc": "This function performs sleep obfuscation using the ekko technique. It generates a new key, sets image pointer and size, creates a timer queue, and uses events for synchronization.",
+  "tags": [
+    "sleep",
+    "obfuscation",
+    "ekko",
+    "timer",
+    "event"
+  ],
+  "urls": []
+}

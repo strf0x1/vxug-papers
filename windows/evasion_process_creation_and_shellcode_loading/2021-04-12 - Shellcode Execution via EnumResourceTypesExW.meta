@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A C++ source code that includes necessary headers and libraries for Windows system calls. The main component is an array 'op' containing the shellcode for a calculator application.",
+  "tags": [
+    "C++",
+    "Windows",
+    "Shellcoding",
+    "KtmW32"
+  ],
+  "urls": []
+}

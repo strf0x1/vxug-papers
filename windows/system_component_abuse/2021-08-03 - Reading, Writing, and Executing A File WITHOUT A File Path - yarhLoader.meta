@@ -1,0 +1,14 @@
+{
+  "title": "File Operations using NTFS File Identifiers",
+  "slug": "yarhLoader_NTFS_file_operations",
+  "desc": "A technique to load, read, and write files using their unique identifiers on NTFS file systems instead of full paths.",
+  "tags": [
+    "NTFS",
+    "File Operations",
+    "File Identifiers",
+    "Hollowing"
+  ],
+  "urls": [
+    "https://github.com/Hasherezade/yarhLoader"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Bypassing User-Mode Hooks and Direct Invocation of System Calls for Red Teams",
+  "slug": "bypassing-user-mode-hooks-red-teams",
+  "desc": "Exploring techniques to bypass user-mode hooks for improved process injection success, with applications in evading detection, privilege elevation, cheating at online games, and defensive measures.",
+  "tags": [
+    "Red Teaming",
+    "Process Injection",
+    "User-Mode Hooks",
+    "System Calls"
+  ],
+  "urls": [
+    "https://www.mdsec.co.uk/2020/12/bypassing-user-mode-hooks-and-direct-invocation-of-system-calls-for-red-teams/"
+  ]
+}

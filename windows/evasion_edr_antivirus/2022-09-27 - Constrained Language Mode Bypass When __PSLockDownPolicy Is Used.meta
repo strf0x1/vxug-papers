@@ -1,0 +1,14 @@
+{
+  "title": "Constrained Language Mode Bypass When __PSLockDownPolicy Is Used",
+  "slug": "powerShell-CLM-bypass",
+  "desc": "This document discusses a security bypass in PowerShell's Constrained Language mode when using __PSLockDownPolicy without proper application control settings.",
+  "tags": [
+    "PowerShell",
+    "Constrained Language Mode (CLM)",
+    "Security Bypass",
+    "__PSLockDownPolicy"
+  ],
+  "urls": [
+    "https://www.blackhillsinfosec.com/constrained-language-mode-bypass-when-pslockdownpolicy-is-used/"
+  ]
+}

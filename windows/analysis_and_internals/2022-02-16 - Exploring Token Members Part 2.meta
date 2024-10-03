@@ -1,0 +1,16 @@
+{
+  "title": "Exploring Token Members Part 2",
+  "slug": "Exploring-Token-Members-Part-2",
+  "desc": "A deeper dive into token membership and impersonation of Protected Process Light (PPL) process tokens by Jonathan Johnson, following the Elastic Research team's work on stripping Windows Defender's privileges.",
+  "tags": [
+    "Cybersecurity",
+    "Windows Security",
+    "Token Impersonation",
+    "Protected Process Light"
+  ],
+  "urls": [
+    "https://jsecurity101.medium.com/exploring-token-members-part-2-2a09d13cbb3",
+    "https://elastic.github.io/security-research/whitepapers/2022/02/02.sandboxing-antimalware-products-for-fun-and-profit/article/",
+    "https://docs.microsoft.com/en-us/windows/win32/services/protecting-anti-malware-services-"
+  ]
+}

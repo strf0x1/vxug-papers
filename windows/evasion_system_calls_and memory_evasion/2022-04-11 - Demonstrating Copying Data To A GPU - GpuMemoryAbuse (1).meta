@@ -1,0 +1,22 @@
+{
+  "title": "GpuMemoryAbuse Proof-of-Concept for Windows",
+  "os": "Windows",
+  "language": "C++",
+  "document_source": "Source code example",
+  "overview": "This proof-of-concept demonstrates how to abuse GPU memory on systems with an NVIDIA graphics card by copying data from the hard drive to the GPU, manipulating it there, and then copying it back.",
+  "tags": [
+    "NVIDIA-specific",
+    "GPU memory manipulation",
+    "CUDA API",
+    "File operations"
+  ],
+  "bullet_points": [
+    "Checks if an NVIDIA graphics card is present and terminates if not.",
+    "Initializes the NVIDIA CUDA API table.",
+    "Reads a file from the desktop into memory.",
+    "Allocates GPU memory and copies the data to it using CUDA APIs.",
+    "Manipulates the data on the GPU (not specified how).",
+    "Copies the manipulated data back to the CPU.",
+    "Frees the allocated GPU memory."
+  ]
+}

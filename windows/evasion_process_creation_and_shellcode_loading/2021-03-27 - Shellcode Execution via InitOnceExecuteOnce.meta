@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A C++ document containing a Windows shellcode for Alfarom256 calc, including includes and setup code.",
+  "tags": [
+    "windows",
+    "shellcode",
+    "C++",
+    "reverse engineering"
+  ],
+  "urls": []
+}

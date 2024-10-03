@@ -1,0 +1,12 @@
+{
+  "title": "Exploring COM Objects in Golang",
+  "slug": "com-objects-golang",
+  "desc": "A deep dive into interacting with Component Object Model (COM) objects using Golang via Win32 API functions.",
+  "tags": [
+    "COM",
+    "Golang",
+    "Win32 API",
+    "Interoperability"
+  ],
+  "urls": []
+}

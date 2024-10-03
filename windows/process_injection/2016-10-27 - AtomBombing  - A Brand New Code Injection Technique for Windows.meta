@@ -1,0 +1,14 @@
+{
+  "title": "AtomBombing: A Novel Windows Code Injection Technique",
+  "slug": "atombombing-code-injection-windows",
+  "desc": "A new technique called AtomBombing exploits Windows atom tables and Async Procedure Calls (APC) for undetected code injection, evading common security solutions.",
+  "tags": [
+    "Cybersecurity",
+    "Code Injection",
+    "Windows Exploit",
+    "Hacking Technique"
+  ],
+  "urls": [
+    "https://www.fortinet.com/blog/threat-research/atombombing-brand-new-code-injection-technique-for-windows"
+  ]
+}

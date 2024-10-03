@@ -1,0 +1,12 @@
+{
+  "title": "PowerRegisterForEffectivePowerModeNotifications",
+  "slug": "PowerRegisterShellcode",
+  "desc": "A C++ console application that reads a shellcode file and registers for effective power mode notifications using Windows Power Management API.",
+  "tags": [
+    "C++",
+    "Windows Programming",
+    "Shellcode",
+    "Power Management"
+  ],
+  "urls": []
+}

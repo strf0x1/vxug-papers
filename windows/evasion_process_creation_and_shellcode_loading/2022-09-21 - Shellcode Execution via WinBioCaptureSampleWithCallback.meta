@@ -1,0 +1,13 @@
+{
+  "title": "WinBio Capture Sample with Callback",
+  "slug": "winbio-capture-sample-with-callback",
+  "desc": "A Windows application that reads a shellcode file and captures biometric data using WinBio API for verification purposes.",
+  "tags": [
+    "Windows",
+    "Biometrics",
+    "Shellcode",
+    "WinBio",
+    "Fingerprint"
+  ],
+  "urls": []
+}

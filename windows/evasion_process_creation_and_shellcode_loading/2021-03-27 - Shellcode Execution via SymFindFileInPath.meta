@@ -1,0 +1,13 @@
+{
+  "title": "Alfarom256 Calc Shellcode in C",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A C program demonstrating the use of assembly language to create a shellcode for calculating the 256th power of 3 using Windows API calls.",
+  "tags": [
+    "C",
+    "Assembly",
+    "Shellcode",
+    "Windows_API",
+    "Calculation"
+  ],
+  "urls": []
+}

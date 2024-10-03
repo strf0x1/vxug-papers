@@ -1,0 +1,14 @@
+{
+  "title": "(Anti-)Anti-Rootkit Techniques - Part I: UnKovering mapped rootkits",
+  "slug": "anti-anti-rootkit-part-i",
+  "desc": "An exploration of anti-rootkit evasion techniques based on the author's experience with developing the Banshee rootkit, focusing on detection mechanisms and methods to bypass them.",
+  "tags": [
+    "Malware Development",
+    "Penetration Testing",
+    "Rootkits",
+    "Anti-Rootkit Evasion"
+  ],
+  "urls": [
+    "https://eversinc33.com/posts/anti-anti-rootkit-part-i/"
+  ]
+}

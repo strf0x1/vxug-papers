@@ -1,0 +1,14 @@
+{
+  "title": "Targeted Process Injection \u2013 Linux",
+  "slug": "targeted-process-injection-linux",
+  "desc": "A brief guide on modifying the memory of running processes in real-time on Linux systems, using a simple example to demonstrate approach.",
+  "tags": [
+    "Cybersecurity",
+    "Linux",
+    "Process Injection",
+    "Memory Modification"
+  ],
+  "urls": [
+    "https://www.cybersecuritynotepad.com/index.php/2022/02/20/targeted-process-injection-linux/"
+  ]
+}

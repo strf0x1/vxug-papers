@@ -1,0 +1,13 @@
+{
+  "title": "FlavorTown: Shellcode Execution Tool",
+  "slug": "flavortown-shellcode-execution",
+  "desc": "A Windows executable written in C/C++ that reads shellcode from a file and executes it using SetWaitableTimer, designed to be used with Visual Studio 2022.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "SetWaitableTimer",
+    "Visual Studio 2022",
+    "C/C++"
+  ],
+  "urls": []
+}

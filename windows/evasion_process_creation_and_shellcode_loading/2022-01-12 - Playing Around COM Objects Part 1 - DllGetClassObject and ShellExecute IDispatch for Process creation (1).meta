@@ -1,0 +1,15 @@
+{
+  "title": "Red Teaming's Dojo: Exploring COM Objects in Go",
+  "slug": "com-objects-go-red-teaming-dojo",
+  "desc": "Explores interaction with Component Object Model (COM) objects using Golang via Win32 API, demonstrating software interoperability.",
+  "tags": [
+    "Red Teaming",
+    "Dojo",
+    "COM",
+    "Component Object Model",
+    "Golang",
+    "Win32 API",
+    "Interoperability"
+  ],
+  "urls": []
+}

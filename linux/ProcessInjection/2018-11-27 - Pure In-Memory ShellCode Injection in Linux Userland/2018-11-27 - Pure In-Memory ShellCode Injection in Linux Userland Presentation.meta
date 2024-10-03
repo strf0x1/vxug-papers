@@ -1,0 +1,15 @@
+{
+  "title": "Pure In-Memory Shellcode Injection in Linux Userland",
+  "slug": "in-memory-shellcode-injection-linux",
+  "desc": "A presentation by reenz0h at DeepSec'18, Vienna, Austria, detailing techniques for pure in-memory shellcode injection in Linux userland with live demos and references.",
+  "tags": [
+    "Linux",
+    "Shellcoding",
+    "Memory Injection",
+    "Red Teaming",
+    "Post-Exploitation"
+  ],
+  "urls": [
+    "https://deepsec.net"
+  ]
+}

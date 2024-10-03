@@ -1,0 +1,12 @@
+{
+  "title": "C++ Windows Shellcode Example",
+  "slug": "cpp-windows-shellcode-example",
+  "desc": "A C++ code snippet demonstrating a simple error handling function and a Windows shellcode example for calc.exe.",
+  "tags": [
+    "C++",
+    "Windows Programming",
+    "Shellcoding",
+    "Error Handling"
+  ],
+  "urls": []
+}

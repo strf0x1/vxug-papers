@@ -1,0 +1,15 @@
+{
+  "title": "NotifyUnicastIpAddressChange.exe: A Shellcode Executor",
+  "slug": "notifyunicastipaddresschangeexe-shellcode-executor",
+  "desc": "This C++ application reads a shellcode file and loads its contents into memory, then notifies unicast IP address changes to trigger the shellcode's execution.",
+  "tags": [
+    "Malware Analysis",
+    "Reverse Engineering",
+    "Shellcode Execution",
+    "Windows API"
+  ],
+  "urls": [
+    "https://github.com/VisualStudio/PackageManager/blob/main/src/Microsoft.VisualStudio.PackageManager/CI/GitHubRelease.cs",
+    "https://docs.microsoft.com/en-us/windows/win32/iphelp/notifyunicastipaddresschange"
+  ]
+}

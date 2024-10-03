@@ -1,0 +1,17 @@
+{
+  "title": "Excel Meets Outlook: Macro Interaction and Outlook Keylogger PoC",
+  "slug": "excel-outlook-vba-interaction-keylogger-poc",
+  "desc": "A comprehensive guide on interacting with Outlook from Excel using macros, along with a proof-of-concept demonstrating Outlook as a keylogger.",
+  "tags": [
+    "VBA",
+    "Excel",
+    "Outlook",
+    "Macros",
+    "Keylogger",
+    "Exfiltration",
+    "Propagation"
+  ],
+  "urls": [
+    "https://adepts.of0x.cc/vba-outlook/"
+  ]
+}

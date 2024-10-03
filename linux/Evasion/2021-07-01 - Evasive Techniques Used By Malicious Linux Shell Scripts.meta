@@ -1,0 +1,14 @@
+{
+  "title": "Evasive Techniques Used By Malicious Linux Shell Scripts",
+  "slug": "malicious-linux-shell-scripts-evasion-techniques",
+  "desc": "Explores common defense evasion techniques used in malicious shell scripts and how Uptycs detects them.",
+  "tags": [
+    "Linux Security",
+    "Malware Analysis",
+    "Cyber Threats",
+    "Uptycs"
+  ],
+  "urls": [
+    "https://www.uptycs.com/blog/evasive-techniques-used-by-malicious-linux-shell-scripts"
+  ]
+}

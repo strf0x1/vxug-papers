@@ -1,0 +1,15 @@
+{
+  "title": "Exploiting Explorer.exe: A Little-Known Secret",
+  "slug": "explorer-exe-secret",
+  "desc": "Discover a lesser-known behavior of Windows Explorer during startup and how to exploit it for fun or educational purposes.",
+  "tags": [
+    "Windows",
+    "Security",
+    "Exploitation",
+    "Explorer.exe",
+    "Registry"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2024/03/03/1-little-known-secret-of-explorer-exe/"
+  ]
+}

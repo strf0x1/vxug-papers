@@ -1,0 +1,15 @@
+{
+  "title": "Why Windows Can't Follow WSL Symlinks",
+  "slug": "wsl-symlink-issue-windows",
+  "desc": "Explores a frustrating issue where symbolic links created through Windows Subsystem for Linux (WSL) can't be followed by Windows, using Ubuntu as an example.",
+  "tags": [
+    "WSL",
+    "Symlinks",
+    "Windows",
+    "Linux",
+    "Ubuntu"
+  ],
+  "urls": [
+    "https://blog.trailofbits.com/2024/02/12/why-windows-cant-follow-wsl-symlinks/"
+  ]
+}

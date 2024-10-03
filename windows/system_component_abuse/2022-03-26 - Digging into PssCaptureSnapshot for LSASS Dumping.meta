@@ -1,0 +1,14 @@
+{
+  "title": "Bypassing LSA Protection using Process Snapshotting",
+  "slug": "psscapturesnapshot-lsass-dumping",
+  "desc": "Explores the technique of using Process Snapshotting to dump LSASS without Mimikatz, involving MiniDumpWriteDump and PssCaptureSnapshot.",
+  "tags": [
+    "Windows Exploitation",
+    "LSASS Dumping",
+    "Process Snapshotting",
+    "Mimikatz"
+  ],
+  "urls": [
+    "https://mez0.cc/posts/digging-into-psscapturesnapshot"
+  ]
+}

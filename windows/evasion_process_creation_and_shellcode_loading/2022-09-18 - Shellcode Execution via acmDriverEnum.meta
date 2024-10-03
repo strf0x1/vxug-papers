@@ -1,0 +1,13 @@
+{
+  "title": "ACM Driver Enum Shellcode Executor",
+  "slug": "acm-driver-enum-shellcode-executor",
+  "desc": "A C++ console application that reads a shellcode file and uses it to enumerate ACM drivers.",
+  "tags": [
+    "shellcode",
+    "acm",
+    "driver",
+    "enumeration",
+    "cpp"
+  ],
+  "urls": []
+}

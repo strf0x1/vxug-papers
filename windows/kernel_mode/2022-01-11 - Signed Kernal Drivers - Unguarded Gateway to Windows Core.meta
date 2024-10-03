@@ -1,0 +1,15 @@
+{
+  "title": "Signed Kernel Drivers: Unguarded Gateway to Windows' Core",
+  "slug": "signed-kernel-drivers-windows-core",
+  "desc": "Explores the security implications of 'software' drivers running in Ring 0 and the methods used to load malicious code into the kernel despite driver signature enforcement.",
+  "tags": [
+    "Windows Security",
+    "Kernel Drivers",
+    "Malware",
+    "Ring 0",
+    "Driver Signature Enforcement"
+  ],
+  "urls": [
+    "https://www.welivesecurity.com/2022/01/11/signed-kernel-drivers-unguarded-gateway-windows-core/"
+  ]
+}

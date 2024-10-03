@@ -1,0 +1,14 @@
+{
+  "title": "Exploiting Swap Space for Process Injection in Linux",
+  "slug": "linux-swap-space-injection",
+  "desc": "A blog post detailing a method of process code injection using swap space in Linux by manipulating /proc/$pid/mem.",
+  "tags": [
+    "Linux",
+    "Process Injection",
+    "Swap Space",
+    "Security"
+  ],
+  "urls": [
+    "https://blog.csdn.net/dog250/article/details/108618568"
+  ]
+}

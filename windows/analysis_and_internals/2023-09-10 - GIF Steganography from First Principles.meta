@@ -1,0 +1,14 @@
+{
+  "title": "GIF Steganography from First Principles",
+  "slug": "gif-steganography",
+  "desc": "An in-depth exploration of creating a steganography tool focused on GIF files, delving into the fundamentals and discovering numerous data-hiding opportunities.",
+  "tags": [
+    "steganography",
+    "GIF",
+    "data-hiding",
+    "file-format"
+  ],
+  "urls": [
+    "https://dtm.uk/gif-steganography"
+  ]
+}

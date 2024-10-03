@@ -1,0 +1,15 @@
+{
+  "title": "Abusing Notepad++ Plugins for Evasion and Persistence",
+  "slug": "notepadpp-plugins-evasion-persistence",
+  "desc": "Cybereason GSOC team analysts reveal how attackers leverage Notepad++ plugins for persistence and evasion. Learn to reproduce the attack and implement detection & prevention mechanisms.",
+  "tags": [
+    "Cybersecurity",
+    "Threat Analysis",
+    "Notepad++",
+    "Evasion Techniques",
+    "Persistence"
+  ],
+  "urls": [
+    "https://www.cybereason.com/blog/threat-analysis-report-abusing-notepad-plugins-for-evasion-and-persistence"
+  ]
+}

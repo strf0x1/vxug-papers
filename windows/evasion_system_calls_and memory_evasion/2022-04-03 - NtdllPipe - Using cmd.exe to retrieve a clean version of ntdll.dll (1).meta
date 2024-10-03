@@ -1,0 +1,17 @@
+{
+  "title": "Retrieving Clean Ntdll.dll Using cmd.exe",
+  "slug": "ntdll_pipe",
+  "desc": "Explores methods to bypass AV software hooks on ntdll.dll using a trusted Microsoft executable like cmd.exe.",
+  "tags": [
+    "NTDLL",
+    "AV Bypass",
+    "cmd.exe",
+    "Named Pipe"
+  ],
+  "urls": [
+    {
+      "url": "https://www.x86matthew.com/view_post?id=ntdll_pipe",
+      "title": "NtdllPipe - Using cmd.exe to retrieve a clean version of ntdll.dll"
+    }
+  ]
+}

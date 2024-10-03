@@ -1,0 +1,13 @@
+{
+  "title": "Diving Deeper Into Pre-Created Computer Accounts",
+  "slug": "pre-created-computer-accounts-pentesting",
+  "desc": "Explores the systemic issue of pre-Windows 2000 machine accounts configured with default passwords and their potential exploitation in internal engagements.",
+  "tags": [
+    "Penetration Testing",
+    "Security Research",
+    "Pre-Created Computer Accounts"
+  ],
+  "urls": [
+    "https://www.optiv.com/insights/source-zero/blog/diving-deeper-pre-created-computer-accounts"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Code Execution against Windows HVCI",
+  "slug": "windows-hvci-code-execution",
+  "desc": "Explores an alternative approach to calling arbitrary kernel functions and demonstrates creating process callback even with enabled HVCI. Requires understanding of ROP techniques.",
+  "tags": [
+    "Windows Security",
+    "HVCI",
+    "Code Execution",
+    "Kernel Functions",
+    "ROP"
+  ],
+  "urls": [
+    "https://datafarm-cybersecurity.medium.com/code-execution-against-windows-hvci-f617570e9df0",
+    "https://github.com/Cr4sh/KernelForge",
+    "https://github.com/worawit/malk",
+    "https://static.sched.com/hosted_files/gaochaoslide_2020-03.pdf"
+  ]
+}

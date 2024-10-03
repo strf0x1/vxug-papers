@@ -1,0 +1,15 @@
+{
+  "title": "Linux.Nasty: Assembly x64 ELF Virus",
+  "slug": "linux-nasty-elf-virus",
+  "desc": "This document details the creation of Linux.Nasty, an assembly-based x64 ELF virus using the Reverse Text Segment technique. It was originally published in the first issue of tmp.0ut zine by Guilherme Thomazi and his team.",
+  "tags": [
+    "Linux",
+    "ELF Virus",
+    "Assembly x64",
+    "Reverse Text Segment",
+    "tmp.0ut Zine"
+  ],
+  "urls": [
+    "guitmz.com/linux-nasty-elf-virus"
+  ]
+}

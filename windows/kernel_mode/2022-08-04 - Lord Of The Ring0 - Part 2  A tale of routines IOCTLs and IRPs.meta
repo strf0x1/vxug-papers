@@ -1,0 +1,14 @@
+{
+  "title": "Lord Of The Ring0 - Part 2",
+  "slug": "kernel-development-tutorial",
+  "desc": "A detailed guide on kernel development, focusing on callbacks and process protector driver creation. Discusses challenges faced while developing Nidhogg.",
+  "tags": [
+    "Kernel Development",
+    "Rootkit",
+    "Nidhogg",
+    "Driver Creation"
+  ],
+  "urls": [
+    "https://idov31.github.io/2022/08/04/lord-of-the-ring0-p2.html"
+  ]
+}

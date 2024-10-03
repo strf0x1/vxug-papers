@@ -1,0 +1,14 @@
+{
+  "title": "PE Injection: Executing PEs Inside Remote Processes",
+  "slug": "pe-injection-executing-pes-inside-remote-processes",
+  "desc": "A lab demonstrating how to inject an entire portable executable (PE) into another running process with a C++ executable that contains two functions for injection and execution.",
+  "tags": [
+    "Code Injection",
+    "Process Injection",
+    "Portable Executable",
+    "C++"
+  ],
+  "urls": [
+    "https://www.ired.team/offensive-security/code-injection-process-injection/pe-injection-executing-pes-inside-remote-processes"
+  ]
+}

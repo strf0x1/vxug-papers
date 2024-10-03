@@ -1,0 +1,14 @@
+{
+  "title": "Bypassing Antivirus Software: Retrieving Clean ntdll.dll using cmd.exe",
+  "slug": "ntdll_pipe_bypass_av",
+  "desc": "Explores a method to retrieve a clean version of ntdll.dll by leveraging the trusted Microsoft executable cmd.exe to bypass antivirus software's user-mode hooks.",
+  "tags": [
+    "Bypassing AV",
+    "cmd.exe",
+    "ntdll.dll",
+    "Windows Internals"
+  ],
+  "urls": [
+    "https://www.x86matthew.com/view_post?id=ntdll_pipe"
+  ]
+}

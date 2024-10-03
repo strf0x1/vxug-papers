@@ -1,0 +1,13 @@
+{
+  "title": "Beyond Automated Tools: The Shellcode Injection Process",
+  "slug": "shellcode-injection-process-beyond-tools",
+  "desc": "A comprehensive guide to creating and deploying shellcode and exploits using Python, moving beyond automated exploit frameworks like Metasploit.",
+  "tags": [
+    "Shellcode",
+    "Exploitation",
+    "Python",
+    "Metasploit",
+    "Penetration Testing"
+  ],
+  "urls": []
+}

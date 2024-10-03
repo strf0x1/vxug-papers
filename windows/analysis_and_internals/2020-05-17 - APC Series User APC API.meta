@@ -1,0 +1,15 @@
+{
+  "title": "Exploring Windows APC Mechanism",
+  "slug": "windows-apc-mechanism",
+  "desc": "A detailed exploration of Asynchronous Procedure Calls (APC) in Windows, covering both user and kernel modes.",
+  "tags": [
+    "Windows",
+    "APC",
+    "Operating System Internals",
+    "Kernel Mode",
+    "User Mode"
+  ],
+  "urls": [
+    "https://repnz.github.io/posts/apc/user-apc"
+  ]
+}

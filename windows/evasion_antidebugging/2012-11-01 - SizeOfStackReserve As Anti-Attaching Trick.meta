@@ -1,0 +1,14 @@
+{
+  "title": "SizeOfStackReserve as Anti-Attaching Trick",
+  "slug": "anti-attaching-trick-windows-7",
+  "desc": "Explores a novel anti-attaching technique for Windows 7 involving manipulating thread creation processes by altering SizeOfStackReserve.",
+  "tags": [
+    "Anti-Attaching",
+    "Windows 7",
+    "Thread Creation",
+    "SizeOfStackReserve"
+  ],
+  "urls": [
+    "http://waleedassar.blogspot.com/2012/11/sizeofstackreserve-as-anti-attaching.html"
+  ]
+}

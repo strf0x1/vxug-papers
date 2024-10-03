@@ -1,0 +1,15 @@
+{
+  "title": "IoRing vs io_uring: A Comparative Analysis",
+  "slug": "ioring-vs-io_uring-comparison",
+  "desc": "A detailed comparison of Windows' IoRing and Linux's io_uring implementations, highlighting similarities and differences.",
+  "tags": [
+    "Windows Internals",
+    "Linux Kernel",
+    "IoRing",
+    "io_uring",
+    "I/O Operations"
+  ],
+  "urls": [
+    "https://windows-internals.com/ioring-vs-io_uring-a-comparison-of-windows-and-linux-implementations/"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Symbolic Hooks Part 2: Getting the Target Name",
+  "slug": "symhooks-part-two-target-name",
+  "desc": "Explores alternative methods to obtain the target path of symbolic links efficiently without using Unwind Opcodes.",
+  "tags": [
+    "Windows Internals",
+    "Symbolic Links",
+    "Kernel-Mode Programming",
+    "IoCreateDevice",
+    "ObCreateObjectTypeEx"
+  ],
+  "urls": [
+    "https://windows-internals.com/symhooks-part-two",
+    "https://docs.microsoft.com/en-us/cpp/build/exception-handling-x64"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Understanding Windows Structured Exception Handling Part 2 - Digging Deeper",
+  "slug": "windows-structured-exception-handling-part-2",
+  "desc": "Detailed exploration of Windows Structured Exception Handling (SEH) in C/C++, focusing on Visual C++ compiler-generated code for __try/__except/__finally blocks.",
+  "tags": [
+    "C++",
+    "Windows Programming",
+    "Exception Handling",
+    "Structured Exception Handling"
+  ],
+  "urls": [
+    "https://limbioliong.wordpress.com/2022/01/18/understanding-windows-structured-exception-handling-part-2-digging-deeper/"
+  ]
+}

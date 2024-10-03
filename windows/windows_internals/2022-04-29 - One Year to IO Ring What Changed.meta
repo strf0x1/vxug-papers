@@ -1,0 +1,13 @@
+{
+  "title": "One Year to I/O Ring: What Changed?",
+  "slug": "i-o-ring-changes",
+  "desc": "A follow-up post detailing changes and updates to Windows' I/O ring feature over a year since its initial introduction in Windows 21H2.",
+  "tags": [
+    "Windows Internals",
+    "I/O Ring",
+    "Microsoft"
+  ],
+  "urls": [
+    "https://windows-internals.com/one-year-to-i-o-ring-what-changed/"
+  ]
+}

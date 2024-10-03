@@ -1,0 +1,14 @@
+{
+  "title": "Beyond Good Ol\u2019 Run Key: QT Framework Plugins",
+  "slug": "qt-framework-plugins-persistence",
+  "desc": "A brief overview of loading additional plugins for programs written in QT using environment path or qt.conf file. Includes IDA reference and potential use case.",
+  "tags": [
+    "Anti-Forensics",
+    "Autostart (Persistence)",
+    "QT Framework Plugins",
+    "IDA"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2020/08/16/beyond-good-ol-run-key-part-126/"
+  ]
+}

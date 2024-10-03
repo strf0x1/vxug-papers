@@ -1,0 +1,14 @@
+{
+  "title": "Exploiting Undocumented Behavior in PE File Loading",
+  "slug": "spoof-pe-sections",
+  "desc": "Discovering unusual PE file loading behavior and exploring potential security implications.",
+  "tags": [
+    "PE files",
+    "Undocumented features",
+    "Memory mapping",
+    "Security"
+  ],
+  "urls": [
+    "https://secret.club/2023/06/05/spoof-pe-sections.html"
+  ]
+}

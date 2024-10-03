@@ -1,0 +1,12 @@
+{
+  "title": "UTILS.CPP",
+  "slug": "utilscppzlibroutines",
+  "desc": "C++ file containing global support routines and ZLib compression/decompression functions.",
+  "tags": [
+    "C++",
+    "ZLib",
+    "Compression",
+    "Routines"
+  ],
+  "urls": []
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Changing Memory Protection in an Arbitrary Process",
+  "slug": "changing-memory-protection-arbitrary-process",
+  "desc": "An overview of approaches to change memory protection flags for arbitrary processes, focusing on Linux mechanisms and kernel development.",
+  "tags": [
+    "Linux",
+    "Memory Protection",
+    "Kernel Development"
+  ],
+  "urls": [
+    "https://perception-point.io/changing-memory-protection-in-an-arbitrary-process/"
+  ]
+}

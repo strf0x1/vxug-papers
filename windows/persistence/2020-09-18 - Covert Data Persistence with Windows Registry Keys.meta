@@ -1,0 +1,16 @@
+{
+  "title": "Covert Data Persistence with Windows Registry Keys",
+  "slug": "covert-data-persistence-windows-registry",
+  "desc": "An article introducing a subtle method to hide data within registry keys using class attributes instead of null characters, evading detection from tools like RegHide.",
+  "tags": [
+    "Malware",
+    "Persistence",
+    "Registry Keys",
+    "Data Hiding"
+  ],
+  "urls": [
+    "https://vx-underground.org(collection)",
+    "https://twitter.com/Jackson_T",
+    "https://web.archive.org/web/20091104223505/http:/technet.microsoft.com/en-us/sysinternals/bb897446.aspx"
+  ]
+}

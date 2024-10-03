@@ -1,0 +1,11 @@
+{
+  "title": "C++ Windows Cryptography Shellcode",
+  "slug": "cpp-windows-cryptography-shellcode",
+  "desc": "This document contains a C++ implementation of Windows cryptography shellcode, specifically alfarom256 calc shellcode. It includes the necessary headers and libraries for Windows cryptography.",
+  "tags": [
+    "C++",
+    "Windows Cryptography",
+    "Shellcode"
+  ],
+  "urls": []
+}

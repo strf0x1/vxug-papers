@@ -1,0 +1,14 @@
+{
+  "title": "Process Injection Using NtSetInformationProcess",
+  "slug": "process-injection-ntsetinformationprocess",
+  "desc": "Explores process injection techniques and detection methods using specific Win32API functions.",
+  "tags": [
+    "Malware Techniques",
+    "Process Injection",
+    "Win32API",
+    "EDR Security"
+  ],
+  "urls": [
+    "https://www.riskinsight-wavestone.com/en/2023/10/process-injection-using-ntsetinformationprocess/"
+  ]
+}

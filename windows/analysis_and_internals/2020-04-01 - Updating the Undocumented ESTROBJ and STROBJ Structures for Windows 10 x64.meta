@@ -1,0 +1,14 @@
+{
+  "title": "Reversing Stories: Updating Undocumented ESTROBJ and STROBJ Structures for Windows 10 x64",
+  "slug": "reverse-engineering-undocumented-structures",
+  "desc": "A case study by VerSprite's VS-Labs on reverse engineering undocumented Windows functions, focusing on the recent update to ESTROBJ and STROBJ structures in Windows 10.",
+  "tags": [
+    "Reverse Engineering",
+    "Windows Security",
+    "Undocumented Structures",
+    "Vulnerability Analysis"
+  ],
+  "urls": [
+    "https://versprite.com/blog/security-research/reverse-engineering-undocumented-structures/"
+  ]
+}

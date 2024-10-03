@@ -1,0 +1,14 @@
+{
+  "title": "Beyond Good Ol' Run Key, Part 135",
+  "slug": "Persistence_via_Windows_System_Files",
+  "desc": "Discovering a persistence method by placing malware in c:\\WINDOWS\\Setup\\Scripts\\ErrorHandler.cmd to be loaded by Setup.exe upon error.",
+  "tags": [
+    "Malware",
+    "Persistence",
+    "Windows",
+    "Hacking"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2022/01/16/beyond-good-ol-run-key-part-135/"
+  ]
+}

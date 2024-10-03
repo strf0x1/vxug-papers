@@ -1,0 +1,15 @@
+{
+  "title": "Garbling Netfilter IPv4",
+  "slug": "garbling-netfilter-ipv4",
+  "desc": "Exploring security vulnerabilities and privilege escalation by modifying Linux kernel modules in the Netfilter framework to manipulate IPv4 packet filtering.",
+  "tags": [
+    "Security",
+    "Linux Kernel",
+    "Netfilter",
+    "IPv4 Packet Filtering",
+    "Privilege Escalation"
+  ],
+  "urls": [
+    "http://acmpxyz.com/garbling_netfilter_ipv4.html"
+  ]
+}

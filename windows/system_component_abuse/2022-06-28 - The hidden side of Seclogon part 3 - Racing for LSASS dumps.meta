@@ -1,0 +1,15 @@
+{
+  "title": "The Hidden Side of Seclogon Part 3: Racing for LSASS Dumps",
+  "slug": "seclogon-lsass-dumps-race",
+  "desc": "This post explores alternative methods to obtain an LSASS process handle using the seclogon service, avoiding race conditions.",
+  "tags": [
+    "security",
+    "Windows exploitation",
+    "seclogon",
+    "LSASS",
+    "memory dumping"
+  ],
+  "urls": [
+    "https://splintercod3.blogspot.com/p/the-hidden-side-of-seclogon-part-3.html"
+  ]
+}

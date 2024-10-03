@@ -1,0 +1,15 @@
+{
+  "title": "Malicious Linux Binaries: A Landscape",
+  "slug": "linux-malign-binaries",
+  "desc": "This paper evaluates malicious ELF binaries to present a landscape of current threats on Linux systems. It discusses challenges and pitfalls in analyzing samples, comparing behaviors with other platforms.",
+  "tags": [
+    "Linux",
+    "Malware",
+    "Security",
+    "ELF Binaries",
+    "Threat Landscape"
+  ],
+  "urls": [
+    "https://example.com/paper"
+  ]
+}

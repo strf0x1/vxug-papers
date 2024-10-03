@@ -1,0 +1,15 @@
+{
+  "title": "Stack Necromancy: Defeating Debuggers By Raising the Dead",
+  "slug": "stack-necromancy-debugging",
+  "desc": "Explains how referencing uninitialized memory can cause bizarre behaviors in correct code and how to mitigate this issue.",
+  "tags": [
+    "debugging",
+    "uninitialized memory",
+    "memory management"
+  ],
+  "urls": [
+    "http://web.archive.org/web/20150221085237/http://spareclockcycles.org/2012/02/14/stack-necromancy-defeating-debuggers-by-raising-the-dead",
+    "http://web.archive.org/web/20150221085237/http://en.wikipedia.org/wiki/Call_stack",
+    "https://www.securecoding.cert.org/confluence/display/seccode/EXP33-C.+Do+not+reference+uninitialized+memory"
+  ]
+}

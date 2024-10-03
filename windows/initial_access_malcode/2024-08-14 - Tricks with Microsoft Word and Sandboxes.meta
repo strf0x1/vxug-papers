@@ -1,0 +1,14 @@
+{
+  "title": "Microsoft Word and Sandboxes",
+  "slug": "word_sandboxes",
+  "desc": "Explores stealth reconnaissance techniques using Microsoft Word in sandbox environments. Includes code to extract user names from Office registry and run a Word document with an unusual extension.",
+  "tags": [
+    "sandbox detection",
+    "stealth reconnaissance",
+    "Microsoft Word",
+    "Office registry"
+  ],
+  "urls": [
+    "https://bartblaze.blogspot.com/2024/08/microsoft-word-and-sandboxes.html"
+  ]
+}

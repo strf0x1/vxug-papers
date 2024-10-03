@@ -1,0 +1,13 @@
+{
+  "title": "NotifyIpInterfaceChange: A Shellcode Executor",
+  "slug": "NotifyIpInterfaceChange_shellcode_executor",
+  "desc": "A Windows application that loads and executes shellcode from a provided file when an IP interface change notification is received.",
+  "tags": [
+    "shellcode",
+    "windows",
+    "ipinterfacechange",
+    "notification",
+    "c++"
+  ],
+  "urls": []
+}

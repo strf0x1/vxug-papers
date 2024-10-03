@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode in C",
+  "slug": "alfarom256_calc_shellcode",
+  "desc": "This document contains a Windows shellcode for alfarom256 calc written in C. It includes the necessary includes, and defines the shellcode as an unsigned character array.",
+  "tags": [
+    "shellcode",
+    "windows",
+    "c",
+    "alfarom256"
+  ],
+  "urls": []
+}

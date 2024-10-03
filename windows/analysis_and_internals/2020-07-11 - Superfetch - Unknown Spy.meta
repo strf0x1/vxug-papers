@@ -1,0 +1,14 @@
+{
+  "title": "Superfetch: Debunking Myths and Analyzing Architecture",
+  "slug": "superfetch-analysis",
+  "desc": "A comprehensive exploration of Microsoft's SysMain service, also known as Superfetch, its privacy implications, and forensic analysis potential. This paper aims to debunk myths and provide a detailed analysis of its architecture.",
+  "tags": [
+    "Cybersecurity",
+    "Forensics",
+    "Windows Vista",
+    "Privacy"
+  ],
+  "urls": [
+    "https://doi.org/10.1007/s11416-020-00370-y"
+  ]
+}

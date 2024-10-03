@@ -1,0 +1,21 @@
+{
+  "title": "Weaponize GhostWriting Injection",
+  "slug": "ghostwriting-injection-windows",
+  "desc": "Explores code injection technique using register state manipulation for remote process access without opening or calling allocation/writing functions. Focuses on 64-bit implementation and tools like Visual Studio, Process Explorer, DebugView, X64dbg.",
+  "tags": [
+    "Code Injection",
+    "Ghost Writing",
+    "Windows System Programming",
+    "64-bit Implementation"
+  ],
+  "urls": [
+    {
+      "label": "Prerequisites",
+      "url": "https://blog.sevagas.com/?Process-PE-Injection-Basics"
+    },
+    {
+      "label": "License",
+      "url": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ]
+}

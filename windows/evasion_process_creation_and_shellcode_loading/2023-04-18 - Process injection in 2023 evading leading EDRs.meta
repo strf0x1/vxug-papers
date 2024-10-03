@@ -1,0 +1,17 @@
+{
+  "title": "Process Injection Techniques to Evade Industry-Leading EDRs in 2023",
+  "slug": "process-injection-edr-evasion-2023",
+  "desc": "Explores a combination of evasive techniques for successful process injection against today's best endpoint protection with zero detections or alerts.",
+  "tags": [
+    "Cybersecurity",
+    "Process Injection",
+    "EDR Evasion",
+    "Malware Techniques"
+  ],
+  "urls": [
+    {
+      "url": "https://vanmieghem.io/process-injection-evading-edr-in-2023",
+      "title": "Process Injection Evading EDR in 2023"
+    }
+  ]
+}

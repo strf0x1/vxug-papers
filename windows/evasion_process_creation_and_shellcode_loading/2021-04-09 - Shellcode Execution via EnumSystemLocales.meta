@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A detailed implementation of the alfarom256 calc shellcode in C++, including its assembly code and functionality.",
+  "tags": [
+    "shellcode",
+    "assembly",
+    "windows",
+    "malware"
+  ],
+  "urls": []
+}

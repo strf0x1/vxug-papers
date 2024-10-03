@@ -1,0 +1,12 @@
+{
+  "title": "Minidump Callback Function for LSAS Process Memory",
+  "slug": "minidump-lsass-memory",
+  "desc": "A C++ program using Windows API to capture minidump data from LSAS process memory and store it in a buffer.",
+  "tags": [
+    "Windows Programming",
+    "C++",
+    "Minidump",
+    "LSAS Process Memory"
+  ],
+  "urls": []
+}

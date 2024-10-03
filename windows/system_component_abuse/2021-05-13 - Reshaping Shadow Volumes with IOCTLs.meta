@@ -1,0 +1,15 @@
+{
+  "title": "Windows Volume Snapshot Maximum Diff Area Size Setting",
+  "slug": "win32-volsnap-set-max-diff-area-size",
+  "desc": "A proof of concept (PoC) demonstrating how to set the maximum difference area size for Windows volume snapshots using DeviceIoControl and CreateFile functions.",
+  "tags": [
+    "Windows Programming",
+    "Volume Snapshots",
+    "DeviceIoControl",
+    "CreateFile",
+    "Proof of Concept"
+  ],
+  "urls": [
+    "https://docs.microsoft.com/en-us/windows/win32/api/winioctl/ni-winioctl-ioctl_volsnap_set_max_diff_area_size"
+  ]
+}

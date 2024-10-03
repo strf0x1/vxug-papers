@@ -1,0 +1,13 @@
+{
+  "title": "Understanding Module Tampering Protection",
+  "slug": "module-tampering-protection-explained",
+  "desc": "A detailed explanation of module tampering protection mitigation and how to research its functionality.",
+  "tags": [
+    "Windows Internals",
+    "Mitigation Techniques",
+    "Reverse Engineering"
+  ],
+  "urls": [
+    "https://windows-internals.com/understanding-a-new-mitigation-module-tampering-protection/"
+  ]
+}

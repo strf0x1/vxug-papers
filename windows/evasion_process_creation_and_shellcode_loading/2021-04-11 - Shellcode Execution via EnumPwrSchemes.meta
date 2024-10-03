@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode in C++",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A C++ program that includes Windows.h and powrprof libraries to execute alfarom256 calc shellcode.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "Alfarom256",
+    "Windows Programming"
+  ],
+  "urls": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Magic Behind wlrmdr.exe",
+  "slug": "wlrmdr-exe-internals",
+  "desc": "Dive into the workings of wlrmdr.exe, a tool used to display reminders from Winlogon, including scenarios like password expiration and additional credentials required.",
+  "tags": [
+    "Windows",
+    "Winlogon",
+    "Reminders",
+    "Password Expiration"
+  ],
+  "urls": [
+    "https://gtworek.github.io/PSBits/wlrmdr.html"
+  ]
+}

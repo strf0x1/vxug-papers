@@ -1,0 +1,13 @@
+{
+  "title": "Bypassing LSA Protection in Userland",
+  "slug": "bypassing-lsa-protection-userland",
+  "desc": "A detailed analysis of James Forshaw's technique for injecting arbitrary code into a PPL as an administrator, bypassing LSA protection.",
+  "tags": [
+    "Windows Exploitation",
+    "LSA Protection Bypass",
+    "Protected Processes"
+  ],
+  "urls": [
+    "https://blog.scrt.ch/2021/04/22/bypassing-lsa-protection-in-userland/"
+  ]
+}

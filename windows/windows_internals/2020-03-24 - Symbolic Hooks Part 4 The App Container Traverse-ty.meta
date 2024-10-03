@@ -1,0 +1,15 @@
+{
+  "title": "Symbolic Hooks Part 4: The App Container Traverse-ty",
+  "slug": "symhooks-part-four",
+  "desc": "Exploring issues and fixes after implementing symbolic hooks for file path tracking in Windows internals.",
+  "tags": [
+    "Windows Internals",
+    "SymHooks",
+    "Bug Hunting",
+    "Application Packages"
+  ],
+  "urls": [
+    "https://windows-internals.com/symhooks-part-three/",
+    "https://blogs.msdn.microsoft.com/oldnewthing/20170419-00/?p=93685"
+  ]
+}

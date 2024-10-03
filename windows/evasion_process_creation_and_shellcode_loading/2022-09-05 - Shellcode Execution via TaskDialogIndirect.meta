@@ -1,0 +1,17 @@
+{
+  "title": "FlavorTown Shellcode Executable",
+  "slug": "flavortown-shellcode-exe",
+  "desc": "A Windows executable for executing shellcodes with proper manifest dependencies and compiled in Visual Studio 2022.",
+  "tags": [
+    "Shellcode",
+    "Executable",
+    "Windows",
+    "Visual Studio"
+  ],
+  "urls": [
+    {
+      "title": "StackOverflow: Calling TaskDialogIndirect loader says ordinal 345 not found",
+      "url": "https://stackoverflow.com/questions/37016803/calling-taskdialogindirect-loader-says-ordinal-345-not-found"
+    }
+  ]
+}

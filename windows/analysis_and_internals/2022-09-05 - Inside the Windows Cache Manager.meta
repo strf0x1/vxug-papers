@@ -1,0 +1,15 @@
+{
+  "title": "Inside Windows Cache Manager",
+  "slug": "WindowsCacheManagerArtemBaranov",
+  "desc": "An analysis of how the Windows Cache Manager works by Artem Baranov, a security researcher at Kaspersky.",
+  "tags": [
+    "Windows",
+    "Cache Manager",
+    "Operating System",
+    "Kaspersky",
+    "Security"
+  ],
+  "urls": [
+    "https://www.linkedin.com/pulse/inside-windows-cache-manager-artem-baranov"
+  ]
+}

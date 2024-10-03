@@ -1,0 +1,16 @@
+{
+  "title": "Process Injection via Component Object Model (COM) IRundown::DoCallback()",
+  "slug": "mdsec-com-process-injection",
+  "desc": "A detailed exploration of process injection technique using COM's undocumented DoCallback method by MDSec red team.",
+  "tags": [
+    "process injection",
+    "component object model",
+    "COM",
+    "IRundown::DoCallback",
+    "code execution"
+  ],
+  "urls": [
+    "https://www.mdsec.co.uk/2022/04/process-injection-via-component-object-model-com-irundowndocallback/",
+    "https://googleprojectzero.blogspot.com/2018/10/injecting-code-into-windows-protected.html"
+  ]
+}

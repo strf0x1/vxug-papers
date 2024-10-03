@@ -1,0 +1,16 @@
+{
+  "title": "WriteEncryptedFileRaw Shellcode Executor",
+  "slug": "Wra7h_FlavorTown_Shellcode_Executor",
+  "desc": "A Windows executable written in C++ that reads a shellcode file and uses it to create an encrypted temporary file for execution.",
+  "tags": [
+    "Shellcode",
+    "Windows Executable",
+    "Encryption",
+    "CreateFile",
+    "VirtualAlloc",
+    "WriteFile",
+    "OpenEncryptedFileRaw",
+    "WriteEncryptedFileRaw"
+  ],
+  "urls": []
+}

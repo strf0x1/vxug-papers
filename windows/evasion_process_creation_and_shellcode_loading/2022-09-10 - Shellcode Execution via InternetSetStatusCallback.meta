@@ -1,0 +1,12 @@
+{
+  "title": "InternetSetStatusCallback for Shellcode Execution",
+  "slug": "internetsessetstatuscallback_shellcode",
+  "desc": "A Windows executable written in C++ using Visual Studio 2022 that reads a shellcode file and sets up an InternetSetStatusCallback with the allocated memory of the shellcode. It uses the WinInet library for internet-related operations.",
+  "tags": [
+    "Windows Executable",
+    "Shellcode Execution",
+    "WinInet",
+    "InternetSetStatusCallback"
+  ],
+  "urls": []
+}

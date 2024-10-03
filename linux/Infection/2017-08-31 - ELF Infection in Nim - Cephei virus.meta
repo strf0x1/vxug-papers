@@ -1,0 +1,14 @@
+{
+  "title": "Linux.Cephei: A Nim Virus Analysis",
+  "slug": "linux-cephei-nim-virus-analysis",
+  "desc": "A detailed exploration of Linux.Cephei, an ELF prepender virus written in the Nim programming language, highlighting its capabilities and lack of malicious intent.",
+  "tags": [
+    "Linux.Cephei",
+    "Nim Programming Language",
+    "ELF Prepender",
+    "Virus Analysis"
+  ],
+  "urls": [
+    "https://guitmz.com/linux-cephei-a-nim-virus"
+  ]
+}

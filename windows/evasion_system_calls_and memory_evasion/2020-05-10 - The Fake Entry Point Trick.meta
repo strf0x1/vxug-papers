@@ -1,0 +1,16 @@
+{
+  "title": "Fake EP Trick: Dynamic PE Image Entry Point Modification",
+  "slug": "fake-ep-trick-dynamic-entry-point-modification",
+  "desc": "A practical demonstration of altering the entry point of a loaded PE image to deceive reverse engineers. This technique defeats various dumping tools and moves the file location to evade Scylla.",
+  "tags": [
+    "Malware Analysis",
+    "PE Format",
+    "Entry Point Modification",
+    "Process Dump",
+    "OllyDumpEx",
+    "Scylla"
+  ],
+  "urls": [
+    "https://github.com/glmcdona/Process-Dump"
+  ]
+}

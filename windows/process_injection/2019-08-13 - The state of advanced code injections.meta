@@ -1,0 +1,18 @@
+{
+  "title": "The State of Advanced Code Injections",
+  "slug": "advanced-code-injections-survey",
+  "desc": "A comprehensive overview of current code injection techniques used by attackers to bypass security systems, highlighting recent research and popular methods.",
+  "tags": [
+    "code injection",
+    "process injection",
+    "attack techniques",
+    "malware",
+    "endpoint protection",
+    "surveys"
+  ],
+  "urls": [
+    "https://adalogics.com/blog/the-state-of-advanced-code-injections",
+    "https://www.endgame.com/blog/technical-blog/ten-process-injection-techniques-technical-survey-common-and-trending-process",
+    "https://www.blackhat.com/us-19/briefings/schedule/#process-injection-techni"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Weaponizing Hidden Functionalities in Microsoft Office",
+  "slug": "office-macro-weaponization",
+  "desc": "Explores a technique to exploit macro functionality in Office applications despite recent security changes. Demonstrated on Windows 11 and Office 2021.",
+  "tags": [
+    "Offensive Security",
+    "Microsoft Office",
+    "Macro Exploitation",
+    "Security Bypass"
+  ],
+  "urls": [
+    "https://offensive-security.com/offsec/macro-weaponization",
+    "https://docs.microsoft.com/en-us/deployoffice/security/internet-macrosblocked"
+  ]
+}

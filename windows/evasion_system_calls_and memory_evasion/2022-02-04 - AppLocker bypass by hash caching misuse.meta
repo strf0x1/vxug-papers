@@ -1,0 +1,16 @@
+{
+  "title": "AppLocker Hash Cache Bypass Misuse",
+  "slug": "applockercachebypass",
+  "desc": "Explains AppLocker hash caching misuse and how to bypass it, including creating hash rules through secpol.msc and checking the hash in PowerShell.",
+  "tags": [
+    "AppLocker",
+    "Hash rules",
+    "Bypass",
+    "Secpol.msc",
+    "PowerShell"
+  ],
+  "urls": [
+    "https://gtworek.github.io/PSBits/applockercachebypass.html",
+    "https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-application-control/applocker/applocker-overview"
+  ]
+}

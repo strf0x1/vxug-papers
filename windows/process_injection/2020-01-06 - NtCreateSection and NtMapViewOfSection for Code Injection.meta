@@ -1,0 +1,13 @@
+{
+  "title": "Code Injection using NtCreateSection & NtMapViewOfSection",
+  "slug": "ntcreatesection_ntmapviewofsection_code_injection",
+  "desc": "This document outlines a code injection technique leveraging Native APIs NtCreateSection, NtMapViewOfSection, and RtlCreateUserThread. It demonstrates creating shared memory sections, mapping views, and injecting shellcode into remote processes.",
+  "tags": [
+    "Code Injection",
+    "NtCreateSection",
+    "NtMapViewOfSection",
+    "RtlCreateUserThread",
+    "Shellcode"
+  ],
+  "urls": []
+}

@@ -1,0 +1,185 @@
+In this article, I will describe how to obfuscate strings using C++ constexpr. Source codes used here can be found on my GitHub account, wrapped in a pretty header file. Before jumping straight into the code, however, I need to explain what we want to achieve here. Usually, when compiling a program, strings are inserted into the binary in raw format. If one opens the final binary executable in Notepad or any hexeditor, the strings are clearly visible. Strings can also be extracted using lots of tools such as “strings” in Linux.
+
+For many reasons, you might not like strings to be exposed that easy. String obfuscation is something you would consider if you designed a CTF challenge, or when you wanted to make it harder for crackers to crack your software. Strings obfuscation won’t make your software bulletproof but is an essential step towards having stronger binary protections.
+
+To have obfuscated strings in the final binary, we need to encrypt strings at compile time. Unfortunately, most of the programming languages are not very rich when it comes to compile-time function execution. Usually, all you have is just a simple engine that enables you to write Macros, which are not sufficient for writing string obfuscation methods. Therefore, you have to do it manually with a pre-compilation script that goes through all your source files and replaces all the strings it finds with encrypted versions, or, a post-compilation script that does the same thing on the output binary. Either way, it will be an ugly solution, that imposes an additional step in your build process. It might not be very reliable or painful when debugging or unit testing.
+
+C++ constexpr allows us to mark a function or expression for the compiler, saying that the result of the computation can be calculated at compile time, provided parameters with known constant values. Below, shows an example of computing the factorial of 4 at compile time.
+
+constexpr int factorial (int n) {
+  return (n <= 1) ? 1 : n * factorial(n-1);
+}
+
+int main() {
+  constexpr int f = factorial(4); // f = 24
+  return 0
+}
+
+Having constant strings and using constexpr, we can store an string in an encrypted format, computed at compile time. The code below shows how to encrypt strings with simple xor encryption method using constexpr.
+
+#define KEY 0x55
+
+template <unsigned int N>
+struct obfuscator {
+    /*
+     * m_data stores the obfuscated string.
+     */
+    char m_data[N] = {0};
+  
+    /*
+     * Using constexpr ensures that the strings will be obfuscated in this
+     * constructor function at compile time.
+     */
+    constexpr obfuscator(const char* data) {
+        /*
+         * Implement encryption algorithm here.
+         * Here we have simple XOR algorithm.
+         */
+        for (unsigned int i = 0; i < N; i++) {
+            m_data[i] = data[i] ^ KEY;
+        }
+    }
+};
+
+int main() {
+    // Store "Hello" in obfuscated form using simple xor encryption.
+    constexpr auto obfuscated_str = obfuscator<6>("Hello");
+    return 0;
+}
+
+In the above code, “obfuscator” is a class with a member array that stores data in an encrypted form. Defining obfuscator’s constructor as constexpr ensures that this member array is encrypted at compile time. Although any symmetric encryption algorithm can be used, we employ the simplest one here, XOR encryption. Compiling the above code:
+
+gcc --std=c++14 -O0 -S -masm=intel constexpr2.cc
+
+And examining the generated assembly, indeed we see that the string “Hello” is stored in the encrypted form:
+
+obfuscated_str.2087:
+        .byte   29
+        .byte   48
+        .byte   57
+        .byte   57
+        .byte   58
+        .byte   85
+        .ident  "GCC: (Ubuntu 9.3.0-10ubuntu2) 9.3.0"
+        .section        .note.GNU–stack,"",@progbits
+        .section        .note.gnu.property,"a"
+		
+Note that the Ascii code for ‘H’ is 72, and when xored with 85 (0x55), the result will be 29, which shows that “Hello” is stored in an encrypted format.
+
+Now, to use the encrypted strings, we need to have them decrypted first. For that purpose, we create a decryption method for the “obfuscator” class. Such method would be like:
+
+#include "stdio.h"
+
+#define KEY 0x55
+
+template <unsigned int N>
+struct obfuscator {
+  
+    char m_data[N] = {0};
+    constexpr obfuscator(const char* data) {/*…*/};
+
+    /*
+     * deobfoscate decrypts the strings. Implement decryption algorithm here.
+     * Here we have a simple XOR algorithm.
+     */
+    void deobfoscate(unsigned char * des) const{
+        int i = 0;
+        do {
+            des[i] = m_data[i] ^ KEY;
+            i++;
+        } while (des[i-1]);
+    }
+
+};
+
+int main() {
+    // Store "Hello" in obfuscated form using simple xor encryption.
+    constexpr auto obfuscated_str = obfuscator<6>("Hello");
+    // Create a buffed to store decrypted string.
+    unsigned char buff[0x10] = {0};
+    // Decrypt the string
+    obfuscated_str.deobfoscate(buff);
+    printf("%s", buff); // output: Hello
+    return 0;
+}
+
+Compiling above code
+
+gcc --std=c++14 -fno-stack-protector -O0 -S -masm=intel constexpr3.cc
+
+And looking at the generated assembly code again, we see that this time, “Hello” is stored as a stack string which indeed is even better for binary protection. Not only “Hello” is stored in an encrypted format, but it also has bytecodes in between each character which makes it harder to recover by any auto analysis tool.
+
+main:
+.LFB2:
+	.cfi_startproc
+	endbr64
+	push	rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, –16
+	mov	rbp, rsp
+	.cfi_def_cfa_register 6
+	sub	rsp, 32
+	mov	BYTE PTR –6[rbp], 29
+	mov	BYTE PTR –5[rbp], 48
+	mov	BYTE PTR –4[rbp], 57
+	mov	BYTE PTR –3[rbp], 57
+	mov	BYTE PTR –2[rbp], 58
+	mov	BYTE PTR –1[rbp], 85
+	mov	QWORD PTR –32[rbp], 0
+	mov	QWORD PTR –24[rbp], 0
+	lea	rdx, –32[rbp]
+	lea	rax, –6[rbp]
+	mov	rsi, rdx
+	mov	rdi, rax
+	call	_ZNK10obfuscatorILj6EE11deobfoscateEPh
+	lea	rax, –32[rbp]
+	mov	rsi, rax
+	lea	rdi, .LC0[rip]
+	mov	eax, 0
+	call	printf@PLT
+	mov	eax, 0
+	leave
+	.cfi_def_cfa 7, 8
+	ret
+	.cfi_endproc
+	
+Now, the final problem is that, writting strings like
+
+obfuscator<6>("Hello");
+
+is such a pain, but C++ Macros to the rescue. A simple macro can be used to pack everything into a single line with the employment of a lambda function:
+
+/*
+ * This macro is a lambda function to pack all required steps into one single command
+ * when defining strings.
+ */
+#define STR(str) \
+    []() -> char* { \
+        constexpr auto size = sizeof(str)/sizeof(str[0]); \
+        constexpr auto obfuscated_str = obfuscator<size>(str); \
+        static char original_string[size]; \
+        obfuscated_str.deobfoscate((unsigned char *)original_string); \
+        return original_string; \
+    }()
+	
+Using above macro and packing everything in a header file, we can simply encrypt our strings in a C++ application.
+
+#include "obfuscator.hh"
+#include "stdio.h"
+
+auto gstr = STR("Global HELLO\n");
+int main() {
+    printf("%s", gstr);
+    printf("%s", STR("Stack HELLO\n"));
+    return 0;
+}
+
+The final header file can be found on GitHub.
+
+Conclution
+C++ constexpr makes it much more convenient to obfuscate strings at compile time. Using this feature, you wont need any additional step in your build process. Everything is wrapped up in your source code which also makes it much more beautiful when looking at. Aside from being more readable, your code will be also much easier to modify, test and debug.
+
+The downside of using constexpr for obfuscation of strings is a little overhead which is negligible most of the time. Also note that constexpr is only supported on C++14 or above. Unfortunately, C does not support constexprs either.
+
+- cih2001
+July 3, 2020

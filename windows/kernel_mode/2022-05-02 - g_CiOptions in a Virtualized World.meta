@@ -1,0 +1,14 @@
+{
+  "title": "G_CiOptions in a Virtualized World",
+  "slug": "g_cioptions-virtualization-security",
+  "desc": "Explores driver signing enforcement bypass techniques and vulnerabilities of endpoints using Virtualization Based Security (VBS) without Hypervisor Code Integrity (HVCI).",
+  "tags": [
+    "Penetration Testing",
+    "Adversarial Detection & Countermeasures",
+    "Red Team Adversarial Attack Simulation",
+    "Security Testing & Analysis"
+  ],
+  "urls": [
+    "https://trustedsec.com/blog/g_cioptions-in-a-virtualized-world"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Bypassing AppLocker by Abusing HashInfo",
+  "slug": "bypassing-applocker-hashinfo-abuse",
+  "desc": "Explores a method to bypass AppLocker using HashInfo abuse, based on the work of Grzegorz Tworek. The article investigates the feasibility and limitations of this technique.",
+  "tags": [
+    "AppLocker",
+    "HashInfo",
+    "Bypass",
+    "Abuse",
+    "Security",
+    "Grzegorz Tworek"
+  ],
+  "urls": [
+    "https://shells.systems/post-bypassing-applocker-by-abusing-hashinfo/"
+  ]
+}

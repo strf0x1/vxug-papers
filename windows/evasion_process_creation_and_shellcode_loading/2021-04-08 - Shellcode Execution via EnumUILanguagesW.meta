@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A C++ source code snippet containing a shellcode for a calculator application exploitation on Windows. The shellcode is designed to execute the calculator application.",
+  "tags": [
+    "shellcode",
+    "exploitation",
+    "calc",
+    "windows"
+  ],
+  "urls": []
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Bypassing Avast Self-Defense Mechanism in Windows 11",
+  "slug": "hooking-system-calls-in-windows-11-avast-bypass",
+  "desc": "A detailed research and analysis on bypassing the self-defense mechanism of Avast Antivirus on Windows 11, focusing on the process rather than just the result.",
+  "tags": [
+    "Windows Security",
+    "Avast Antivirus",
+    "System Calls Hooking",
+    "Self-Defense Bypass"
+  ],
+  "urls": [
+    "https://the-deniss.github.io/posts/2022/12/08/hooking-system-calls-in-windows-11-22h2-like-avast-antivirus.html",
+    "https://www.avast.com/en-us/free-antivirus-download",
+    "https://windows-internals.com/an-exercise-in-dynamic-analysis/"
+  ]
+}

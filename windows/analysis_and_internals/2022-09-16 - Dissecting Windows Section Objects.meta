@@ -1,0 +1,15 @@
+{
+  "title": "Dissecting Windows Section Objects",
+  "slug": "windows-section-objects-deep-dive",
+  "desc": "A detailed analysis of Windows section objects (file mapping objects) and their internal workings. The article focuses on the x86 edition with 32-bit pointers.",
+  "tags": [
+    "Windows",
+    "Section Objects",
+    "File Mapping",
+    "Kernel Subsystems",
+    "Security Research"
+  ],
+  "urls": [
+    "https://www.linkedin.com/pulse/dissecting-windows-section-objects-artem-baranov"
+  ]
+}

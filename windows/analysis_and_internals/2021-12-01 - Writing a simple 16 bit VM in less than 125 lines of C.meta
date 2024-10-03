@@ -1,0 +1,14 @@
+{
+  "title": "Writing a Simple 16-bit VM in Less Than 125 Lines of C",
+  "slug": "simple-16bit-vm-c",
+  "desc": "A tutorial for C beginners to create a working register-based VM and gain insights into low-level programming and Virtual Machine operations.",
+  "tags": [
+    "C Programming",
+    "Virtual Machines",
+    "Beginner's Guide"
+  ],
+  "urls": [
+    "https://www.andreinc.net/2021/12/01/writing-a-simple-vm-in-less-than-125-lines-of-c",
+    "https://github.com/nomemory/lc3-vm"
+  ]
+}

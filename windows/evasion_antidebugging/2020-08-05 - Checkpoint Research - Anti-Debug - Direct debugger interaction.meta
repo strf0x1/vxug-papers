@@ -1,0 +1,13 @@
+{
+  "title": "Anti-Debug Techniques: Direct Debugger Interaction",
+  "slug": "anti-debug-direct-interaction",
+  "desc": "Explores techniques for a running process to engage with its parent or manage user interfaces to detect debuggers.",
+  "tags": [
+    "anti-debug",
+    "debugger detection",
+    "process interaction"
+  ],
+  "urls": [
+    "https://anti-debug.checkpoint.com/techniques/interactive.html"
+  ]
+}

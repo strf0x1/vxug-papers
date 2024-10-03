@@ -1,0 +1,14 @@
+{
+  "title": "Weird Ways to Execute Unmanaged Code in .NET",
+  "slug": ".net-unmanaged-code-execution-weird-techniques",
+  "desc": "Exploring alternate methods for running unmanaged code from managed runtime in .NET 5.0, focusing on x64 binaries on Windows.",
+  "tags": [
+    "DotNet",
+    "UnmanagedCode",
+    "CLRInternals",
+    "WeirdTechniques"
+  ],
+  "urls": [
+    "https://blog.xpnsec.com/weird-ways-to-execute-dotnet/"
+  ]
+}

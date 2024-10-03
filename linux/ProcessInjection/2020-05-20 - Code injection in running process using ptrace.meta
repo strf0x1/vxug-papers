@@ -1,0 +1,14 @@
+{
+  "title": "Code Injection in Running Process using Ptrace",
+  "slug": "code-injection-ptrace-exploit",
+  "desc": "A demonstration of exploiting a running process by injecting shell code using ptrace system calls.",
+  "tags": [
+    "Cybersecurity",
+    "Exploitation",
+    "Ptrace",
+    "Shell Code Injection"
+  ],
+  "urls": [
+    "https://medium.com/@jain.sm/code-injection-in-running-process-using-ptrace-d3ea7191a4be"
+  ]
+}

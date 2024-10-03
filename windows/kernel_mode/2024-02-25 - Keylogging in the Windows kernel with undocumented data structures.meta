@@ -1,0 +1,14 @@
+{
+  "title": "Kernel-Mode Keylogging: Undocumented Data Structures",
+  "slug": "kernel-mode-keylogging-undocumented-data-structures",
+  "desc": "Explores keylogging in Windows kernel using undocumented data structures. Based on a post by eversinc33.",
+  "tags": [
+    "Windows Kernel",
+    "Keylogging",
+    "Undocumented Data Structures",
+    "Rootkits"
+  ],
+  "urls": [
+    "https://eversinc33.com/posts/kernel-mode-keylogging/"
+  ]
+}

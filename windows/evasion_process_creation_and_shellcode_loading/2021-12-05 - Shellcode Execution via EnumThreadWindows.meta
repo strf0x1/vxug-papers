@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode for Windows",
+  "slug": "alfarom256-calc-shellcode-windows",
+  "desc": "This document contains an assembly language code snippet serving as shellcode for calculation purposes on Windows platforms.",
+  "tags": [
+    "Assembly",
+    "Shellcode",
+    "Windows",
+    "Calculation"
+  ],
+  "urls": []
+}

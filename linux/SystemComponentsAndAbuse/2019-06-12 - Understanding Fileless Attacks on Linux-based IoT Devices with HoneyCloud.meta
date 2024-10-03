@@ -1,0 +1,14 @@
+{
+  "title": "Understanding Fileless Attacks on Linux-based IoT Devices",
+  "slug": "fileless-attacks-linux-iot-devices",
+  "desc": "A study exploring the characteristics and vectors of fileless attacks targeting Linux-based IoT devices. The research aims to enhance defense efforts against these emerging threats.",
+  "tags": [
+    "Cybersecurity",
+    "IoT Security",
+    "Linux Security",
+    "Fileless Attacks"
+  ],
+  "urls": [
+    "https://example.com/paper.pdf"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Beyond Good Ol' Run Key, Part 123",
+  "slug": "intel-vtune-persistence-possibility",
+  "desc": "Explores Intel\u00ae VTune\u2122 Amplifier libraries as a potential persistence mechanism for malware, with references to tbbmalloc.dll and Mozilla builds.",
+  "tags": [
+    "Anti-Forensics",
+    "Persistence",
+    "Malware"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2019/11/18/beyond-good-ol-run-key-part-123/",
+    "https://software.intel.com/en-us/vtune-amplifier-help-attaching-itt-apis-to-a-launched-application",
+    "https://www.threadingbuildingblocks.org/docs/help/tbb_userguide/Scalable_Memory_Allocator.html",
+    "https://searchfox.org/mozilla-central/source/tools/profiler/core/VTuneProfiler.h"
+  ]
+}

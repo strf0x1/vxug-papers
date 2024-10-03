@@ -1,0 +1,17 @@
+{
+  "title": "Linux ELF Runtime Crypter",
+  "slug": "linux-elf-runtime-crypter",
+  "desc": "A Go crypter that uses AES to encrypt a file and merges it with a stub for decryption and execution from memory using the memfd_create syscall. Includes stealth features like daemonizing and detaching from tty.",
+  "tags": [
+    "Linux",
+    "ELF",
+    "Crypter",
+    "AES",
+    "memfd_create",
+    "Stealth"
+  ],
+  "urls": [
+    "https://www.guitmz.com/linux-elf-runtime-crypter",
+    "https://www.guitmz.com/running-elf-from-memory/"
+  ]
+}

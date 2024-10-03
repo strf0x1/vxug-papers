@@ -1,0 +1,18 @@
+{
+  "title": "Hunting for Persistence in Linux: Auditd, Sysmon, Osquery & Webshells",
+  "slug": "linux-persistence-hunting-auditd-sysmon-osquery-webshells",
+  "desc": "Explores methods attackers use to maintain access to compromised Linux systems and how defenders can monitor and detect these installations. Based on MITRE ATT&CK Matrix for Linux.",
+  "tags": [
+    "Linux Security",
+    "Threat Hunting",
+    "MITRE ATT&CK",
+    "Persistence Techniques",
+    "Auditd",
+    "Sysmon",
+    "Osquery",
+    "Webshells"
+  ],
+  "urls": [
+    "https://pberba.github.io/security/2021/11/22/linux-threat-hunting-for-persistence-sysmon-auditd-webshell/"
+  ]
+}

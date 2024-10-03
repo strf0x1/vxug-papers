@@ -1,0 +1,15 @@
+{
+  "title": "Making NtCreateUserProcess Work",
+  "slug": "ntcreateuserprocess-workaround",
+  "desc": "A step-by-step guide on converting WinAPI's CreateProcess function to its native counterpart, NtCreateUserProcess, with troubleshooting notes and a minimal working example.",
+  "tags": [
+    "redteam",
+    "maldev",
+    "WindowsInternals",
+    "NtCreateUserProcess",
+    "CreateProcess"
+  ],
+  "urls": [
+    "https://captmeelo.com/redteam/maldev/2022/05/10/ntcreateuserprocess.html"
+  ]
+}

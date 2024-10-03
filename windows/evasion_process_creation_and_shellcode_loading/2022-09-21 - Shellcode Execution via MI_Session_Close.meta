@@ -1,0 +1,12 @@
+{
+  "title": "MI Session Close Application",
+  "slug": "mi_session_close_app",
+  "desc": "A console application written in C++ using Visual Studio 2022 to read and execute shellcode files.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "Windows",
+    "Mi Library"
+  ],
+  "urls": []
+}

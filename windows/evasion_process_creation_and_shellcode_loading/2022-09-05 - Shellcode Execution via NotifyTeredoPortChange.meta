@@ -1,0 +1,12 @@
+{
+  "title": "NotifyTeredoPortChange.exe: Shellcode Executor",
+  "slug": "NotifyTeredoPortChange-exe-shellcode",
+  "desc": "A C++ console application that reads and executes shellcode from a binary file using the NotifyTeredoPortChange API.",
+  "tags": [
+    "shellcode",
+    "teredo",
+    "execute",
+    "windows-api"
+  ],
+  "urls": []
+}

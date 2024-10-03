@@ -1,0 +1,11 @@
+{
+  "title": "Windows Shellcode for Alfarom256 Calc",
+  "slug": "windows-shellcode-alfarom256-calc",
+  "desc": "A C program demonstrating shellcode for executing calc.exe on Windows, using techniques like VirtualAllocEx, WriteProcessMemory, and CreateRemoteThread.",
+  "tags": [
+    "shellcoding",
+    "Windows exploitation",
+    "reverse engineering"
+  ],
+  "urls": []
+}

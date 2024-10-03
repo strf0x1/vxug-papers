@@ -1,0 +1,12 @@
+{
+  "title": "BindImageEx Shellcode Executor",
+  "slug": "bindimagex_shellcode_executor",
+  "desc": "A C++ console application that reads a shellcode file and executes it using BindImageEx.",
+  "tags": [
+    "shellcode",
+    "bindimageex",
+    "c++",
+    "windows"
+  ],
+  "urls": []
+}

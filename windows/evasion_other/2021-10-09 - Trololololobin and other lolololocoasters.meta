@@ -1,0 +1,15 @@
+{
+  "title": "Trololololobin and other lolololocoasters",
+  "slug": "lolbins-signed-executables",
+  "desc": "Explores a technique to inject processes into chains of executed programs using the start command. Discusses the possibility of creating signed executable chains to disrupt parent-child relationship-based EDR detections.",
+  "tags": [
+    "Living off the land",
+    "LOLBins",
+    "signed executables",
+    "process injection"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2021/10/09/trololololobin-and-other-lolololocoasters/",
+    "https://twitter.com/Hexacorn/status/1426294851449073666"
+  ]
+}

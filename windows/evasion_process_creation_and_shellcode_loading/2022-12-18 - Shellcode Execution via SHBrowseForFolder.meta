@@ -1,0 +1,12 @@
+{
+  "title": "Shellcode Executor for SHBrowseForFolder",
+  "slug": "wra7h-flavortown-shellcode-executor",
+  "desc": "A console application written in C++ using Visual Studio 2022 that reads a shellcode file and uses it with SHBrowseForFolder.",
+  "tags": [
+    "Shellcode",
+    "SHBrowseForFolder",
+    "C++",
+    "Visual Studio 2022"
+  ],
+  "urls": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Resolving System Service Numbers using the Exception Directory",
+  "slug": "resolving-system-service-numbers",
+  "desc": "Explores techniques to obtain System Service Numbers (SSNs) for direct invocation of Windows system calls and bypassing user-mode hooks, with a focus on avoiding hardcoded values.",
+  "tags": [
+    "Nighthawk C2",
+    "NTDLL",
+    "System Service Numbers",
+    "Windows System Calls",
+    "Bypassing Hooks"
+  ],
+  "urls": [
+    "https://www.mdsec.co.uk/2022/04/resolving-system-service-numbers-using-the-exception-directory/"
+  ]
+}

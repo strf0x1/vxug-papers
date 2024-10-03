@@ -1,0 +1,16 @@
+{
+  "title": "Red Team Tactics: Combining Direct System Calls and sRDI to Bypass AV/EDR",
+  "slug": "red-team-tactics-direct-system-calls-srdi-bypass-av-edr",
+  "desc": "Explores techniques using direct system calls, restore hooked API calls, and shellcode injection (sRDI) to create a LSASS memory dump evading AV/EDR.",
+  "tags": [
+    "Red Team",
+    "Direct System Calls",
+    "sRDI",
+    "AV Bypass",
+    "EDR Bypass",
+    "LSASS Dump"
+  ],
+  "urls": [
+    "https://outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/"
+  ]
+}

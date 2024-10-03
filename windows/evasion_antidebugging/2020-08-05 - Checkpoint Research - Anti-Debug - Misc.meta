@@ -1,0 +1,16 @@
+{
+  "title": "Anti-Debug Techniques: Misc",
+  "slug": "anti-debug-misc-techniques",
+  "desc": "Explores two anti-debugging techniques in C++, including window class enumeration and parent process check using NtQueryInformationProcess().",
+  "tags": [
+    "Anti-Debug",
+    "Misc",
+    "Techniques",
+    "C++",
+    "Window Class Enumeration",
+    "Parent Process Check"
+  ],
+  "urls": [
+    "https://anti-debug.checkpoint.com/techniques/misc.html"
+  ]
+}

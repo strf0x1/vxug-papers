@@ -1,0 +1,15 @@
+{
+  "title": "Unmanaged Code Execution with .NET Dynamic PInvoke",
+  "slug": ".NET Dynamic PInvoke",
+  "desc": "Explores classic PInvoke limitations and introduces Dynamic PInvoke for calling native code from managed code.",
+  "tags": [
+    "PInvoke",
+    "Dynamic PInvoke",
+    ".NET",
+    "Managed Code",
+    "Unmanaged Code"
+  ],
+  "urls": [
+    "https://bohops.com/2022/04/02/unmanaged-code-execution-with-net-dynamic-pinvoke"
+  ]
+}

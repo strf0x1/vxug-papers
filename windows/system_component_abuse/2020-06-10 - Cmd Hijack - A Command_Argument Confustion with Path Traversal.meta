@@ -1,0 +1,13 @@
+{
+  "title": "Cmd Hijack: Command Argument Confusion in cmd.exe",
+  "slug": "cmd-hijack-arg-confusion",
+  "desc": "Explores an interesting behavior found in cmd.exe after weeks of research for new OS Command Injection attack vectors.",
+  "tags": [
+    "OS Command Injection",
+    "cmd.exe",
+    "Security Research"
+  ],
+  "urls": [
+    "https://vuldb.com/?id.93602"
+  ]
+}

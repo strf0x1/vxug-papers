@@ -1,0 +1,14 @@
+{
+  "title": "Lord Of The Ring0 - Part 3 | Sailing to the land of the user (and debugging the ship)",
+  "slug": "lord-of-the-ring0-p3",
+  "desc": "A blog post discussing different approaches to debugging kernel drivers, user-mode communication methods, and lessons learned during Nidhogg's development.",
+  "tags": [
+    "Kernel Drivers",
+    "Debugging",
+    "User-Mode Communication",
+    "Nidhogg"
+  ],
+  "urls": [
+    "https://idov31.github.io/2022/10/30/lord-of-the-ring0-p3"
+  ]
+}

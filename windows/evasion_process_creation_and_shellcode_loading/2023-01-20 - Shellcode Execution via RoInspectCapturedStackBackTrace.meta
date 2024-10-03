@@ -1,0 +1,14 @@
+{
+  "title": "RoInspectCapturedStackBackTrace: A Shellcode Loader",
+  "slug": "roinspectshellcode",
+  "desc": "A Windows executable written in C++ using Visual Studio 2022 that loads and executes shellcode from a binary file.",
+  "tags": [
+    "Shellcode",
+    "Execution",
+    "Windows",
+    "C++"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/RoInspectCapturedStackBackTrace.cpp"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "CertFindChainInStore: Shellcode Extraction and Certificate Chain Verification",
+  "slug": "certfindchaininshestore-shellcode-certchain",
+  "desc": "This C++ application reads a shellcode file, allocates memory for it, and uses the extracted shellcode to find certificate chains in the system store.",
+  "tags": [
+    "C++",
+    "Windows",
+    "Shellcode",
+    "CertFindChainInStore",
+    "Certificate Chain"
+  ],
+  "urls": []
+}

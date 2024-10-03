@@ -1,0 +1,15 @@
+{
+  "title": "Understanding the Mirai Botnet",
+  "slug": "MiraiBotnetAnalysis",
+  "desc": "A comprehensive analysis of the Mirai botnet by researchers from various institutions, published in the Proceedings of the 26th USENIX Security Symposium.",
+  "tags": [
+    "Cybersecurity",
+    "Botnet",
+    "Mirai",
+    "Internet of Things (IoT)",
+    "DDoS attacks"
+  ],
+  "urls": [
+    "https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis"
+  ]
+}

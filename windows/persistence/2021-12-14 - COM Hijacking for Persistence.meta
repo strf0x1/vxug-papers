@@ -1,0 +1,15 @@
+{
+  "title": "Exploiting COM Hijacking for Persistent Threats",
+  "slug": "com-hijacking-persistence",
+  "desc": "Explores exploiting Microsoft Component Object Model (COM) for persistent threats by abusing its client/server architecture and cross-process interaction capabilities.",
+  "tags": [
+    "Cybersecurity",
+    "Persistance",
+    "Exploitation",
+    "COM",
+    "Microsoft"
+  ],
+  "urls": [
+    "https://cyberstruggle.org/2021/12/14/com-hijacking-for-persistence/"
+  ]
+}

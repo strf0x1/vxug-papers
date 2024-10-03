@@ -1,0 +1,17 @@
+{
+  "title": "Bypassing AVs/EDRs by Calling Syscalls Directly from Visual Studio",
+  "slug": "bypass-avs-edrs-direct-syscalls-visual-studio",
+  "desc": "Explores how to bypass antivirus and endpoint detection solutions by directly calling Windows syscalls from Visual Studio, using NtCreateFile as an example.",
+  "tags": [
+    "Offensive Security",
+    "Defense Evasion",
+    "Syscall Bypass",
+    "Visual Studio",
+    "AV/EDR Bypass"
+  ],
+  "urls": [
+    "https://www.ired.team/offensive-security/defense-evasion/using-syscalls-directly-from-visual-studio-to-bypass-avs-edrs",
+    "https://twitter.com/Cneelis",
+    "https://outflank.nl/blog/2019/06/19/red-team-tactics-combining-direct-system-calls-and-srdi-to-bypass-av-edr/"
+  ]
+}

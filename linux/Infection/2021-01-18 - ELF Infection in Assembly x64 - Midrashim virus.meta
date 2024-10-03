@@ -1,0 +1,13 @@
+{
+  "title": "Linux.Midrashim: Assembly x64 ELF Virus",
+  "slug": "linux-midrashim-elf-virus",
+  "desc": "An independent malware researcher shares a simple Assembly language virus targeting x64 ELF files for educational purposes. The virus is non-destructive and easy to detect, with samples provided for analysis.",
+  "tags": [
+    "Assembly",
+    "Linux Malware",
+    "ELF Virus"
+  ],
+  "urls": [
+    "https://guitmz.com/linux-midrashim-elf-virus"
+  ]
+}

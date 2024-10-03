@@ -1,0 +1,16 @@
+{
+  "title": "ShimBad the Sailor",
+  "slug": "Exploring Shims from a Different Perspective",
+  "desc": "A blog post that explores the use of existing shims for interesting purposes without adding any new entries or custom databases.",
+  "tags": [
+    "Anti-Forensics",
+    "Autostart (Persistence)",
+    "Code Injection",
+    "Living off the Land"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2020/03/18/shimbad-the-sailor",
+    "https://www.blackhat.com/docs/eu-15/materials/eu-15-Pierce-Defending-Against-Malicious-Application-Compatibility-Shims-wp.pdf",
+    "https://sdb.tools/"
+  ]
+}

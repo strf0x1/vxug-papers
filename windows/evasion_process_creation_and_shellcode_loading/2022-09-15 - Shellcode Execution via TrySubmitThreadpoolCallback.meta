@@ -1,0 +1,14 @@
+{
+  "title": "Simple Shellcode Execution in Windows",
+  "slug": "simple-shellcode-execution-windows",
+  "desc": "A simple C++ console application for executing shellcode files on Windows using Threadpool APIs.",
+  "tags": [
+    "shellcode",
+    "windows",
+    "threadpoolapiset",
+    "C++"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/TrySubmitThreadpoolCallback.cpp"
+  ]
+}

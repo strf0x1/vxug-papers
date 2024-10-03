@@ -1,0 +1,12 @@
+{
+  "title": "DLL Hijacking Vulnerability in Windows Defender",
+  "slug": "windef_dll_hijack",
+  "desc": "This document highlights a DLL hijacking vulnerability in the 'NisSrv.exe' binary of Windows Defender. It includes a simple C++ program demonstrating this exploit and advises blue-teamers to watch for similar issues in other defender binaries.",
+  "tags": [
+    "Cybersecurity",
+    "Windows Defender",
+    "DLL Hijacking",
+    "Vulnerability"
+  ],
+  "urls": []
+}

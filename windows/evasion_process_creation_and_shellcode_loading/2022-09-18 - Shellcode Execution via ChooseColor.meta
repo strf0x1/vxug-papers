@@ -1,0 +1,14 @@
+{
+  "title": "FlavorTown Shellcode Loader",
+  "slug": "flavortown-shellcode-loader",
+  "desc": "A Windows console application that loads and executes shellcode from a specified binary file using the ChooseColor dialog box as a hook.",
+  "tags": [
+    "shellcode",
+    "executable",
+    "windows",
+    "security"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown"
+  ]
+}

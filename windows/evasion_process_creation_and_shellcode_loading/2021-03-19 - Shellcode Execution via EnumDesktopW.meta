@@ -1,0 +1,12 @@
+{
+  "title": "C++ Windows Shellcode for Calculation",
+  "slug": "cpp-windows-shellcode-calc",
+  "desc": "This document contains a C++ program that defines an error function and includes a shellcode array in hexadecimal format for calculation purposes on Windows systems.",
+  "tags": [
+    "C++",
+    "Windows Programming",
+    "Shellcode",
+    "Calculation"
+  ],
+  "urls": []
+}

@@ -1,0 +1,13 @@
+{
+  "title": "C++ Windows Shellcode (alfarom256)",
+  "slug": "cpp-windows-shellcode",
+  "desc": "A C++ code snippet for a Windows shellcode using WinAPI and CryptoAPI functions. The shellcode is designed to execute remotely.",
+  "tags": [
+    "C++",
+    "Windows",
+    "Shellcode",
+    "WinAPI",
+    "CryptoAPI"
+  ],
+  "urls": []
+}

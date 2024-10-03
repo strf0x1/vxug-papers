@@ -1,0 +1,14 @@
+{
+  "title": "R.I.P ROP: CET Internals in Windows 20H1",
+  "slug": "rip-cet-windows-20h1",
+  "desc": "Explores Intel's Control-flow Enforcement Technology (CET) implementation in Windows 20H1, focusing on User Mode Shadow Stack capabilities and hardware-based mitigation against control-flow integrity violations.",
+  "tags": [
+    "Windows Internals",
+    "Intel CET",
+    "Control Flow Enforcement",
+    "Security"
+  ],
+  "urls": [
+    "https://windows-internals.com/cet-on-windows"
+  ]
+}

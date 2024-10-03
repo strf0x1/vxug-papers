@@ -1,0 +1,14 @@
+{
+  "title": "Anti-Debug Techniques: Debug Flags",
+  "slug": "anti-debug-techniques-debug-flags",
+  "desc": "Explains how malware uses debug flags in process memory to determine if a process is being debugged, with techniques using Win32 API and system tables.",
+  "tags": [
+    "Anti-Debug",
+    "Debugging",
+    "Malware Techniques",
+    "WinAPI"
+  ],
+  "urls": [
+    "https://anti-debug.checkpoint.com/techniques/debug-flags.html"
+  ]
+}

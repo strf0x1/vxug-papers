@@ -1,0 +1,15 @@
+{
+  "title": "Linux.Liora: A Go-Based Prepender Virus",
+  "slug": "linux-liora-go-virus",
+  "desc": "A simple prepender virus written in Golang by Guilherme Thomazi as a proof of concept. It is believed to be the first binary infector ever created in this language.",
+  "tags": [
+    "Linux.Liora",
+    "GoLang",
+    "Virus",
+    "Prepender",
+    "Proof of Concept"
+  ],
+  "urls": [
+    "https://guitmz.com/linux-liora"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "This document contains assembly code for a shellcode that calculates alphanumeric values. It includes includes for Windows.h and stdio.h.",
+  "tags": [
+    "Assembly",
+    "Shellcode",
+    "Alphanumeric Calculation"
+  ],
+  "urls": []
+}

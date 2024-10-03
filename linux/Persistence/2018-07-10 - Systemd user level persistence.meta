@@ -1,0 +1,14 @@
+{
+  "title": "Systemd User Level Persistence",
+  "slug": "systemd-user-level-persistence",
+  "desc": "Exploring a method for maintaining access to Linux systems after reboot without root privileges using systemd user service.",
+  "tags": [
+    "Linux",
+    "Persistence",
+    "Systemd",
+    "Security"
+  ],
+  "urls": [
+    "https://medium.com/@alexeypetrenko/systemd-user-level-persistence-25eb562d2ea8"
+  ]
+}

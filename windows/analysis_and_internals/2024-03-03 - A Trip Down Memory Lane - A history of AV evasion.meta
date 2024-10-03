@@ -1,0 +1,17 @@
+{
+  "title": "A Trip Down Memory Lane: Antivirus Evasion Techniques",
+  "slug": "Antivirus-Evasion-Techniques",
+  "desc": "Exploring effective and outdated techniques for malware development to evade Windows Defender.",
+  "tags": [
+    "Malware Development",
+    "Antivirus Evasion",
+    "Windows Defender",
+    "Shellcode Loaders",
+    "Stageless Droppers"
+  ],
+  "urls": [
+    "https://gatari.dev/posts/a-trip-down-memory-lane/",
+    "https://training.zeropointsecurity.co.uk/courses/red-team-ops",
+    "https://app.hackthebox.com/prolabs/overview/rastalabs"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Exercise in Dynamic Analysis: Analyzing PayloadRestrictions.dll Export Address Filtering",
+  "slug": "dynamic-analysis-payloadrestrictions-dll",
+  "desc": "A step-by-step guide to analyzing an unknown mitigation using Windows Defender Exploit Guard (formerly EMET) as a real-life example, focusing on Export Address Filtering.",
+  "tags": [
+    "Dynamic Analysis",
+    "Windows Internals",
+    "Exploit Guard",
+    "EMET",
+    "Security Mitigation"
+  ],
+  "urls": [
+    "https://windows-internals.com/an-exercise-in-dynamic-analysis"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "An Introduction into Stack Spoofing",
+  "slug": "StackSpoofin",
+  "desc": "This document provides an introduction to stack spoofing, a malware technique gaining recent attention. It focuses on call stack spoofing in x64 Windows using active techniques.",
+  "tags": [
+    "Malware",
+    "Techniques",
+    "x64 Windows",
+    "Active Spoofing"
+  ],
+  "urls": [
+    "https://dtsec.us/2023-09-15-StackSpoofin/"
+  ]
+}

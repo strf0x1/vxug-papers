@@ -1,0 +1,16 @@
+{
+  "title": "Linux Account Persistence",
+  "slug": "linux-persistence-accounts",
+  "desc": "Learn how to maintain persistent access to Linux systems by creating and manipulating user accounts.",
+  "tags": [
+    "Linux",
+    "Security",
+    "Persistence",
+    "Accounts",
+    "Useradd",
+    "Sudo"
+  ],
+  "urls": [
+    "http://hadess.io/the-art-of-linux-persistence/"
+  ]
+}

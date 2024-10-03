@@ -1,0 +1,21 @@
+{
+  "title": "Exploring Asynchronous Procedure Calls in Windows",
+  "slug": "async-proc-calls-windows",
+  "desc": "A comprehensive guide on understanding and utilizing Asynchronous Procedure Calls (APC) for efficient Windows native coding.",
+  "tags": [
+    "Windows",
+    "Asynchronous Programming",
+    "APC",
+    "Native Coding"
+  ],
+  "urls": [
+    {
+      "title": "Microsoft Documentation: Asynchronous Procedure Calls",
+      "url": "https://docs.microsoft.com/en-us/windows/win32/sync/asynchronous-procedure-calls"
+    },
+    {
+      "title": "Author: Rbmm",
+      "url": "https://dennisbabkin.com/blog/author/?a=rbmm"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "DPWs are the new DPCs: Deferred Procedure Waits in Windows 10 21H1",
+  "slug": "dpws-new-dpcs-windows-10-21h1",
+  "desc": "Explores new functions introduced in Windows 21H1 for waiting on event objects and executing DPCs when signaled.",
+  "tags": [
+    "Windows Internals",
+    "Deferred Procedure Waits",
+    "DPCs",
+    "Event Objects"
+  ],
+  "urls": [
+    "https://windows-internals.com/dpws-are-the-new-dpcs-deferred-procedure-waits-in-windows-10-21h1/"
+  ]
+}

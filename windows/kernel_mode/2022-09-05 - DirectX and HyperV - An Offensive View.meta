@@ -1,0 +1,12 @@
+{
+  "title": "Exploring Hyper-V DirectX Vulnerabilities",
+  "slug": "hyperv-directx-vulns",
+  "desc": "A summary of the Black Hat USA talk 'DirectX: The new Hyper-V Attack surface' by Zhenhao Hong, covering four vulnerabilities and a proposed fuzzing methodology.",
+  "tags": [
+    "Hyper-V",
+    "DirectX",
+    "Vulnerability Research",
+    "Black Hat",
+    "Exploit Development"
+  ]
+}

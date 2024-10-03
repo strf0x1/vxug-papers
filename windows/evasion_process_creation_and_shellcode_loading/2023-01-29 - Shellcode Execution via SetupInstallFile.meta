@@ -1,0 +1,15 @@
+{
+  "title": "SetupInstallFile: Shellcode Execution via SetupAPI",
+  "slug": "setupinstallfile_shellcode_execution",
+  "desc": "This C++ application reads a shellcode file and executes it using VirtualAlloc and SetupInstallFile API, creating a new file as the target.",
+  "tags": [
+    "Shellcode",
+    "SetupAPI",
+    "Windows API",
+    "C++",
+    "Malware"
+  ],
+  "urls": [
+    "https://www.malwareunicorn.org/2018/05/23/setupinstallfile-simple-malicious.html"
+  ]
+}

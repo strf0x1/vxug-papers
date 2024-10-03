@@ -1,0 +1,16 @@
+{
+  "title": "Inside Windows Defender System Guard Runtime Monitor",
+  "slug": "windows-defender-system-guard-runtime-monitor-sgrm-octagon",
+  "desc": "Explores System Guard Runtime Monitor (SGRM), a component of Windows Defender introduced in Windows 10 1709, ensuring system integrity. Also known as Octagon, it requires Virtual Secure Mode for protection using Virtual Trust Levels.",
+  "tags": [
+    "Windows Defender",
+    "System Guard Runtime Monitor",
+    "SGRM",
+    "Octagon",
+    "Virtual Secure Mode",
+    "Windows 10"
+  ],
+  "urls": [
+    "https://blog.syscall.party/2022/08/02/inside-windows-defender-system-guard-runtime-monitor.html"
+  ]
+}

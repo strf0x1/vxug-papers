@@ -1,0 +1,12 @@
+{
+  "title": "Error Handling and Shellcode Implementation in C++",
+  "slug": "error-handling-shellcode-cpp",
+  "desc": "A C++ program demonstrating error handling using Windows API and a shellcode implementation for educational purposes.",
+  "tags": [
+    "C++",
+    "Windows API",
+    "Shellcode",
+    "Error Handling"
+  ],
+  "urls": []
+}

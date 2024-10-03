@@ -1,0 +1,12 @@
+{
+  "title": "CreateThreadpoolTimer Shellcode Executor",
+  "slug": "create-threadpooltimer-shellcode-executor",
+  "desc": "A C++ console application that reads a shellcode file and executes it using Windows thread pool timer.",
+  "tags": [
+    "Shellcode",
+    "ThreadPoolTimer",
+    "Windows",
+    "Execution"
+  ],
+  "urls": []
+}

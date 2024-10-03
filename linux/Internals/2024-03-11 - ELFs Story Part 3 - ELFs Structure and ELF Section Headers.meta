@@ -1,0 +1,15 @@
+{
+  "title": "ELF's Story Part3: ELF's Structure - ELF Section Headers",
+  "slug": "elfs-story-part3-elfs-structure-elf-section-headers",
+  "desc": "An in-depth exploration of ELF section headers, their role as descriptors for various sections of the file, and how to locate and retrieve information from them.",
+  "tags": [
+    "ELF",
+    "ELF Section Headers",
+    "Binary File Structure",
+    "Linker",
+    "Lo"
+  ],
+  "urls": [
+    "https://aleeamini.com/elfs-story-part3-elfs-structure-elf-section-headers/"
+  ]
+}

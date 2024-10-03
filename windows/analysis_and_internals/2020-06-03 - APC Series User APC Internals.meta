@@ -1,0 +1,14 @@
+{
+  "title": "APC Series: User APC Internals",
+  "slug": "Kernel-User-APC-API",
+  "desc": "Explores how to queue user APCs from kernel mode and delivers them to user mode. Covers KAPC structure, KeInsertQueueApc, KiInsertQueueApc, QueueUserAPC, NtWaitForSingleObject, and more.",
+  "tags": [
+    "Windows Internals",
+    "APCs",
+    "Kernel Mode",
+    "User Mode"
+  ],
+  "urls": [
+    "https://repnz.github.io/posts/apc/kernel-user-apc-api"
+  ]
+}

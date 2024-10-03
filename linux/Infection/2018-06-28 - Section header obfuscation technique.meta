@@ -1,0 +1,13 @@
+{
+  "title": "Elfscure: ELF Binary Obfuscator",
+  "slug": "elfscure-elf-obfuscation",
+  "desc": "This C source code implements Elfscure, an ELF binary obfuscator created by Gerard`De Nerval aka Elf. It manipulates sections like .text, .data, and others to confuse reverse engineering tools.",
+  "tags": [
+    "ELF",
+    "binary",
+    "obfuscation",
+    "C",
+    "source code"
+  ],
+  "urls": []
+}

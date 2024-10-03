@@ -1,0 +1,15 @@
+{
+  "title": "Windows Process Injection: KnownDlls Cache Poisoning",
+  "slug": "windows-process-injection-known-dlls-cache-poisoning",
+  "desc": "A blog post discussing a process injection method discovered by Christien Rioux in 1999, recently revisited and detailed by James Forshaw. The technique involves replacing a directory handle in a target process to load a malicious DLL without reading or writing to virtual memory.",
+  "tags": [
+    "Windows Security",
+    "Process Injection",
+    "KnownDlls Cache Poisoning",
+    "DLL Injection",
+    "Function Hooking"
+  ],
+  "urls": [
+    "https://modexp.wordpress.com/2019/08/12/windows-process-injection-knowndlls"
+  ]
+}

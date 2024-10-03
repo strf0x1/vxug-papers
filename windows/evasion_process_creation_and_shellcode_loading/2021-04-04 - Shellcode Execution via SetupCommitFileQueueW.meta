@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode for Windows",
+  "slug": "alfarom256-calc-shellcode-windows",
+  "desc": "A C++ program including Windows API functions and a hexadecimal shellcode array. The shellcode appears to be related to calculation tasks.",
+  "tags": [
+    "C++",
+    "Windows API",
+    "Shellcode",
+    "Calculation"
+  ],
+  "urls": []
+}

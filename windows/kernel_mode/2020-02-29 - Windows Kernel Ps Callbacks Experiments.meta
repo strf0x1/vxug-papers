@@ -1,0 +1,21 @@
+{
+  "title": "Windows Kernel Ps Callbacks Experiments",
+  "slug": "windows-kernel-ps-callbacks-experiments",
+  "desc": "A pseudo-EDR proof-of-concept using Windows kernel callbacks written by rui on Feb 29, 2020.",
+  "tags": [
+    "Windows Kernel",
+    "Ps Callbacks",
+    "Endpoint Detection and Response (EDR)",
+    "Ring0 Experiments"
+  ],
+  "urls": [
+    {
+      "url": "https://web.archive.org/web/20200326040826/http://deniable.org/windows/windows-callbacks",
+      "type": "Source Document"
+    },
+    {
+      "url": "https://web.archive.org/web/20200326040826/https://twitter.com/fdiskyou",
+      "type": "Author Profile"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "WaveOutOpen Shellcode Loader",
+  "slug": "waveoutopen-shellcode-loader",
+  "desc": "A Windows executable written in C++ that loads and executes a shellcode file via waveOutOpen function.",
+  "tags": [
+    "shellcode",
+    "waveOutOpen",
+    "C++",
+    "Windows",
+    "executable"
+  ],
+  "urls": []
+}

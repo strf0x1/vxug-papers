@@ -1,0 +1,15 @@
+{
+  "title": "Bypassing AMSI and WLDP for .NET Dynamic Code",
+  "slug": "amsi-wldp-bypass-dotnet",
+  "desc": "Explores three methods red teams use to bypass Antimalware Scan Interface (AMSI) and one method to bypass Windows Lockdown Policy (WLDP) for .NET dynamic code.",
+  "tags": [
+    "Cybersecurity",
+    "Red Team",
+    "AMSI",
+    "WLDP",
+    ".NET"
+  ],
+  "urls": [
+    "https://modexp.wordpress.com/2019/06/03/disable-amsi-wldp-dotnet/"
+  ]
+}

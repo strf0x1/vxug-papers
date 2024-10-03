@@ -1,0 +1,14 @@
+{
+  "title": "PE File Corruption Tutorial",
+  "slug": "pe-file-corruption-tutorial",
+  "desc": "An introductory guide on corrupting PE files for educational purposes, including a sample C program that inserts a new section into an existing PE file.",
+  "tags": [
+    "PE File Format",
+    "Corruption",
+    "Windows Executable",
+    "Reverse Engineering"
+  ],
+  "urls": [
+    "https://example.com/pe-corruption-tutorial"
+  ]
+}

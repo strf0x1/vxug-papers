@@ -1,0 +1,14 @@
+{
+  "title": "Hooking Heaven\u2019s Gate \u2014 A WOW64 Hooking Technique",
+  "slug": "wow64-hooking-technique",
+  "desc": "A detailed explanation of a WOW64 hooking technique by Hoang Bui, using the term 'Heaven's Gate' to describe it.",
+  "tags": [
+    "WOW64",
+    "Hooking",
+    "Syscall",
+    "AMD/Intel Manual"
+  ],
+  "urls": [
+    "https://medium.com/@fsx30/hooking-heavens-gate-a-wow64-hooking-technique-5235e1aeed73"
+  ]
+}

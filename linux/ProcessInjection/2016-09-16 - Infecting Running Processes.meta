@@ -1,0 +1,14 @@
+{
+  "title": "Linux Infecting Running Processes",
+  "slug": "linux-infecting-running-processes",
+  "desc": "Learn how to inject code into running processes on Linux. Explore use cases like run-time patching and malware creation.",
+  "tags": [
+    "Linux",
+    "Process Injection",
+    "Malware Creation",
+    "Debugging"
+  ],
+  "urls": [
+    "https://0x00sec.org/t/linux-infecting-running-processes/1097"
+  ]
+}

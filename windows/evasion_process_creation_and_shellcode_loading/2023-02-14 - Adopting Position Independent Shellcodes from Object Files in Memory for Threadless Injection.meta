@@ -1,0 +1,18 @@
+{
+  "title": "Automating Position Independent Shellcode Generation for Threadless Injection",
+  "slug": "pic-generation-threadless-injection",
+  "desc": "This blog post describes how to automate the generation of position independent shellcodes from object files in memory for use in threadless process injection.",
+  "tags": [
+    "maldev",
+    "threadless-injection",
+    "function-stomping",
+    "shellcode-injection",
+    "shellcode-generation",
+    "pic",
+    "winexec",
+    "msfvenom"
+  ],
+  "urls": [
+    "https://snovvcrash.rocks/2023/02/14/pic-generation-for-threadless-injection.html"
+  ]
+}

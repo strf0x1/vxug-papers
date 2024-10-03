@@ -1,0 +1,17 @@
+{
+  "title": "Code Injection Techniques for Memory-Corruption Bugs",
+  "slug": "code-injection-techniques-memory-corruption",
+  "desc": "Explores classical techniques to inject new code into victim processes and redirect execution to it. Uses stack-4.5 program as an example.",
+  "tags": [
+    "Memory Corruption",
+    "Code Injection",
+    "Stack Overflow",
+    "Security"
+  ],
+  "urls": [
+    {
+      "text": "Phoenix virtual machine exercises",
+      "url": "https://lettieri.iet.unipi.it/"
+    }
+  ]
+}

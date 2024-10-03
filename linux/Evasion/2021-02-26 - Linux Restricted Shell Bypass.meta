@@ -1,0 +1,13 @@
+{
+  "title": "Linux Restricted Shell Bypass",
+  "slug": "linux-restricted-shell-bypass",
+  "desc": "Explains techniques to bypass restricted shells for privilege escalation in penetration testing.",
+  "tags": [
+    "Penetration Testing",
+    "Post Exploitation",
+    "Linux Security"
+  ],
+  "urls": [
+    "https://vk9-sec.com/linux-restricted-shell-bypass"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Shellcode Loading Application",
+  "slug": "shellcode-loader-app",
+  "desc": "A Windows application that reads and allocates executable memory for a given shellcode file.",
+  "tags": [
+    "Shellcode",
+    "Windows Application",
+    "Memory Allocation",
+    "VirtualAlloc"
+  ],
+  "urls": []
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Exploiting Antivirus and EDR Exclusions for Undetected Attacks",
+  "slug": "av-edr-exclusion-abuse",
+  "desc": "Explores how to exploit a common yet overlooked feature in Antivirus (AV) and Endpoint Detection & Response (EDR) systems, specifically Windows Defender AV, to evade detections and perform malicious activities undetected.",
+  "tags": [
+    "Cybersecurity",
+    "Antivirus Evasion",
+    "Endpoint Detection & Response",
+    "Windows Defender"
+  ],
+  "urls": [
+    "https://medium.com/seercurity-spotlight/abusing-av-edr-exclusions-to-evade-detections-21fe31d7ed49"
+  ]
+}

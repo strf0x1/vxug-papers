@@ -1,0 +1,14 @@
+{
+  "title": "Hypervisor Detection Using NtQueryInformationSystem()",
+  "slug": "hypervisor-detection-ntqueryinformationsystem",
+  "desc": "Explores undocumented method of detecting virtualization using SystemHypervisorDetailInformation and compares it with other known methods.",
+  "tags": [
+    "Windows Internals",
+    "Undocumented API",
+    "Hypervisor Detection",
+    "SystemHypervisorDetailInformation"
+  ],
+  "urls": [
+    "https://medium.com/@matterpreter/hypervisor-detection-with-systemhypervisordetailinformation-26e44a57f80e"
+  ]
+}

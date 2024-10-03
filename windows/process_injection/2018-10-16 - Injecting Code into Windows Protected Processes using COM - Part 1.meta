@@ -1,0 +1,18 @@
+{
+  "title": "Bypassing Windows Protected Processes: Injecting Code into PPLs",
+  "slug": "Windows_PP_Injection",
+  "desc": "James Forshaw from Google Project Zero details how to inject code into Protected Process Light (PPL) on Windows 10 1803, bypassing its security mechanisms.",
+  "tags": [
+    "Windows Security",
+    "Code Injection",
+    "Protected Processes",
+    "Exploit",
+    "Google Project Zero"
+  ],
+  "urls": [
+    "https://googleprojectzero.blogspot.com/2018/10/injecting-code-into-windows-protected.html",
+    "https://recon.cx/2018/montreal/",
+    "https://bugs.chromium.org/p/project-zero/issues/detail?id=1597",
+    "https://portal.msrc.microsoft.com/en-us/security-guidance/advisory/CVE-2018-8449"
+  ]
+}

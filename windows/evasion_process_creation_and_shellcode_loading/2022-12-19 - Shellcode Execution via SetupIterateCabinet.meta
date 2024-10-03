@@ -1,0 +1,12 @@
+{
+  "title": "SetupIterateCabinet Shellcode Execution",
+  "slug": "setupiteratecabinet-shellcode-execution",
+  "desc": "A C++ console application that reads a shellcode file and injects it into a cabinet file using SetupIterateCabinet.",
+  "tags": [
+    "shellcode",
+    "injection",
+    "SetupIterateCabinet",
+    "C++"
+  ],
+  "urls": []
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Make Phishing Great Again: VSTO Office Files are the New Macro Nightmare?",
+  "slug": "vsto-phishing-security",
+  "desc": "VSTO's ability to export embedded Add-Ins in office documents poses a significant security risk for phishing attacks and remote code execution. Office's automatic update capability exacerbates this issue.",
+  "tags": [
+    "Cybersecurity",
+    "Phishing",
+    "VSTO",
+    "Office Files",
+    "Remote Code Execution"
+  ],
+  "urls": [
+    "https://medium.com/@airlockdigital/make-phishing-great-again-vsto-office-files-are-the-new-macro-nightmare-e09fcadef010"
+  ]
+}

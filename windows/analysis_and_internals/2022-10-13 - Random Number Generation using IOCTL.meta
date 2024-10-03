@@ -1,0 +1,12 @@
+{
+  "title": "Quick Proof of Concept for Random Number Generation via IOCTL/syscall",
+  "slug": "rng-ioctl-poc",
+  "desc": "A brief demonstration of accessing random number generation functionality using IOCTL or syscalls in Windows.",
+  "tags": [
+    "Windows",
+    "RNG",
+    "IOCTL",
+    "Syscall"
+  ],
+  "urls": []
+}

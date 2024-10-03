@@ -1,0 +1,11 @@
+{
+  "title": "OleUIBusy Shellcode Loader",
+  "slug": "oleuibusyshellcodeloader",
+  "desc": "A C++ application that reads a shellcode file and loads it into memory using OleUIBusy for execution.",
+  "tags": [
+    "shellcode",
+    "oleuibusy",
+    "windows",
+    "executable"
+  ]
+}

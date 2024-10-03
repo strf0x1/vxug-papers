@@ -1,0 +1,12 @@
+{
+  "title": "ClusWorkerCreate Shellcode Executor",
+  "slug": "clusworkercreate-shellcode-executor",
+  "desc": "A console application in C++ that reads and executes shellcode from a file using ClusWorkerCreate. Compiled with Visual Studio 2022.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "ClusWorkerCreate",
+    "Windows"
+  ],
+  "urls": []
+}

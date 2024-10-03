@@ -1,0 +1,12 @@
+{
+  "title": "LDR_DATA_TABLE_ENTRY Structure and DriverEntry Function",
+  "slug": "ldr_data_table_entry_driverentry",
+  "desc": "A C structure definition for LDR_DATA_TABLE_ENTRY used in Windows driver development, along with a DriverEntry function that initializes the driver.",
+  "tags": [
+    "Windows Drivers",
+    "LDR_DATA_TABLE_ENTRY",
+    "DriverEntry",
+    "NTDDK.H"
+  ],
+  "urls": []
+}

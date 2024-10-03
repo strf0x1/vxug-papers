@@ -1,0 +1,12 @@
+{
+  "title": "RoInspectThreadErrorInfo Executable Source Code",
+  "slug": "roinspectthreaderrorinfo-src",
+  "desc": "A C++ console application that reads a shellcode file and uses RoInspectThreadErrorInfo function to inspect error info.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "RoInspectThreadErrorInfo",
+    "Windows API"
+  ],
+  "urls": []
+}

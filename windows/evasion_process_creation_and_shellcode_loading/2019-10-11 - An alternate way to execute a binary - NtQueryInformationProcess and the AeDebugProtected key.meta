@@ -1,0 +1,15 @@
+{
+  "title": "Beyond Good Ol\u2019 Run Key: Part 119",
+  "slug": "beyond-good-ol-run-key-part-119",
+  "desc": "Exploring the twin brother of AeDebug key and its interaction with NtQueryInformationProcess function.",
+  "tags": [
+    "Anti-Forensics",
+    "Autostart (Persistence)",
+    "Windows Internals"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2019/10/11/beyond-good-ol-run-key-part-119/",
+    "https://docs.microsoft.com/en-us/windows/win32/debug/configuring-automatic-debugging",
+    "https://docs.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntqueryinformationprocess"
+  ]
+}

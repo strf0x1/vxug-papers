@@ -1,0 +1,12 @@
+{
+  "title": "Shellcode Modifier: Replace 'h7arW' with 'Wra7h'",
+  "slug": "shellcode_modifier_replace_h7arW_wra7h",
+  "desc": "A Windows application that reads a shellcode file, allocates executable memory for it, and then uses FindText to replace 'h7arW' with 'Wra7h' in the allocated memory.",
+  "tags": [
+    "shellcode",
+    "windows",
+    "FindText",
+    "memory_allocation"
+  ],
+  "urls": []
+}

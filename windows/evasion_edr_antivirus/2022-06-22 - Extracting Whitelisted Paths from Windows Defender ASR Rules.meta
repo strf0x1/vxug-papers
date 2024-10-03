@@ -1,0 +1,15 @@
+{
+  "title": "Extracting Whitelisted Paths from Windows Defender ASR Rules",
+  "slug": "extract-asr-rules",
+  "desc": "This blog post outlines methods to dump lsass.exe on a machine protected by Microsoft Defender for Endpoint with ASR rules enabled, leveraging whitelisted paths.",
+  "tags": [
+    "Windows Defender",
+    "ASR Rules",
+    "lsass.exe",
+    "Microsoft Defender for Endpoint"
+  ],
+  "urls": [
+    "https://adamsvoboda.net/extracting-asr-rules",
+    "https://github.com/commial/experiments/tree/master/windows-defender/ASR"
+  ]
+}

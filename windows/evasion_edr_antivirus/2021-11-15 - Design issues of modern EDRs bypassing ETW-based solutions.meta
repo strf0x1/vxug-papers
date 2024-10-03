@@ -1,0 +1,17 @@
+{
+  "title": "Design Issues of Modern EDRs: Bypassing ETW-Based Solutions",
+  "slug": "modern-edrs-design-issues-bypassing-etw",
+  "desc": "Explores vulnerabilities in modern Endpoint Detection & Response (EDR) solutions and demonstrates how firmware implant payloads can bypass these systems, focusing on two UEFI bootloader-based malware examples.",
+  "tags": [
+    "Firmware Security",
+    "Endpoint Detection & Response",
+    "EDR Solutions",
+    "UEFI Bootloader",
+    "Malware Attacks"
+  ],
+  "urls": [
+    "https://www.binarly.io/posts/Design_issues_of_modern_EDRs_bypassing_ETW-based_solutions/index.html",
+    "https://www.blackhat.com/eu-21/briefings/schedule/index.html#veni-no-vidi-no-vici-attacks-on-etw-blind-edr-sensors-24842",
+    "https://securelist.com/finspy-unseen-findings/104322/"
+  ]
+}

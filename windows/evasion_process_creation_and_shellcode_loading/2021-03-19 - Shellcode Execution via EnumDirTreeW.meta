@@ -1,0 +1,13 @@
+{
+  "title": "Alfarom256 Calc Shellcode in C",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A C program containing the Alfarom256 calc shellcode, including necessary includes and library references.",
+  "tags": [
+    "C",
+    "Shellcoding",
+    "Alfarom256",
+    "Calc",
+    "Windows"
+  ],
+  "urls": []
+}

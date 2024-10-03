@@ -1,0 +1,14 @@
+{
+  "title": "CDefFolderMenu_Create2: Shellcode Executor",
+  "slug": "cdef_folder_menu_create2_shellcode_executor",
+  "desc": "A Windows executable that reads a shellcode file and executes its contents using CDefFolderMenu_Create2.",
+  "tags": [
+    "shellcode",
+    "executable",
+    "Windows",
+    "C++"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/CDefFolderMenu_Create2.cpp"
+  ]
+}

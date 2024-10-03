@@ -1,0 +1,13 @@
+{
+  "title": "Programming Linux Anti-Reversing Techniques",
+  "slug": "Linux Anti-Reversing",
+  "desc": "A comprehensive guide by Jacob Baines focusing on anti-reverse engineering techniques for Linux programming. It covers various topics and is available for purchase at Leanpub.",
+  "tags": [
+    "Linux Programming",
+    "Anti-Reversing",
+    "Security"
+  ],
+  "urls": [
+    "http://leanpub.com/anti-reverse-engineering-linux"
+  ]
+}

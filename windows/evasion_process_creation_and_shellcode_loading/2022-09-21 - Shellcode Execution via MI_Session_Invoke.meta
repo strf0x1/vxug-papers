@@ -1,0 +1,14 @@
+{
+  "title": "MI_Session_Invoke Executable",
+  "slug": "mi_session_invoke_exe",
+  "desc": "A Windows application written in C++ that reads and executes shellcode from a specified file using Microsoft's Managed Infiltration library.",
+  "tags": [
+    "Windows Application",
+    "Shellcode Execution",
+    "MI Library",
+    "C++"
+  ],
+  "urls": [
+    "https://github.com/NetSPI/Microsoft-Invoke-Management/blob/master/source/MI_Session_Invoke/MI_Session_Invoke.cpp"
+  ]
+}

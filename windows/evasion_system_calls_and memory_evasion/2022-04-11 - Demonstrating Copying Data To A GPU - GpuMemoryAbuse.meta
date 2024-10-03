@@ -1,0 +1,12 @@
+{
+  "title": "NVIDIA CUDA API Table Definition",
+  "slug": "nvidia-cuda-api-table-definition",
+  "desc": "This document defines a struct for NVIDIA's CUDA API table, including function pointers and error codes.",
+  "tags": [
+    "CUDA",
+    "NVIDIA",
+    "API",
+    "Programming"
+  ],
+  "urls": []
+}

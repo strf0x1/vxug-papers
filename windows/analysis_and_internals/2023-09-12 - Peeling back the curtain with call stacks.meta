@@ -1,0 +1,13 @@
+{
+  "title": "Peeling back the Curtain with Call Stacks",
+  "slug": "understanding-alerts-call-stacks",
+  "desc": "Learn how Elastic Defend uses kernel call stack enrichments to provide context to events and alerts for better threat detection.",
+  "tags": [
+    "Security operations",
+    "Detection science",
+    "Call stacks"
+  ],
+  "urls": [
+    "https://www.elastic.co/security-labs/peeling-back-the-curtain-with-call-stacks"
+  ]
+}

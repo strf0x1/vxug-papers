@@ -1,0 +1,11 @@
+{
+  "title": "WDEXTRACT.CPP Main Logic and Entry Point",
+  "slug": "wdextract-entrypoint",
+  "desc": "This document outlines the main logic and entry point for WDEXTRACT, a tool designed to extract modules from Windows files. It includes definitions, constants, structures, and an important callback function ExtractCallback.",
+  "tags": [
+    "C++",
+    "Windows File Extraction",
+    "WDEXTRACT"
+  ],
+  "urls": []
+}

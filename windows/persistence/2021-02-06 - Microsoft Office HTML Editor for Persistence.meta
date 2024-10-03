@@ -1,0 +1,14 @@
+{
+  "title": "Beyond Good Ol' Run Key: Part 131",
+  "slug": "old-persistence-registry-locations",
+  "desc": "Explores legacy and less-known Registry locations for persistence that were once used to associate HTML editors with viewing source of web pages via Microsoft Office.",
+  "tags": [
+    "Anti-Forensics",
+    "Persistence",
+    "Registry",
+    "HTML Editors"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2021/02/06/beyond-good-ol-run-key-part-131/"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Alfarom256 Calc Shellcode in C for Windows",
+  "slug": "alfarom256-calc-shellcode-windows",
+  "desc": "This document contains a sample implementation of alfarom256 calc shellcode in C for Windows platform, utilizing the Imagehlp library.",
+  "tags": [
+    "C",
+    "Windows",
+    "Shellcode",
+    "Assembly",
+    "Imagehlp"
+  ],
+  "urls": []
+}

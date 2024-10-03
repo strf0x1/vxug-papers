@@ -1,0 +1,14 @@
+{
+  "title": "DNS Service Browsing Tool for Executing Shellcode",
+  "slug": "dns-service-browse-exe-shellcode",
+  "desc": "A Windows application that reads shellcode from a binary file and uses DNS service browsing to execute it. Compiled using Visual Studio 2022.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "DNS Service Browsing",
+    "C++"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/src/DnsServiceBrowse.cpp"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "No Alloc, No Problem: Leveraging Program Entry Points for Process Injection",
+  "slug": "no-alloc-no-problem-process-injection",
+  "desc": "Explores lesser-known techniques for remote process injection to evade detection by EDR products. Focuses on minimalist approaches.",
+  "tags": [
+    "Process Injection",
+    "MITRE ATT&CK",
+    "Red Teaming",
+    "Defense Evasion",
+    "Privilege Escalation"
+  ],
+  "urls": [
+    "https://bohops.com/2023/06/09/no-alloc-no-problem-leveraging-program-entry-points-for-process-injection/"
+  ]
+}

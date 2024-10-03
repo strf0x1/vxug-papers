@@ -1,0 +1,14 @@
+{
+  "title": "Changing Memory Protection using APC",
+  "slug": "APC_Memory_Protection",
+  "desc": "Exploring process injection techniques in Windows offensive tradecraft, focusing on changing memory protection using APCs. Discusses a function from ntdll.dll that can be used as a memory write primitive.",
+  "tags": [
+    "Windows Offense",
+    "Process Injection",
+    "APC",
+    "Memory Protection"
+  ],
+  "urls": [
+    "https://blog.offensive.af/changing-memory-protection-using-apc"
+  ]
+}

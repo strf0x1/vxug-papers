@@ -1,0 +1,15 @@
+{
+  "title": "Let's Go (VS) Code - Red Team style",
+  "slug": "lets-go-vs-code-red-team-style",
+  "desc": "This article explores a potential security risk in Visual Studio Code's remote connection features using its tunnels API. It demonstrates how an attacker could exploit this to establish a Command&Control channel via an official Microsoft domain.",
+  "tags": [
+    "Cybersecurity",
+    "Red Team",
+    "Visual Studio Code",
+    "Command&Control",
+    "Microsoft"
+  ],
+  "urls": [
+    "https://badoption.eu/blog/2023/01/31/code_c2.html"
+  ]
+}

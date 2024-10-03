@@ -1,0 +1,15 @@
+{
+  "title": "Abusing Exported Functions and DCOM Interfaces for Pass-Thru Command Execution",
+  "slug": "abuse-exported-functions-dcom-pass-thru-commands",
+  "desc": "Explores exploiting DLL files in System32 folder to execute commands via rundll32.exe and OpenURL functions. Demonstrates pass-through command execution with URL.DLL.",
+  "tags": [
+    "Exploit",
+    "Command Execution",
+    "Pass-Thru",
+    "DCOM Interfaces",
+    "Lateral Movement"
+  ],
+  "urls": [
+    "https://bohops.com/2018/03/17/abusing-exported-functions-and-exposed-dcom-interfaces-for-pass-thru-command-execution-and-lateral-movement/"
+  ]
+}

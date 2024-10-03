@@ -1,0 +1,14 @@
+{
+  "title": "I Like to Move It: Windows Lateral Movement Part 3: DLL Hijacking",
+  "slug": "windows-lateral-movement-dll-hijacking",
+  "desc": "Explores how DLL hijacking can be used for lateral movement in Windows networks, expanding on traditional uses of persistence and privilege escalation.",
+  "tags": [
+    "Windows",
+    "Lateral Movement",
+    "DLL Hijacking",
+    "Cybersecurity"
+  ],
+  "urls": [
+    "https://www.mdsec.co.uk/2020/10/i-live-to-move-it-windows-lateral-movement-part-3-dll-hijacking/"
+  ]
+}

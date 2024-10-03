@@ -1,0 +1,12 @@
+{
+  "title": "PdhBrowseCounters.exe: Shellcode Execution Tool",
+  "slug": "pdhbrowsecounters_shellcode_exec",
+  "desc": "A console application written in C++ using Visual Studio 2022 that reads and executes shellcode from a binary file when the user selects a counter in the displayed dialog box.",
+  "tags": [
+    "Shellcode",
+    "Execution",
+    "PdhBrowseCounters",
+    "Visual Studio 2022",
+    "Windows"
+  ]
+}

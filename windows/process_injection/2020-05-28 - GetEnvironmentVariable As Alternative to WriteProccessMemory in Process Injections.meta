@@ -1,0 +1,13 @@
+{
+  "title": "GetEnvironmentVariable as an Alternative to WriteProcessMemory in Process Injections",
+  "slug": "getenv-injection-alternative",
+  "desc": "Explores using GetEnvironmentVariable for process injection instead of traditional WriteProcessMemory method.",
+  "tags": [
+    "process_injection",
+    "GetEnvironmentVariable",
+    "WriteProcessMemory"
+  ],
+  "urls": [
+    "https://twitter.com/TheXC3LL"
+  ]
+}

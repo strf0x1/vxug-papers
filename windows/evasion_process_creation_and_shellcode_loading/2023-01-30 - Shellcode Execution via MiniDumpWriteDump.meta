@@ -1,0 +1,13 @@
+{
+  "title": "Minidump Write Dump Executable for Shellcode Injection",
+  "slug": "minidump-write-dump-shellcode-injection",
+  "desc": "A C++ console application that reads a shellcode file and writes a minidump containing the shellcode using MiniDumpWriteDump.",
+  "tags": [
+    "C++",
+    "Shellcode",
+    "Minidump",
+    "MiniDumpWriteDump",
+    "Windows"
+  ],
+  "urls": []
+}

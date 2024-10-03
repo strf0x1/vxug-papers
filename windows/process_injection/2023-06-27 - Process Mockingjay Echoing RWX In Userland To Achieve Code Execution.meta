@@ -1,0 +1,14 @@
+{
+  "title": "Process Mockingjay: Echoing RWX in Userland for Code Execution",
+  "slug": "process-mockingjay-rwx-userland-code-execution",
+  "desc": "A detailed exploration of process injection techniques used by attackers to bypass security controls like EDRs and XDRs, along with insights on mitigating risks.",
+  "tags": [
+    "Process Injection",
+    "Security Bypass",
+    "EDR/XDR Evasion",
+    "Attack Techniques"
+  ],
+  "urls": [
+    "https://www.securityjoes.com/post/process-mockingjay-echoing-rwx-in-userland-to-achieve-code-execution"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Perljam.pl: A Perl x64 ELF Virus Analysis",
+  "slug": "perljam-pl-analysis",
+  "desc": "This article explores perljam.pl, a proof-of-concept x64 ELF virus written in Perl. It discusses the virus's implementation, features, and limitations.",
+  "tags": [
+    "Perl",
+    "ELF Virus",
+    "Linux.Midrashim",
+    "Proof of Concept"
+  ],
+  "urls": [
+    "https://hckng.org/articles/perljam-elf64-virus.html"
+  ]
+}

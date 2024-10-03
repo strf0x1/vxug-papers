@@ -1,0 +1,16 @@
+{
+  "title": "Process Injection with GDB",
+  "slug": "gdb-process-injection",
+  "desc": "Explores a simplified method to inject into Linux processes using GDB and shared object files, inspired by CobaltStrike training.",
+  "tags": [
+    "GDB",
+    "Process Injection",
+    "Linux",
+    "CobaltStrike"
+  ],
+  "urls": [
+    "https://magisterquis.github.io/2018/03/11/process-injection-with-gdb.html",
+    "https://specterops.io/how-we-help/training-offerings/adversary-tactics-red-team-operations",
+    "https://github.com/gaffe23/linux-inject"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "PE Infection Tutorial: Adding a New Section",
+  "slug": "PE_infection_new_section",
+  "desc": "A detailed guide on adding a new empty PE section to an existing x86 executable file. Requires knowledge of Portable Executables and assembly.",
+  "tags": [
+    "PE",
+    "PortableExecutable",
+    "assembly",
+    "memory",
+    "fileoperations",
+    "injection"
+  ],
+  "urls": []
+}

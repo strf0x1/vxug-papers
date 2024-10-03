@@ -1,0 +1,15 @@
+{
+  "title": "Hunting for Ghosts in Fileless Attacks",
+  "slug": "fileless-attacks-hunting",
+  "desc": "Explores challenges and methods of detecting fileless threats using direct memory attacks or legitimate tools/services.",
+  "tags": [
+    "Cybersecurity",
+    "Fileless Attacks",
+    "Threat Hunting",
+    "Incident Response",
+    "Digital Forensics"
+  ],
+  "urls": [
+    "http://www.giac.org/registration/gcfa"
+  ]
+}

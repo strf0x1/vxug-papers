@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode in C",
+  "slug": "alfarom256-calc-shellcode",
+  "desc": "A Windows shellcode for calculating the sum of digits using assembly instructions written in C.",
+  "tags": [
+    "shellcode",
+    "windows",
+    "assembly",
+    "calculation"
+  ],
+  "urls": []
+}

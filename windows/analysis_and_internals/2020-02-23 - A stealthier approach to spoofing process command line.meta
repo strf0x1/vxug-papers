@@ -1,0 +1,14 @@
+{
+  "title": "A Stealthier Approach to Spoofing Process Command Line",
+  "slug": "stealthier-process-command-line-spoofing",
+  "desc": "Discusses a stealthier method of spoofing process command line arguments by using a more advanced technique that avoids patching the PEB.",
+  "tags": [
+    "Malware",
+    "Command Line Spoofing",
+    "Security",
+    "PEB Patching"
+  ],
+  "urls": [
+    "https://krabsonsecurity.com/2020/02/23/stealthier-approach-to-spoofing-process-command-line/"
+  ]
+}

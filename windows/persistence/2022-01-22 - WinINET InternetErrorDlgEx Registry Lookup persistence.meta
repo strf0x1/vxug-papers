@@ -1,0 +1,16 @@
+{
+  "title": "Beyond Good Ol' Run Key: Exploiting Wininet.dll for Persistence",
+  "slug": "win10-persistence-wininet-exploit",
+  "desc": "Explores a novel Windows 10 persistence technique leveraging TrustedInstaller access to override InternetErrorDlg functionality with custom payloads.",
+  "tags": [
+    "Windows 10",
+    "Persistence",
+    "TrustedInstaller",
+    "Wininet.dll",
+    "InternetErrorDlg",
+    "Exploit"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2022/01/22/beyond-good-ol-run-key-part-137/"
+  ]
+}

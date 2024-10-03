@@ -1,0 +1,16 @@
+{
+  "title": "Unmanaged .NET Patching Technique",
+  "slug": "unmanaged-dotnet-patching-technique",
+  "desc": "Explores a method to safely execute .NET post-exploitation tools by modifying managed functions using an unmanaged approach.",
+  "tags": [
+    "Cybersecurity",
+    ".NET",
+    "Post-Exploitation",
+    "Unmanaged Code"
+  ],
+  "urls": [
+    "https://outflank.nl/blog/2024/02/01/unmanaged-dotnet-patching",
+    "https://github.com/kyleavery/inject-assembly/blob/8db977c0fd1da039df920f9dd4840d4a3ec2aa2c/src/scmain.c#L462-L613",
+    "https://github.com/outflank/unmanaged-dotnet-patching"
+  ]
+}

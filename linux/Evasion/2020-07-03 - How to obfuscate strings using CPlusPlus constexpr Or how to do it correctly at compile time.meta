@@ -1,0 +1,14 @@
+{
+  "title": "String Obfuscation in C++ using Constexpr",
+  "slug": "string-obfuscation-cpp-constexpr",
+  "desc": "Learn how to encrypt strings at compile-time for better binary protections. This article provides source codes available on GitHub.",
+  "tags": [
+    "C++",
+    "Compile-Time Obfuscation",
+    "Strings",
+    "Security"
+  ],
+  "urls": [
+    "https://github.com/user/repo/blob/main/obfuscated_strings.hpp"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Dynamic Hooking Challenges in Golang",
+  "slug": "go-dynamic-hooking-challenges",
+  "desc": "Explores difficulties and solutions for dynamically hooking Golang programs using FFI.",
+  "tags": [
+    "Golang",
+    "Dynamic Hooking",
+    "FFI",
+    "Binary Instrumentation"
+  ],
+  "urls": [
+    "https://blog.quarkslab.com/lets-go-into-the-rabbit-hole-part-2-the-challenges-of-dynamically-hooking-golang-program.html"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Advanced Module Stomping & Heap/Stack Encryption",
+  "slug": "heap-stack-encryption-advanced-module-stomping",
+  "desc": "In-depth analysis and implementation of heap allocations encryption while sleeping, threads stack encryption while sleeping, reverting stomped module back to its original content while sleeping.",
+  "tags": [
+    "Heap Allocations",
+    "Encryption",
+    "Thread Stacks",
+    "Module Stomping"
+  ],
+  "urls": [
+    "https://labs.cognisys.group/posts/Advanced-Module-Stomping-and-Heap-Stack-Encryption"
+  ]
+}

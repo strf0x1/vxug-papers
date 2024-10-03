@@ -1,0 +1,12 @@
+{
+  "title": "ACM Filter Choose Shellcode Loader",
+  "slug": "acm-filter-choose-shellcode-loader",
+  "desc": "A C++ application that reads shellcode from a binary file and loads it into memory using VirtualAlloc, demonstrating the usage of ACMFILTERCHOOSE structure and acmFilterChoose function.",
+  "tags": [
+    "Shellcode",
+    "ACM",
+    "Windows API",
+    "C++"
+  ],
+  "urls": []
+}

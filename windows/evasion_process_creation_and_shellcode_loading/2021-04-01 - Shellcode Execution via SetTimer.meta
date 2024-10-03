@@ -1,0 +1,12 @@
+{
+  "title": "Windows Shellcode for Alfarom256 Calc",
+  "slug": "windows_shellcode_alfarom256_calc",
+  "desc": "This document contains assembly code implementing a Windows shellcode for calculating Alfarom256 values.",
+  "tags": [
+    "windows",
+    "shellcode",
+    "assembly",
+    "alfarom256"
+  ],
+  "urls": []
+}

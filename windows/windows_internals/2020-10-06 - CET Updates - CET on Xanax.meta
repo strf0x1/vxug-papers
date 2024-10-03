@@ -1,0 +1,14 @@
+{
+  "title": "CET Updates - CET on Xanax",
+  "slug": "cet-updates-xanax",
+  "desc": "Summary of improvements to Control Flow Enforcement Technology (CET) in Windows 21H1, including new mitigation flags and their effects.",
+  "tags": [
+    "Windows",
+    "Security",
+    "Control Flow Enforcement Technology",
+    "Mitigation Flags"
+  ],
+  "urls": [
+    "https://windows-internals.com/cet-updates-cet-on-xanax"
+  ]
+}

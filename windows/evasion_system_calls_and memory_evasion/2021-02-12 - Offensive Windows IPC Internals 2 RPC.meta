@@ -1,0 +1,14 @@
+{
+  "title": "Offensive Windows IPC Internals 2: RPC",
+  "slug": "offensive-windows-ipc-internals-rpc",
+  "desc": "Part 2 of a series exploring offensive techniques using Windows IPC internals, focusing on Remote Procedure Call (RPC), which leverages ALPC for local communication.",
+  "tags": [
+    "Windows IPC",
+    "Offensive Security",
+    "Remote Procedure Call",
+    "ALPC"
+  ],
+  "urls": [
+    "https://csandker.io/2021/02/21/Offensive-Windows-IPC-2-RPC.html"
+  ]
+}

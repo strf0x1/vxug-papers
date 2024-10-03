@@ -1,0 +1,12 @@
+{
+  "title": "WinBio Shellcode Verifier",
+  "slug": "winbio-shellcode-verifier",
+  "desc": "A Windows application that reads a shellcode file and verifies it using biometric data.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "Biometrics",
+    "WinBio"
+  ],
+  "urls": []
+}

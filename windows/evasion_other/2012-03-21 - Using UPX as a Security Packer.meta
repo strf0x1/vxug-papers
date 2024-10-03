@@ -1,0 +1,14 @@
+{
+  "title": "Using UPX as a Security Packer",
+  "slug": "upx-security-packer",
+  "desc": "Exploring UPX packer's compression mechanism and how to modify it for obfuscation. Discusses benefits of using an existing packer.",
+  "tags": [
+    "Packing",
+    "Obfuscation",
+    "Win32",
+    "Malware Detection",
+    "Polymorphism",
+    "UPX"
+  ],
+  "urls": []
+}

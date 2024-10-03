@@ -1,0 +1,15 @@
+{
+  "title": "Arbitrary Command Execution Via Windows Kit's StandaloneRunner",
+  "slug": "windows-standalonerunner-lolbin",
+  "desc": "StandaloneRunner.exe is a utility included with the Windows Driver Kit (WDK) that allows developers to execute and debug driver packages in a standalone environment without needing to install them on a target system. It was discovered as a potential local privilege escalation binary (LOLBIN).",
+  "tags": [
+    "Windows",
+    "Security",
+    "LOLBINs",
+    "Driver Kit",
+    "Local Privilege Escalation"
+  ],
+  "urls": [
+    "https://github.com/nasbench/Misc-Research/blob/main/LOLBINs/StandaloneRunner.md"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Retrieving Current Thread COM Concurrency Model",
+  "slug": "get-com-concurrency-model-thread",
+  "desc": "Explores how to retrieve the current thread's COM concurrency model when it wasn't explicitly initialized.",
+  "tags": [
+    "COM",
+    "Concurrency",
+    "Threading",
+    "API",
+    "Microsoft"
+  ],
+  "urls": [
+    "https://dennisbabkin.com/blog"
+  ]
+}

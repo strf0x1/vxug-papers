@@ -1,0 +1,14 @@
+{
+  "title": "From Process Injection to Function Hijacking",
+  "slug": "process-injection-function-hijacking",
+  "desc": "Explores an alternative process injection technique outside common behavioral patterns for evading detection by AI/ML models.",
+  "tags": [
+    "Process Injection",
+    "Function Hijacking",
+    "AV Evasion",
+    "Red Teaming"
+  ],
+  "urls": [
+    "https://klezvirus.github.io/RedTeaming/AV_Evasion/FromInjectionToHijacking/"
+  ]
+}

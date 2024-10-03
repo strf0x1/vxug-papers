@@ -1,0 +1,15 @@
+{
+  "title": "Linux Based Inter-Process Code Injection Without ptrace(2)",
+  "slug": "linux-code-injection-noexec-bypass",
+  "desc": "Demonstrates a method for user code injection in Linux processes without using ptrace, utilizing Bash and coreutils to execute native code from memory.",
+  "tags": [
+    "Linux",
+    "Code Injection",
+    "Bash",
+    "Memory Execution",
+    "Noexec Mount Flag Bypass"
+  ],
+  "urls": [
+    "https://blog.gdssecurity.com/labs/2017/9/5/linux-based-inter-process-code-injection-without-ptrace2.html"
+  ]
+}

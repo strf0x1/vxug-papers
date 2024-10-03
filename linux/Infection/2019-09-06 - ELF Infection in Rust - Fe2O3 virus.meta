@@ -1,0 +1,14 @@
+{
+  "title": "Linux.Fe2O3: A Rust Virus",
+  "slug": "linux-fe2o3-rust-virus",
+  "desc": "A simple prepender virus written in Rust for learning purposes. It infects files in the current directory and is not harmful.",
+  "tags": [
+    "Rust",
+    "Linux",
+    "Virus",
+    "Prepender"
+  ],
+  "urls": [
+    "https://guitmz.com/linux-fe2o3-rust-virus"
+  ]
+}

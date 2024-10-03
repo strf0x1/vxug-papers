@@ -1,0 +1,14 @@
+{
+  "title": "Anti-Debugging Protection Techniques",
+  "slug": "anti-debugging-techniques",
+  "desc": "A guide to protecting software from illegal reverse engineering, along with techniques used by ethical hackers to bypass protections.",
+  "tags": [
+    "reverse-engineering",
+    "software-protection",
+    "anti-reverse-engineering",
+    "ethical-hacking"
+  ],
+  "urls": [
+    "https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software"
+  ]
+}

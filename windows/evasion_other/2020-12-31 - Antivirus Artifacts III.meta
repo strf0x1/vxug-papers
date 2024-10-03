@@ -1,0 +1,16 @@
+{
+  "title": "Antivirus Artifacts III",
+  "slug": "antivirus-artifacts-iii",
+  "desc": "This document focuses on registry artifacts from antivirus software and introduces new AVs like Adaware, Dr. Web, AVAST, Kaspersky.",
+  "tags": [
+    "Antivirus",
+    "Registry Artifacts",
+    "AV Software"
+  ],
+  "urls": [
+    {
+      "label": "GitHub Repository",
+      "url": "https://github.com/D3VI5H4/Antivirus-Artifacts/tree/main/Registry%20Data"
+    }
+  ]
+}

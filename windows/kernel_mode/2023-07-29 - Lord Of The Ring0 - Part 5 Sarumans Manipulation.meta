@@ -1,0 +1,15 @@
+{
+  "title": "Lord Of The Rings - Part 5: Saruman's Manipulation",
+  "slug": "lord-of-the-rings-p5-saruman",
+  "desc": "Explains IRP and SSDT hooking methods, kernel-to-user mode injection techniques with code examples from Nidhogg.",
+  "tags": [
+    "Kernel Hooking",
+    "IRP Hooking",
+    "SSDT Hooking",
+    "Kernel to User Mode Injection",
+    "Nidhogg"
+  ],
+  "urls": [
+    "https://idov31.github.io/2023/07/19/lord-of-the-ring0-p5.html"
+  ]
+}

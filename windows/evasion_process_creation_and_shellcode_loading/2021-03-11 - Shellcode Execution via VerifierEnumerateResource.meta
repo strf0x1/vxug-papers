@@ -1,0 +1,12 @@
+{
+  "title": "Alfarom256 Calc Shellcode",
+  "slug": "alfarom-calc-shellcode",
+  "desc": "This document contains a Windows API Verifier Enum Resource function and an alfarom256 calc shellcode written in x86 assembly.",
+  "tags": [
+    "Windows API",
+    "Shellcode",
+    "Assembly",
+    "AVRFSDK"
+  ],
+  "urls": []
+}

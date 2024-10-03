@@ -1,0 +1,17 @@
+{
+  "title": "Windows Network Services Internals",
+  "slug": "windows-network-services-internals",
+  "desc": "A detailed documentation of Windows network services internals, including NULL sessions, MSRPC interfaces, SMB 2.0, and security vulnerabilities.",
+  "tags": [
+    "Windows",
+    "Networking",
+    "Security",
+    "MSRPC"
+  ],
+  "urls": [
+    {
+      "label": "Document URL",
+      "url": "https://example.com/windows-network-services-internals"
+    }
+  ]
+}

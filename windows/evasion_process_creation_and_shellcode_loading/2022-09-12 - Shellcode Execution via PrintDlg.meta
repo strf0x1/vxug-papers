@@ -1,0 +1,11 @@
+{
+  "title": "Shellcode Printer",
+  "slug": "shellcode-printer",
+  "desc": "A Windows console application that reads shellcode from a file and uses it to hook the PrintDlg function.",
+  "tags": [
+    "Windows",
+    "Shellcode",
+    "PrintDlg Hooking"
+  ],
+  "urls": []
+}

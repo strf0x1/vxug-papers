@@ -1,0 +1,15 @@
+{
+  "title": "DKOM: Introducing Symbolic Link Callbacks in Windows 10 Creators Update",
+  "slug": "dkom-symbolic-link-callbacks-win10-rs2",
+  "desc": "Microsoft introduces a new type of callback for symbolic links in Windows 10 Creators Update, adding complexity to kernel hooking. Learn more about this recent change.",
+  "tags": [
+    "Windows Internals",
+    "Kernel Callbacks",
+    "Symbolic Links",
+    "Windows 10 RS2"
+  ],
+  "urls": [
+    "https://windows-internals.com/dkom-now-with-symbolic-links",
+    "https://ntdiff.github.io/#versionLeft=Win10_1607_RS1%2Fx64%2FSystem32&filenameLeft=ntoskrnl.exe&typeLeft=Standalone%2F_OBJECT_SYMBOLIC_LINK&versionRight=Win10_1703_RS2%2Fx64%2FSystem32&filenameRight=ntoskrnl.exe&typeRight=Standalone%2F_OBJECT_SYMBOLIC_LINK"
+  ]
+}

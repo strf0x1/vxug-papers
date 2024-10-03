@@ -1,0 +1,13 @@
+{
+  "title": "Assembly Shellcode for Windows",
+  "slug": "windows_shellcode",
+  "desc": "A C++ program containing assembly shellcode for executing a function using reflective DLL injection on Windows, requiring Dbghelp.lib.",
+  "tags": [
+    "assembly",
+    "shellcode",
+    "windows",
+    "dll-injection",
+    "reflective"
+  ],
+  "urls": []
+}

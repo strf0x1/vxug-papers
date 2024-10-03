@@ -1,0 +1,12 @@
+{
+  "title": "Windows Inspect String: Shellcode Reader",
+  "slug": "win_inspect_string_shellcode_reader",
+  "desc": "A Windows console application that reads a shellcode file and processes it using WindowsInspectString function.",
+  "tags": [
+    "shellcode",
+    "windows",
+    "C++",
+    "reverse engineering"
+  ],
+  "urls": []
+}

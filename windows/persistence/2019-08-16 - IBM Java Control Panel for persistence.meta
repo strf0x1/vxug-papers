@@ -1,0 +1,15 @@
+{
+  "title": "Beyond Good Ol' Run Key: Persistence via IBM's Java Control Panel",
+  "slug": "ibm-java-persistence-trick",
+  "desc": "An old persistence trick for systems with IBM\u2019s Java Control Panel. Modify the Registry Key to launch a malicious javacpl.exe.",
+  "tags": [
+    "Persistence",
+    "IBM",
+    "Java Control Panel",
+    "Registry Key",
+    "Malicious Software"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2019/08/16/beyond-good-ol-run-key-part-112/"
+  ]
+}

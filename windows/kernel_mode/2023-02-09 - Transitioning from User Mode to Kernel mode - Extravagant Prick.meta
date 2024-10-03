@@ -1,0 +1,12 @@
+{
+  "title": "vmware-bootkit API Definitions",
+  "slug": "vmware-bootkit-apis",
+  "desc": "This document defines APIs and their hash values used in vmware-bootkit, including function prototypes for KeInsertQueueApc, KeInitializeApc, and struct definitions for API hashes.",
+  "tags": [
+    "Windows Kernel",
+    "APIs",
+    "vmware-bootkit",
+    "hashes"
+  ],
+  "urls": []
+}

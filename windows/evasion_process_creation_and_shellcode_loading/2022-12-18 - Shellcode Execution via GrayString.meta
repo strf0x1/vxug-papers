@@ -1,0 +1,14 @@
+{
+  "title": "GrayString: A Simple Shellcode Loader",
+  "slug": "graystring-shellcode-loader",
+  "desc": "This C++ console application, GrayString.exe, reads a shellcode file and executes its contents in grayscale using the Windows API.",
+  "tags": [
+    "Shellcode",
+    "Exploit",
+    "Windows",
+    "GrayString"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/main/GrayString.cpp"
+  ]
+}

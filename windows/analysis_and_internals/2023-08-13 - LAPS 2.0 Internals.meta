@@ -1,0 +1,15 @@
+{
+  "title": "LAPS 2.0 Internals",
+  "slug": "lapsv2-internals",
+  "desc": "Explores LAPS 2.0 internals for Active Directory and Azure AD, addressing common concerns about the new version.",
+  "tags": [
+    "Security",
+    "Windows",
+    "LAPS",
+    "ActiveDirectory",
+    "AzureAD"
+  ],
+  "urls": [
+    "https://blog.xpnsec.com/lapsv2-internals"
+  ]
+}

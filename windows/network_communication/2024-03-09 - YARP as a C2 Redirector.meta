@@ -1,0 +1,15 @@
+{
+  "title": "Using YARP as a C2 Redirector",
+  "slug": "yarp-c2-redirector",
+  "desc": "Explores how Microsoft's YARP (Yet Another Reverse Proxy) can be employed as a Command and Control (C2) redirector, offering ease of deployment to serverless cloud services like AWS Lambda and Azure Functions.",
+  "tags": [
+    "YARP",
+    "Command and Control",
+    "Reverse Proxy",
+    "Azure Functions",
+    "AWS Lambda"
+  ],
+  "urls": [
+    "https://rastamouse.me/yarp-as-a-c2-redirector/"
+  ]
+}

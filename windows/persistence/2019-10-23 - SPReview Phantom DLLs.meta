@@ -1,0 +1,15 @@
+{
+  "title": "Exploiting the Phantom DLL Bug in Windows 7",
+  "slug": "Phantom-DLL-Bug-Windows-7",
+  "desc": "Discover a rare but useful anti-forensics technique involving the incorrect loading of wdscore.dll by spreview.exe on Windows 7, allowing for persistence through startup locations.",
+  "tags": [
+    "Anti-Forensics",
+    "Autostart (Persistence)",
+    "Living off the land",
+    "LOLBins",
+    "Windows 7"
+  ],
+  "urls": [
+    "https://www.hexacorn.com/blog/2019/10/23/beyond-good-ol-run-key-part-120/"
+  ]
+}

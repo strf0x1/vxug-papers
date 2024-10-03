@@ -1,0 +1,16 @@
+{
+  "title": "Stepping Insyde System Management Mode Vulnerabilities",
+  "slug": "stepping-insyde-smm-vulns",
+  "desc": "A detailed analysis of vulnerabilities found in Insyde's System Management Mode modules within Intel Alder Lake BIOS source code, leading to potential system compromise.",
+  "tags": [
+    "Vulnerability Research",
+    "Insyde Software",
+    "Intel Alder Lake",
+    "System Management Mode",
+    "SMM"
+  ],
+  "urls": [
+    "https://research.nccgroup.com/2023/04/11/stepping-insyde-system-management-mode/",
+    "https://www.bleepingcomputer.com/news/security/intel-confirms-leaked-alder-lake-bios-source-code-is-authentic/"
+  ]
+}

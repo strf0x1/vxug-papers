@@ -1,0 +1,14 @@
+{
+  "title": "HyperGuard \u2013 Secure Kernel Patch Guard: Part 2 \u2013 SKPG Extents",
+  "slug": "hyperguard-secure-kernel-patch-guard-part-2-skpg-extents",
+  "desc": "A detailed exploration of the data structure and components of Secure Kernel Patch Guard (SKPG), focusing on its activation process. This is part two of a series.",
+  "tags": [
+    "Windows Internals",
+    "Secure Kernel Patch Guard",
+    "HyperGuard",
+    "Activation Process"
+  ],
+  "urls": [
+    "https://windows-internals.com/hyperguard-secure-kernel-patch-guard-part-2-skpg-extents/"
+  ]
+}

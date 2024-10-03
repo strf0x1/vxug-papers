@@ -1,0 +1,13 @@
+{
+  "title": "Linux VIRUS - Research on UNIX Virus Infection within ELF Executables",
+  "slug": "linux-virus-research",
+  "desc": "This document explains a Linux virus designed for research purposes. It copies itself to uninfected executables and modifies the entry point to return control after execution.",
+  "tags": [
+    "Linux",
+    "Virus",
+    "Research",
+    "UNIX",
+    "ELF"
+  ],
+  "urls": []
+}

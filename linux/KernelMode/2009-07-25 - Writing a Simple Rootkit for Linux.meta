@@ -1,0 +1,16 @@
+{
+  "title": "Writing a Simple Rootkit for Linux",
+  "slug": "linux-rootkit-tutorial",
+  "desc": "A guide on creating a simple rootkit for Linux systems, requiring prior knowledge of linux kernel modules. Explores various types of rootkits and their methods of hiding within compromised systems.",
+  "tags": [
+    "Linux",
+    "Rootkit",
+    "Kernel Modules",
+    "Security",
+    "Hacking"
+  ],
+  "urls": [
+    "http://black-coders.net/articles/linux/rootkits.php",
+    "http://black-coders.net/articles/linux/linux-kernel-modules.php"
+  ]
+}

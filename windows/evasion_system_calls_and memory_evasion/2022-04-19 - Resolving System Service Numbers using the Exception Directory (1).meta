@@ -1,0 +1,14 @@
+{
+  "title": "Resolving System Service Numbers using the Exception Directory",
+  "slug": "resolve-system-service-numbers",
+  "desc": "Learn how to obtain System Service Numbers (SSNs) for Windows system calls directly and bypass user-mode hooks by utilizing tables within NTDLL.",
+  "tags": [
+    "Windows",
+    "System Calls",
+    "NTDLL",
+    "SSN"
+  ],
+  "urls": [
+    "https://www.mdsec.co.uk/2022/04/resolving-system-service-numbers-using-the-exception-directory/"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Shellcode Injection using ChooseFont Hook",
+  "slug": "shellcode-injection-choosefont",
+  "desc": "A C++ program that reads a shellcode file and injects it into the process memory using the ChooseFont API hook.",
+  "tags": [
+    "Malware",
+    "Shellcode",
+    "Windows Exploitation",
+    "ChooseFont Hook"
+  ],
+  "urls": [
+    "https://github.com/Wra7h/FlavorTown/blob/master/ChooseFont.cpp"
+  ]
+}
